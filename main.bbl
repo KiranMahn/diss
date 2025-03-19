@@ -1,10 +1,21 @@
 \begin{thebibliography}{10}
 
+\bibitem{AbilityNet2024}
+{AbilityNet}.
+\newblock European accessibility act (eaa).
+\newblock \url{https://abilitynet.org.uk/european-accessibility-act}, 2024.
+\newblock Accessed: March 18, 2025.
+
 \bibitem{Aljumah2023}
 R.~Aljumah, S.~Phillips, and J.~C. Harper.
 \newblock An online survey of postmenopausal women to determine their attitudes and knowledge of the menopause.
 \newblock {\em Post Reproductive Health}, 29(2):67--84, Jun 2023.
 \newblock Epub 2023 Mar 29.
+
+\bibitem{Andrews2021}
+R.~Andrews, G.~Hale, B.~John, and D.~Lancastle.
+\newblock Evaluating the effects of symptom monitoring on menopausal health outcomes: A systematic review and meta-analysis.
+\newblock {\em Frontiers in Global Women's Health}, 2:757706, December 2021.
 
 \bibitem{BACAGARCIA2010209}
 E.~Baca-Garcia, C.~Diaz-Sastre, A.~Ceverino, M.~M. Perez-Rodriguez, R.~Navarro-Jimenez, J.~Lopez-Castroman, J.~Saiz-Ruiz, J.~de~Leon, and M.~A. Oquendo.
@@ -37,10 +48,41 @@ D.~J. Brody and Q.~Gu.
 \newblock Antidepressant use among adults: United states, 2015-2018.
 \newblock {\em NCHS Data Brief}, 377:1--8, 2020.
 
+\bibitem{Chan2019}
+M.~Chan.
+\newblock Experience design of digital period trackers.
+\newblock Master's thesis, University of Twente, September 2019.
+
+\bibitem{CoenSanchez2022}
+K.~Coen-Sanchez, B.~Ebenso, I.~M. El-Mowafi, et~al.
+\newblock Repercussions of overturning roe v. wade for women across systems and beyond borders.
+\newblock {\em Reproductive Health}, 19:184, 2022.
+
+\bibitem{Dawson2020}
+R.~M. Dawson, T.~M. Felder, S.~B. Donevant, K.~K. McDonnell, E.~B.~r. Card, C.~C. King, and S.~P. Heiney.
+\newblock What makes a good health 'app'? identifying the strengths and limitations of existing mobile application evaluation tools.
+\newblock {\em Nursing Inquiry}, 27(2):e12333, April 2020.
+
+\bibitem{Eschler2019}
+J.~Eschler, A.~Menking, S.~Fox, and U.~Backonja.
+\newblock Defining menstrual literacy with the aim of evaluating mobile menstrual tracking applications.
+\newblock {\em CIN: Computers, Informatics, Nursing}, 37(12):638--646, December 2019.
+
+\bibitem{OCR2022}
+O.~for Civil~Rights.
+\newblock Protecting the privacy and security of your health information when using your personal cell phone or tablet.
+\newblock HHS.gov, June 2022.
+\newblock Accessed: March 18, 2025.
+
 \bibitem{Gaytri2018}
 D.~Gaytri.
 \newblock Menopause-related cognitive impairment.
 \newblock {\em Obstetrics \& Gynecology}, 312(6):1325--1327, 2018.
+
+\bibitem{Gilman2021}
+M.~E. Gilman.
+\newblock Periods for profit and the rise of menstrual surveillance.
+\newblock {\em Columbia Journal of Gender and Law}, 41:100, 2021.
 
 \bibitem{Guthrie2003}
 J.~R. Guthrie, L.~Dennerstein, J.~R. Taffe, and V.~Donnelly.
@@ -51,6 +93,11 @@ J.~R. Guthrie, L.~Dennerstein, J.~R. Taffe, and V.~Donnelly.
 S.~Harlow.
 \newblock Menstruation and the menopausal transition.
 \newblock {\em Obstetrics and Gynecology Clinics of North America}, pages 595--607, 2011.
+
+\bibitem{Kelly2023}
+B.~G. Kelly and M.~Habib.
+\newblock Missed period? the significance of period-tracking applications in a post-roe america.
+\newblock {\em Sexual and Reproductive Health Matters}, 31(4):2238940, December 2023.
 
 \bibitem{LSCFT2024}
 {Lancashire and South Cumbria NHS Foundation Trust}.
