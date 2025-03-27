@@ -19,38 +19,9 @@ How did you decide on the particular software artifact you decided to develop?
 \subsection{Requirements}
 Before beginning the process of gathering user requirements, an ethics form must be completed to ensure that the research follows ethical guidelines. To better understand user needs, a User Requirements survey was designed. In preparation, research was conducted through books on women’s experiences during perimenopause, including works by Kat Muir and Davina McCall, as well as reviewing research papers on health-tracking applications and a review of existing apps on the market to assess current solutions. Privacy emerged as a significant concern, with many apps engaging in surveillance capitalism and selling user data, often without informing the user. Only a handful of apps claim not to sell data, but even some app who claim not to sell data have been found guilty of making a profit off users data. To ensure a user-centered approach, User Stories were developed to capture potential users’ needs and expectations. As the project developed, user requirements and stories were continually adjusted to best reflect the goal of this project.
 
-Here you explain what the functional and non-functional requirements are. Explain how you prioritised them. 
-  See \url{https://www.nuclino.com/articles/functional-requirements} for more information. 
-
-   \textbf{Functional requirement:} "The system must \textbf{\emph{do}} [requirement]."
-
-    \textbf{Non-functional requirement:} "The system shall \textbf{\emph{be}} [requirement]."
-
-
-Well-written functional requirements typically have the following characteristics:
-\begin{description}
-
-
-
-    \item[Necessary:] Although functional requirements may have different priority, every one of them needs to relate to a particular business goal or user requirement.
-
-  \item[Concise:] Use simple and easy-to-understand language without any unnecessary jargon to prevent confusion or misinterpretations.
-
- \item[Attainable:] All requirements you include need to be realistic within the time and budget constraints set in the business requirements document.
-
- \item[Granular:] Do not try to combine many requirements within one. The more precise and granular your requirements are, the easier it is to manage them.
-
- \item[Consistent:] Make sure the requirements do not contradict each other and use consistent terminology.
-
- \item[Verifiable:] It should be possible to determine whether the requirement has been met at the end of the project.
-    \end{description}
-
 \subsubsection{Functional Requirements}
-This is the \textbf{WHAT} of your artifact.
+Frunction Requirements were prioritized based on user needs and the project goal. Essential functional requirements impacting usability such as being able to navigate to a screen were prioritised over design and content details. The following functional requirements were identified:
 
-Functional requirements are product features that developers must implement to enable the users to achieve their goals. They define the basic system behavior under specific conditions. 
-
-Functional requirements need to be clear, simple, and unambiguous.Examples:
 \begin{itemize}
       \item Users must be able to log their period start and end dates to track cycle and period length.
       \item Users must be able to log their peri-menopausal symptoms and their severity daily to track changes over time.
@@ -69,13 +40,22 @@ Functional requirements need to be clear, simple, and unambiguous.Examples:
       \item The app must support multiple languages to accommodate diverse users.
       \item Users must be able to enable or disable notifications/reminders for period tracking or symptom logging.
       \item The app must work fully offline, allowing users to track symptoms and view their data without an internet connection.
-      
-      
+      \item The app must not crash or freeze during normal usage.
 \end{itemize}
 
 
 \subsubsection{Non-Functional Requirements}
-This is the \textbf{HOW} of your artifact. Example non-functional requirement: ``When the submit button is pressed, the confirmation screen must load within 2 seconds.''
+\begin{itemize}
+  \item The app should be easy to use and navigate, with a clean and simple design.
+  \item The app home page should load within 3 seconds.
+  \item All data visualization such as graphs, calendar, and analysis charts should render in under 2 seconds.
+  \item The app should allow easy localization to support multiple languages.
+  \item The UI should offer a dark mode and high-contrast mode to improve readability for all users.
+  \item All text elements must support dynamic font resizing based on user preferences.
+  \item The app should look the same for various screen sizes, including tablets and smaller phones.
+  \item The app must be designed with easy language switching to support multiple languages in the future.
+  \item The app should maintain consistent navigation and UI patterns across all features to reduce confusion.
+\end{itemize}
 
 \subsection{Design}
 
