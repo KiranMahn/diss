@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  27 MAR 2025 11:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  27 MAR 2025 12:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -712,48 +712,50 @@ LaTeX Warning: Citation `Sheng2021Kanban' on page 5 undefined on input line 22.
 )
 
 [5] (./sections/process.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 21.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 21.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 21.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 23.
-
-
 
 [6
 
-])
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 23.
 
-[7{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
-[8] (./sections/product.tex)
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 25.
 
-[9
 
-] (./sections/results.tex)
+
+[7]
+
+[8{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}])
+
+[9] (./sections/product.tex)
 
 [10
 
-] (./sections/reflection.tex)
+] (./sections/results.tex)
 
 [11
 
-] (./sections/conclusion.tex)
+] (./sections/reflection.tex)
 
 [12
 
-] (./main.bbl
+] (./sections/conclusion.tex)
 
 [13
 
+] (./main.bbl
+
+[14
+
 ]
 
-[14]
+[15]
 ./main.bbl:169: Misplaced alignment tab character &.
 l.169 ...ted Intelligent Computing Communication &
                                                    Security (ICIIC 2021)}, 2...
@@ -766,12 +768,12 @@ might try typing `S' now just to see what is salvageable.
 
 )
 
-[15] (./sections/appendix.tex
+[16] (./sections/appendix.tex
 
-[16
+[17
 
 ]
-<figs/marking.png, id=192, 533.995pt x 486.31688pt>
+<figs/marking.png, id=196, 533.995pt x 486.31688pt>
 File: figs/marking.png Graphic file (type png)
 <use figs/marking.png>
 Package pdftex.def Info: figs/marking.png  used on input line 28.
@@ -784,11 +786,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 
-[17
+[18
 
  <./figs/marking.png>]
 
-[18] (./main.aux)
+[19] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -813,18 +815,18 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  1A251905D2CCCB891793CA2F2D011535;4099.
  ) 
 Here is how much of TeX's memory you used:
- 23163 strings out of 473190
- 438012 string characters out of 5704335
+ 23164 strings out of 473190
+ 438019 string characters out of 5704335
  914176 words of memory out of 5000000
  45937 multiletter control sequences out of 15000+600000
  565428 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,126p,2289b,564s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on main.pdf (22 pages, 980046 bytes).
+Output written on main.pdf (23 pages, 983032 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
- 216 compressed objects within 3 object streams
- 100 named destinations out of 1000 (max. 500000)
+ 265 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
+ 101 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
