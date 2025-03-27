@@ -53,21 +53,23 @@ This Apps functional requirements were prioritized based on user needs and the p
 \subsubsection{Interface Design}
 At the beginning of the design process, 6 pages were drawn by hand to rough sketch the layout of the app. Once the rough sketches were completed, they were digitized using Figma. The design was created with a focus on simplicity and ease of use. The app was designed to be user-friendly and intuitive, with a clean and simple design. The color scheme was chosen to be calming and easy on the eyes, with a focus on blues and greens. The app was then compared to the EU WAG 2.1 accessibility standards and adjusted to be accessible to all users, with large text and color contrast. 
 
- \subsubsection{System Design}
- In the interest of protecting user privacy, there is no database and all data is stored on the users local device. The data that is saved in AsyncStorage on their device is formatted as featured in the table below.
+\subsubsection{System Design}
+In the interest of protecting user privacy, there is no database and all data is stored on the users local device. The data that is saved in AsyncStorage on their device is formatted as featured in the table below.
 
- \begin{table}[]
-  \begin{tabular}{llll}
-  \hline
-  Anonymous User &        &          &          \\ \hline
-                 & Date1  &          &          \\
-                 &        & Symptom1 & Severity \\
-                 &        & Symptom2 & Severity \\
-                 & Date2  &          &          \\
-                 &        & Symptom1 & Severity \\
-                 &        & Symptom2 & Severity \\
-                 & Date n &          &          \\
-                 &        & Symptom1 & Severity \\
-                 &        & Symptom2 & Severity \\ \hline
-  \end{tabular}
-  \end{table}
+  \begin{table}[h!!]
+    \caption{Structure User Data is Stored in AsyncStorage}
+    \label{table:user-data}
+    \begin{tabular}{llll}
+    \hline
+    Anonymous User &        &          &          \\ \hline
+                  & Date1  &          &          \\
+                  &        & Symptom1 & Severity \\
+                  &        & Symptom2 & Severity \\
+                  & Date2  &          &          \\
+                  &        & Symptom1 & Severity \\
+                  &        & Symptom2 & Severity \\
+                  & Date n &          &          \\
+                  &        & Symptom1 & Severity \\
+                  &        & Symptom2 & Severity \\ \hline
+    \end{tabular}
+    \end{table}

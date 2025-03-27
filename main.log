@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  27 MAR 2025 13:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  27 MAR 2025 15:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -455,8 +455,7 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count318
 \l__lipsum_a_int=\count319
 \l__lipsum_b_int=\count320
- (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
-No file main.aux.
+ (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -477,6 +476,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -531,11 +531,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring ON on input line 17.
+ (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 \c@lstlisting=\count327
-<./images/strath_fullcolour.png, id=7, 582.4962pt x 422.7795pt>
+<./images/strath_fullcolour.png, id=127, 582.4962pt x 422.7795pt>
 File: ./images/strath_fullcolour.png Graphic file (type png)
 <use ./images/strath_fullcolour.png>
 Package pdftex.def Info: ./images/strath_fullcolour.png  used on input line 29.
@@ -555,8 +556,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has b
 l.78 \clearpage
                 [1
 
-]
-No file main.toc.
+] (./main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 4.
+)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
@@ -564,17 +571,7 @@ No file main.toc.
 
 [2
 
-] (./sections/introduction.tex
-LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 12.
-
-
-LaTeX Warning: Reference `backg' on page 1 undefined on input line 29.
-
-
-LaTeX Warning: Reference `process' on page 1 undefined on input line 29.
-
-)
+] (./sections/introduction.tex)
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
@@ -585,131 +582,13 @@ l.90 \clearpage
 
 ] (./sections/background-literature.tex
 
-LaTeX Warning: Citation `Brambilla1994' on page 2 undefined on input line 4.
-
-
-LaTeX Warning: Citation `LSCFT2024' on page 2 undefined on input line 4.
-
-
-LaTeX Warning: Citation `Willi2021' on page 2 undefined on input line 4.
-
-
-LaTeX Warning: Citation `BACAGARCIA2010209' on page 2 undefined on input line 4.
-
-
-LaTeX Warning: Citation `Bansal2019' on page 2 undefined on input line 4.
-
-
-LaTeX Warning: Citation `ScienceDaily2013' on page 2 undefined on input line 4.
-
-
-LaTeX Warning: Citation `Gaytri2018' on page 2 undefined on input line 4.
-
-
-LaTeX Warning: Citation `Sheng2021' on page 2 undefined on input line 4.
-
-
-LaTeX Warning: Citation `Harlow2011' on page 2 undefined on input line 4.
-
-
-LaTeX Warning: Citation `BMS2016' on page 2 undefined on input line 4.
-
-
-LaTeX Warning: Citation `Brewis2017' on page 2 undefined on input line 4.
-
-
-LaTeX Warning: Citation `Guthrie2003' on page 2 undefined on input line 4.
-
-
-LaTeX Warning: Citation `Wolff2018' on page 2 undefined on input line 4.
-
-
-LaTeX Warning: Citation `Aljumah2023' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `Muir2022' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `MenopauseSupport2021' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `NHS2022' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `NewsonHealth2019' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `Brody2020' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `NICE2019' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `MenopauseSupport2021' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `UCL2023' on page 2 undefined on input line 7.
-
-
-
 [2
 
 ]
 
-LaTeX Warning: Citation `Kelly2023' on page 3 undefined on input line 10.
-
-
-LaTeX Warning: Citation `Eschler2019' on page 3 undefined on input line 10.
-
-
-LaTeX Warning: Citation `Andrews2021' on page 3 undefined on input line 10.
-
-
-LaTeX Warning: Citation `Gilman2021' on page 3 undefined on input line 12.
-
-
-LaTeX Warning: Citation `CoenSanchez2022' on page 3 undefined on input line 12.
-
-
-LaTeX Warning: Citation `OCR2022' on page 3 undefined on input line 12.
-
-
-
 [3]
 
-LaTeX Warning: Citation `Chan2019' on page 4 undefined on input line 14.
-
-
-LaTeX Warning: Citation `Dawson2020' on page 4 undefined on input line 14.
-
-
-LaTeX Warning: Citation `AbilityNet2024' on page 4 undefined on input line 16.
-
-
-LaTeX Warning: Citation `Morley2024' on page 4 undefined on input line 18.
-
-
-LaTeX Warning: Citation `Stoyanov2015' on page 4 undefined on input line 18.
-
-
-LaTeX Warning: Citation `AzadKhaneghah2020' on page 4 undefined on input line 18.
-
-
-
-[4]
-
-LaTeX Warning: Citation `Lei2017' on page 5 undefined on input line 22.
-
-
-LaTeX Warning: Citation `Ahmad2018' on page 5 undefined on input line 22.
-
-
-LaTeX Warning: Citation `Mundra2013Practical' on page 5 undefined on input line 22.
-
-
-LaTeX Warning: Citation `Sheng2021Kanban' on page 5 undefined on input line 22.
-
-)
+[4])
 
 [5] (./sections/process.tex
 
@@ -719,60 +598,45 @@ LaTeX Warning: Citation `Sheng2021Kanban' on page 5 undefined on input line 22.
 
 [7{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
-[8]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 59.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 60.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 60.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 60.
-)
+[8])
 
 [9] (./sections/product.tex)
 
 [10
 
-] (./sections/results.tex)
+] (./sections/results.tex
 
 [11
 
-] (./sections/reflection.tex)
+])
 
-[12
-
-] (./sections/conclusion.tex)
+[12] (./sections/reflection.tex
 
 [13
 
+])
+
+[14] (./sections/conclusion.tex)
+
+[15
+
 ] (./main.bbl
+LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 12.
 
-[14
 
-]
-
-[15]
-./main.bbl:169: Misplaced alignment tab character &.
-l.169 ...ted Intelligent Computing Communication &
-                                                   Security (ICIIC 2021)}, 2...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-)
-
-[16] (./sections/appendix.tex
-
-[17
+[16
 
 ]
-<figs/marking.png, id=194, 533.995pt x 486.31688pt>
+
+[17])
+
+[18] (./sections/appendix.tex
+
+[19
+
+]
+<figs/marking.png, id=364, 533.995pt x 486.31688pt>
 File: figs/marking.png Graphic file (type png)
 <use figs/marking.png>
 Package pdftex.def Info: figs/marking.png  used on input line 28.
@@ -783,46 +647,42 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 88.
+
+
+Overfull \hbox (173.9033pt too wide) in paragraph at lines 89--112
+[][] 
+ []
+
 )
 
-[18
+[20
 
  <./figs/marking.png>]
 
-[19] (./main.aux)
+[21] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  1A251905D2CCCB891793CA2F2D011535;4099.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 4B5323C2C7104BFF62AF2DD6938DD904;4327.
  ) 
 Here is how much of TeX's memory you used:
- 23162 strings out of 473190
- 437985 string characters out of 5704335
- 914176 words of memory out of 5000000
- 45935 multiletter control sequences out of 15000+600000
+ 23207 strings out of 473190
+ 438549 string characters out of 5704335
+ 923847 words of memory out of 5000000
+ 45968 multiletter control sequences out of 15000+600000
  565428 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,126p,2289b,564s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,11n,126p,2284b,564s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on main.pdf (23 pages, 984624 bytes).
+Output written on main.pdf (25 pages, 993844 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
- 101 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 435 PDF objects out of 1000 (max. 8388607)
+ 386 compressed objects within 4 object streams
+ 105 named destinations out of 1000 (max. 500000)
+ 263 words of extra memory for PDF output out of 10000 (max. 10000000)
 
