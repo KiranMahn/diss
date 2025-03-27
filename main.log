@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  27 MAR 2025 10:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  27 MAR 2025 10:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -638,19 +638,15 @@ File: figs/marking.png Graphic file (type png)
 <use figs/marking.png>
 Package pdftex.def Info: figs/marking.png  used on input line 28.
 (pdftex.def)             Requested size: 412.56497pt x 375.74149pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 38.
 
-Overfull \hbox (189.25658pt too wide) in paragraph at lines 37--50
- [] 
- []
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 60.
-
-
-Overfull \hbox (932.06004pt too wide) in paragraph at lines 61--77
+Overfull \hbox (398.25401pt too wide) in paragraph at lines 66--82
 [][] 
  []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 
@@ -671,18 +667,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 1A251905D2CCCB891793CA2F2D011535;4099.
  ) 
 Here is how much of TeX's memory you used:
- 23183 strings out of 473190
- 438266 string characters out of 5704335
- 916459 words of memory out of 5000000
- 45959 multiletter control sequences out of 15000+600000
- 564834 words of font info for 56 fonts, out of 8000000 for 9000
+ 23188 strings out of 473190
+ 438317 string characters out of 5704335
+ 917459 words of memory out of 5000000
+ 45962 multiletter control sequences out of 15000+600000
+ 565428 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,126p,2284b,562s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on main.pdf (21 pages, 967090 bytes).
+</opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
+Output written on main.pdf (21 pages, 981872 bytes).
 PDF statistics:
- 393 PDF objects out of 1000 (max. 8388607)
- 350 compressed objects within 4 object streams
- 91 named destinations out of 1000 (max. 500000)
+ 399 PDF objects out of 1000 (max. 8388607)
+ 354 compressed objects within 4 object streams
+ 92 named destinations out of 1000 (max. 500000)
  255 words of extra memory for PDF output out of 10000 (max. 10000000)
 
