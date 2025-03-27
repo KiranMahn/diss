@@ -6,6 +6,11 @@
 \newblock \url{https://abilitynet.org.uk/european-accessibility-act}, 2024.
 \newblock Accessed: March 18, 2025.
 
+\bibitem{Ahmad2018}
+M.~Ahmad, D.~Dennehy, K.~Conboy, and M.~Oivo.
+\newblock Kanban in software engineering: A systematic mapping study.
+\newblock {\em Journal of Systems and Software}, 137:96--113, 2018.
+
 \bibitem{Aljumah2023}
 R.~Aljumah, S.~Phillips, and J.~C. Harper.
 \newblock An online survey of postmenopausal women to determine their attitudes and knowledge of the menopause.
@@ -16,6 +21,11 @@ R.~Aljumah, S.~Phillips, and J.~C. Harper.
 R.~Andrews, G.~Hale, B.~John, and D.~Lancastle.
 \newblock Evaluating the effects of symptom monitoring on menopausal health outcomes: A systematic review and meta-analysis.
 \newblock {\em Frontiers in Global Women's Health}, 2:757706, December 2021.
+
+\bibitem{AzadKhaneghah2020}
+P.~Azad-Khaneghah, N.~Neubauer, A.~Miguel~Cruz, and L.~Liu.
+\newblock Mobile health app usability and quality rating scales: a systematic review.
+\newblock {\em Disability and Rehabilitation: Assistive Technology}, 16(7):712--721, 2020.
 
 \bibitem{BACAGARCIA2010209}
 E.~Baca-Garcia, C.~Diaz-Sastre, A.~Ceverino, M.~M. Perez-Rodriguez, R.~Navarro-Jimenez, J.~Lopez-Castroman, J.~Saiz-Ruiz, J.~de~Leon, and M.~A. Oquendo.
@@ -103,16 +113,32 @@ B.~G. Kelly and M.~Habib.
 {Lancashire and South Cumbria NHS Foundation Trust}.
 \newblock Perimenopause, menopause, and pain.
 
+\bibitem{Lei2017}
+H.~Lei, F.~Ganjeizadeh, P.~Jayachandran, and P.~Ozcan.
+\newblock A statistical analysis of the effects of scrum and kanban on software development projects.
+\newblock {\em Robotics and Computer-Integrated Manufacturing}, 43:59--67, 2017.
+
 \bibitem{MenopauseSupport2021}
 {Menopause Support}.
 \newblock Menopause support survey reveals shocking disparity in menopause training in medical schools.
 \newblock \url{https://www.menopausesupport.co.uk}, May 2021.
 \newblock Accessed: March 18, 2025.
 
+\bibitem{Morley2024}
+J.~Morley, J.~Laitila, J.~Ross, J.~Schamroth, J.~Zhang, and L.~Floridi.
+\newblock An app a day will (probably not) keep the doctor away: An evidence audit of health and medical apps available on the apple app store.
+\newblock Technical report, SSRN, July 14 2024.
+\newblock Available at SSRN: \url{https://ssrn.com/abstract=4894882}.
+
 \bibitem{Muir2022}
 K.~Muir.
 \newblock {\em Everything You Need to Know About the Menopause (but were too afraid to ask)}.
 \newblock Gallery UK, 2022.
+
+\bibitem{Mundra2013Practical}
+A.~Mundra, S.~Misra, and C.~Dhawale.
+\newblock Practical scrum-scrum team: Way to produce successful and quality software.
+\newblock {\em 2013 13th International Conference on Computational Science and Its Applications}, pages 119--123, 2013.
 
 \bibitem{NICE2019}
 {National Institute for Health and Care Excellence}.
@@ -137,10 +163,20 @@ K.~Muir.
 \newblock \url{https://www.sciencedaily.com}, March 2013.
 \newblock Accessed: March 18, 2025.
 
+\bibitem{Sheng2021Kanban}
+L.~T.~Y. Sheng, S.~A.~L. Subarmaniyan, and N.~A.~A. Majid.
+\newblock Web-based kanban tool for project management.
+\newblock {\em Proceedings of the 3rd International Conference on Integrated Intelligent Computing Communication & Security (ICIIC 2021)}, 2021.
+
 \bibitem{Sheng2021}
 Y.~Sheng.
 \newblock Review of menopausal palpitations measures.
 \newblock {\em Women's Midlife Health}, 7(5), 2021.
+
+\bibitem{Stoyanov2015}
+S.~R. Stoyanov, L.~Hides, D.~J. Kavanagh, O.~Zelenko, D.~Tjondronegoro, and M.~Mani.
+\newblock Mobile app rating scale: A new tool for assessing the quality of health mobile apps.
+\newblock {\em JMIR MHealth UHealth}, 3(1):e27, March 2015.
 
 \bibitem{UCL2023}
 {University College London}.
