@@ -5,9 +5,8 @@
 \subsection{Implementation}
 Provide implementation details: language used, architecture (e.g. server and client, or hub and spoke). Explain how you secured personal details.
 
+During the design and inital development phase, a prototype was made using React and js with and npm node.js server. The change to another solution was much needed as using React with localstorage or a database comes with many privacy and security concerns that do no align with the functional requirements. The next Implementation was using Go and React with typescript for more security but due to typescript being a more strict language development was ssignificantly slowed down along with the complexities of safely sending data back and forth between Go and React tsx. A GoLang Envoy Proxy was considered but due to the exponentially increasing complexity another solution was needed. That is when the final implementation was decided to be a React native app that uses both typescript and javascript. This allowed for a lot of work to be moved over without rewriting files, as well as having the ability to use typescripts strict type checking for mroe conmplex files to make debugging easier and faster through type saffety aand reduces runtime errors. Expo was also used for the react native app due to its easy routing capabilities, intuitive and easy testing setups, and debuggers. 
+
 \subsection{Verification \& Validation}
-
-How did you verify that your software was debugged and worked correctly?
-
-How did you validate that you had implemented all the functional and non-functional requirements?
+Using Expo, the app was trialed and tested on mobile devices and emulators to ensure that the app was functioning as expected. The app was tested on iOS devices with different screen sizes to ensure that it was responsive and that the UI was consistent across all devices. The app was also tested for performance, and adjustments were made to ensure that it was fast and responsive by using a timer to measure the time it takes for the app and its different pages to load on click. Jest (A JavaScript Testing Framework that works with React Native) was also used to make unit tests to validate whether components render and if they render correctly.
 
