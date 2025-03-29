@@ -80,8 +80,8 @@ J.~Eschler, A.~Menking, S.~Fox, and U.~Backonja.
 
 \bibitem{ExpoFileSystem2025}
 {Expo Documentation Team}.
-\newblock Filesystem api - expo documentation, 2025.
-\newblock Accessed: 2025-03-29.
+\newblock Filesystem api - expo documentation.
+\newblock 2025.
 
 \bibitem{OCR2022}
 O.~for Civil~Rights.
@@ -122,6 +122,11 @@ B.~G. Kelly and M.~Habib.
 H.~Lei, F.~Ganjeizadeh, P.~Jayachandran, and P.~Ozcan.
 \newblock A statistical analysis of the effects of scrum and kanban on software development projects.
 \newblock {\em Robotics and Computer-Integrated Manufacturing}, 43:59--67, 2017.
+
+\bibitem{LevelUp2025}
+{LevelUp GitConnected}.
+\newblock Modern testing setup: Jest and react testing library for react typescript projects.
+\newblock 2025.
 
 \bibitem{MenopauseSupport2021}
 {Menopause Support}.
@@ -164,8 +169,8 @@ A.~Mundra, S.~Misra, and C.~Dhawale.
 
 \bibitem{ReactNative2024}
 {React Native Team}.
-\newblock Release 0.76: New architecture, October 23 2024.
-\newblock Accessed: 2025-03-29.
+\newblock Release 0.76: New architecture.
+\newblock October 2024.
 
 \bibitem{ScienceDaily2013}
 {ScienceDaily}.

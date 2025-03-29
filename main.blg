@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2025/Homebrew)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: abbrv.bst
+Database file #1: bibliography.bib
+Warning--empty journal in ExpoFileSystem2025
+Warning--empty journal in LevelUp2025
+Warning--empty journal in ReactNative2024
+You've used 40 entries,
+            2118 wiz_defined-function locations,
+            758 strings with 10471 characters,
+and the built_in function-call counts, 12038 in all, are:
+= -- 1163
+> -- 604
+< -- 2
++ -- 246
+- -- 202
+* -- 820
+:= -- 2081
+add.period$ -- 128
+call.type$ -- 40
+change.case$ -- 220
+chr.to.int$ -- 0
+cite$ -- 43
+duplicate$ -- 402
+empty$ -- 925
+format.name$ -- 202
+if$ -- 2452
+int.to.chr$ -- 0
+int.to.str$ -- 40
+missing$ -- 28
+newline$ -- 211
+num.names$ -- 80
+pop$ -- 239
+preamble$ -- 1
+purify$ -- 180
+quote$ -- 0
+skip$ -- 300
+stack$ -- 0
+substring$ -- 620
+swap$ -- 54
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 158
+warning$ -- 3
+while$ -- 114
+width$ -- 42
+write$ -- 436
+(There were 3 warnings)
