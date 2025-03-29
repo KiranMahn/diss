@@ -4,7 +4,25 @@
 Before beginning the process of gathering user requirements, an ethics form must be completed to ensure that the research follows ethical guidelines. To better understand user needs, a User Requirements survey was designed. In preparation, research was conducted through books on women’s experiences during perimenopause, including works by Kat Muir and Davina McCall, as well as reviewing research papers on health-tracking applications and a review of existing apps on the market to assess current solutions. Privacy emerged as a significant concern, with many apps engaging in surveillance capitalism and selling user data, often without informing the user. Only a handful of apps claim not to sell data, but even some apps who claim not to sell data have been found guilty of making a profit off users' data. To ensure a user-centered approach, User Stories were developed to capture potential users’ needs and expectations. As the project developed, user requirements and stories were continually adjusted to best reflect the goal of this project. The Design Testing Stage incorporates the System Usability Scale (SUS) evaluations and A/B Testing through microsoft forms. User interviews are also conducted to refine the design based on feedback. Recruitment for testing was also planned, stating the target audience for this study was women between the ages of 30 and 65.
 
 \subsection{Methodology}
-Following research on the different available software lifecycle approach softwares and methods available, Kanban boards were chosen as they are easy to maintain for one person, help with workflow, and have been proven to work in a student setting as mentioned prior. GitLab Issue boards were selected as the platform to host the Kanban as each issue card can be linked to branches within repositories to keep track of which tasks and changes are for which branches to improve organisation. Labels were also added to signify the type of task for each issue card.
+Following research on the different available software lifecycle approach softwares and methods available, Kanban boards were chosen as they are easy to maintain for one person, help with workflow, and have been proven to work in a student setting as mentioned prior. GitLab Issue boards were selected as the platform to host the Kanban as each issue card can be linked to branches within repositories to keep track of which tasks and changes are for which branches to improve organisation. Three labels: Code, Writing and research, and Critical, were also added to signify the type of task for each issue card. The Kanban board included four sections, one for each label and one for closed tasks. Gitlab would automatically sort each task into the relevent section based on its labels. The board was updated regularly to reflect the current status of each task, and tasks were moved from one section to another as they were completed. This resulted in tasks that were easy to priortiise, order, track, and complete on time. See Figure 1 for the Kanban board.
+
+\begin{figure}[h!!]
+  \begin{center}
+    \includegraphics[scale=0.25]{Kanban.png}
+    \caption{Kanban board on GitLab.}
+    \label{figure:kanban-board}
+  \end{center}
+\end{figure}
+
+Around after a month of progress, a network diagram was made to find the critical path in order to correctly prioritise work. Once a list of the main activities was made, the dependencies of each activity were identified and the time it would take to complete each activity was estimated. The critical path was then identified by finding the path through the network diagram with a float or lewway of zero. The critical path is the sequence of activities that must be completed on time for the project to be completed on schedule. The critical path is important because it helps to identify which activities are most important for the success of the project and which activities can be delayed without affecting the overall project timeline. See Figure 1 for the network diagram. The critical path activities are highlighted in red. From the network diagram, it was concluded that writing the report and obtaining feedback was the most important aspect of this project and should be prioritised over other tasks. The network diagram also helped to identify potential bottlenecks in the project timeline and allowed for better planning and scheduling of tasks.
+
+\begin{figure}[h!!]
+  \begin{center}
+    \includegraphics[scale=0.2]{NetworkDiagram.drawio.png}
+    \caption{Network Diagram showing critical path.}
+    \label{figure:network-diagram}
+  \end{center}
+\end{figure}
  
 \subsection{Analysis}
 Given many peri-menopausal women are not receiving support from the government education system or their doctors, additional resources and tools must be provided to help them navigate this stage of life. With the rise of technology, several tools are now available to allow women to track their peri-menopausal symptoms. However, these tools are often not user-friendly, do not provide enough educational information, or are not privacy-focused. The issue around privacy is especially concerning as many apps are selling user data to third parties without user knowledge and consent, and in today's political climate this can result in the incarceration of the user in some parts of the US. Since there are no apps that provide a comprehensive solution to these problems, the goal of this project is to create a user-friendly, educational, and privacy-focused peri-menopausal symptom tracking app.
@@ -51,7 +69,33 @@ This Apps functional requirements were prioritized based on user needs and the p
 \subsection{Design}
 
 \subsubsection{Interface Design}
-At the beginning of the design process, 6 pages were drawn by hand to rough sketch the layout of the app. Once the rough sketches were completed, they were digitized using Figma. The design was created with a focus on simplicity and ease of use. The app was designed to be user-friendly and intuitive, with a clean and simple design. The color scheme was chosen to be calming and easy on the eyes, with a focus on blues and greens. The app was then compared to the EU WAG 2.1 accessibility standards and adjusted to be accessible to all users, with large text and color contrast. 
+At the beginning of the design process, 6 pages were drawn by hand to rough sketch the layout of the app. Once the rough sketches were completed, they were digitized using Figma. See Figure 1.
+
+\begin{figure}[h!!]
+  \begin{center}
+    \includegraphics[scale=0.7]{Figma-1.png}
+    \caption{Wireframe of App on Figma.}
+    \label{figure:figma-1}
+  \end{center}
+\end{figure}
+
+The color scheme was chosen to be relaxing and calming  through the use of blue and green tones. The app was designed to be user-friendly and intuitive, with a focus on simplicity and ease of use. The design was also created with the goal of making it easy for users to navigate the app and find the information they need, as well as be responsive and work well on different screen sizes, including tablets and smaller phones.  
+
+The design was then fleshed out into a more detailed figma design. See Figure 2.
+
+\begin{figure}[h!!]
+  \begin{center}
+    \includegraphics[scale=0.6]{Figma-2.png}
+    \caption{Deatiled Draft of App on Figma.}
+    \label{figure:figma-2}
+  \end{center}
+\end{figure}
+
+The design was created with a focus on simplicity and ease of use. The app was designed to be user-friendly and intuitive, with a clean and simple design. The final color scheme was chosen to be calming and easy on the eyes, with a focus on blues and greens. 
+
+
+
+The app was then compared to the EU WAG 2.1 accessibility standards and adjusted to be accessible to all users, with large text and color contrast. 
 
 \subsubsection{System Design}
 In the interest of protecting user privacy, there is no database and all data is stored on the user's local device. The data that is saved in AsyncStorage on their device is formatted as featured in the table below.
