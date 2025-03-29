@@ -314,6 +314,8 @@ INPUT ./sections/background-literature.tex
 INPUT ./sections/background-literature.tex
 INPUT ./sections/background-literature.tex
 INPUT sections/background-literature.tex
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT ./sections/process.tex
 INPUT ./sections/process.tex
 INPUT ./sections/process.tex
@@ -440,8 +442,6 @@ INPUT ./images/Consent_Form.pdf
 INPUT ./images/Consent_Form.pdf
 INPUT ./images/Consent_Form.pdf
 INPUT ./images/Consent_Form.pdf
-INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
