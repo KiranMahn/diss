@@ -83,6 +83,12 @@ J.~Eschler, A.~Menking, S.~Fox, and U.~Backonja.
 \newblock Filesystem api - expo documentation.
 \newblock 2025.
 
+\bibitem{FTC2021}
+{Federal Trade Commission}.
+\newblock Developer of popular women’s fertility-tracking app settles ftc allegations that it misled consumers about the disclosure of their health data.
+\newblock Press Release, January 13 2021.
+\newblock Available at Perma.cc: \url{https://perma.cc/9ZK5-46TJ}.
+
 \bibitem{OCR2022}
 O.~for Civil~Rights.
 \newblock Protecting the privacy and security of your health information when using your personal cell phone or tablet.
@@ -98,6 +104,11 @@ D.~Gaytri.
 M.~E. Gilman.
 \newblock Periods for profit and the rise of menstrual surveillance.
 \newblock {\em Columbia Journal of Gender and Law}, 41:100, 2021.
+
+\bibitem{Gilman_2021}
+M.~E. Gilman.
+\newblock Periods for profit and the rise of menstrual surveillance.
+\newblock {\em Columbia Journal of Gender and Law}, 41(1):100–13, Nov. 2021.
 
 \bibitem{Guthrie2003}
 J.~R. Guthrie, L.~Dennerstein, J.~R. Taffe, and V.~Donnelly.
@@ -127,6 +138,11 @@ H.~Lei, F.~Ganjeizadeh, P.~Jayachandran, and P.~Ozcan.
 {LevelUp GitConnected}.
 \newblock Modern testing setup: Jest and react testing library for react typescript projects.
 \newblock 2025.
+
+\bibitem{McCall2022}
+D.~McCall and N.~Potter.
+\newblock {\em Menopausing}.
+\newblock HQ, an imprint of HarperCollinsPublishers, 2022.
 
 \bibitem{MenopauseSupport2021}
 {Menopause Support}.
@@ -171,6 +187,11 @@ A.~Mundra, S.~Misra, and C.~Dhawale.
 {React Native Team}.
 \newblock Release 0.76: New architecture.
 \newblock October 2024.
+
+\bibitem{Rosato2020}
+D.~Rosato.
+\newblock What your period tracker app knows about you.
+\newblock Consumer Reports, January 2020.
 
 \bibitem{ScienceDaily2013}
 {ScienceDaily}.
