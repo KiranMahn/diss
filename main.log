@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  29 MAR 2025 15:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  29 MAR 2025 15:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -642,6 +642,32 @@ Package pdftex.def Info: ./images/Figma-2.png  used on input line 88.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<./images/app.pdf, id=305, 722.7pt x 542.025pt>
+File: ./images/app.pdf Graphic file (type pdf)
+<use ./images/app.pdf>
+Package pdftex.def Info: ./images/app.pdf  used on input line 98.
+(pdftex.def)             Requested size: 433.62334pt x 325.2175pt.
+
+Overfull \hbox (21.05836pt too wide) in paragraph at lines 98--99
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./images/app-Accessible.pdf, id=306, 722.7pt x 542.025pt>
+File: ./images/app-Accessible.pdf Graphic file (type pdf)
+<use ./images/app-Accessible.pdf>
+Package pdftex.def Info: ./images/app-Accessible.pdf  used on input line 109.
+(pdftex.def)             Requested size: 433.62334pt x 325.2175pt.
+
+Overfull \hbox (21.05836pt too wide) in paragraph at lines 109--110
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 
 [10]
@@ -654,43 +680,45 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [12 <./images/Figma-2.png>]
 
-[13] (./sections/product.tex)
+[13 <./images/app.pdf>]
 
-[14
-
-] (./sections/results.tex
+[14 <./images/app-Accessible.pdf>] (./sections/product.tex)
 
 [15
 
-])
+] (./sections/results.tex
 
-[16] (./sections/reflection.tex
-
-[17
+[16
 
 ])
 
-[18] (./sections/conclusion.tex)
+[17] (./sections/reflection.tex
 
-[19
+[18
+
+])
+
+[19] (./sections/conclusion.tex)
+
+[20
 
 ] (./main.bbl
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 12.
 
 
-[20
+[21
 
 ]
 
-[21])
+[22])
 
-[22] (./sections/appendix.tex
+[23] (./sections/appendix.tex
 
-[23
+[24
 
 ]
-<figs/marking.png, id=394, 533.995pt x 486.31688pt>
+<figs/marking.png, id=536, 533.995pt x 486.31688pt>
 File: figs/marking.png Graphic file (type png)
 <use figs/marking.png>
 Package pdftex.def Info: figs/marking.png  used on input line 28.
@@ -712,11 +740,11 @@ Overfull \hbox (173.9033pt too wide) in paragraph at lines 89--112
 
 )
 
-[24
+[25
 
  <./figs/marking.png>]
 
-[25] (./main.aux)
+[26] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -725,18 +753,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 4B5323C2C7104BFF62AF2DD6938DD904;4327.
  ) 
 Here is how much of TeX's memory you used:
- 23255 strings out of 473190
- 439691 string characters out of 5704335
- 924052 words of memory out of 5000000
- 46008 multiletter control sequences out of 15000+600000
+ 23278 strings out of 473190
+ 440268 string characters out of 5704335
+ 924193 words of memory out of 5000000
+ 46028 multiletter control sequences out of 15000+600000
  565428 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,126p,2284b,564s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on main.pdf (29 pages, 1525243 bytes).
+Output written on main.pdf (30 pages, 5804798 bytes).
 PDF statistics:
- 466 PDF objects out of 1000 (max. 8388607)
- 404 compressed objects within 5 object streams
- 113 named destinations out of 1000 (max. 500000)
- 283 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 609 PDF objects out of 1000 (max. 8388607)
+ 480 compressed objects within 5 object streams
+ 116 named destinations out of 1000 (max. 500000)
+ 293 words of extra memory for PDF output out of 10000 (max. 10000000)
 
