@@ -335,6 +335,14 @@ INPUT ./sections/product.tex
 INPUT ./sections/product.tex
 INPUT ./sections/product.tex
 INPUT sections/product.tex
+INPUT ./images/react-native.png
+INPUT ./images/react-native.png
+INPUT ./images/react-native.png
+INPUT ./images/react-native.png
+INPUT ./images/file-system-diagram.png
+INPUT ./images/file-system-diagram.png
+INPUT ./images/file-system-diagram.png
+INPUT ./images/file-system-diagram.png
 INPUT ./sections/results.tex
 INPUT ./sections/results.tex
 INPUT ./sections/results.tex

@@ -1,8 +1,50 @@
 \section{Product}\label{product}
 
 \subsection{Implementation}
-During the design and initial development phase, a prototype was made using React and js with an npm node.js server. The change to another solution was much needed as using React with localstorage or a database comes with many privacy and security concerns that don't align with the functional requirements. The next Implementation was using Go and React with typescript for more security but due to typescript being a more strict language development was significantly slowed down along with the complexities of safely sending data back and forth between Go and React tsx. A GoLang Envoy Proxy was considered but due to the exponentially increasing complexity another solution was needed. That is when the final implementation was decided to be a React native app that uses both typescript and javascript. This allowed for a lot of work to be moved over without rewriting files, as well as having the ability to use typescripts strict type checking for more complex files to make debugging easier and faster through type safety and reduces runtime errors. Expo was also used for the react native app due to its easy routing capabilities, intuitive and easy testing setups, and debuggers. Having a react Native setup allows the use of AsyncStorage where the user data is safely stored on their device.
+
+\subsubsection{Prototyping}
+During the design and initial development phase, a prototype was made using React and js with an npm node.js server. The change to another solution was much needed as using React with localstorage or a database comes with many privacy and security concerns that don't align with the functional requirements. The next Implementation was using Go and React with typescript for more security but due to typescript being a more strict language development was significantly slowed down along with the complexities of safely sending data back and forth between Go and React tsx. A GoLang Envoy Proxy was considered but due to the exponentially increasing complexity another solution was needed. 
+
+\subsubsection{Expo \& React Native}
+That is when the final implementation was decided to be a React native app that uses both typescript and javascript. This allowed for a lot of work to be moved over without rewriting files, as well as having the ability to use typescripts strict type checking for more complex files to make debugging easier and faster through type safety and reduces runtime errors. Expo was used for the react native app due to its easy routing capabilities, intuitive and easy testing setups, and debuggers. Nicola Corti who is on the React Native team at Meta said at the 2024 React keynote conference, \"Expo today, is the fastest way to bring your apps from idea, to production\". With Expo, code was transferred from the prototypes to a working React Native IOS Expo app that could be tested on iPhone in less than a day. Not only is it fast a react Native setup allows the use of AsyncStorage where the user data is safely stored on their device. This allowed user data to be stored without a username or password or any other identifiable details making the app completely anonymous. 
+
+\subsubsection{The new React Native}
+This app uses React Native 0.76.0, which is the latest version of React Native at the time of writing and has been in the works since 2018. This version includes many new features and improvements. The old react native used a bridge to asynchronouslt pass messages between the apps javascript and native code for IOS and Android, the new react native uses a JavaScript Interface (JSI) which allows direct method calls without the overhead of serializing data which greately improves efficiency\cite{ReactNative2024}. The new react native supports concurrent rendering which means the UI of the app looks smoother when applying updates. This new version of react native is enabled in this project and made development and the user experience much more enjoyable.
+
+\begin{figure}[]
+    \begin{center}
+      \includegraphics[scale=0.2]{react-native.png}
+      \caption{The old and new React Native\cite{ReactNative2024}}
+      \label{figure:react-native}
+    \end{center}
+  \end{figure}
+
+\subsubsection{React Navigation}
+
+
+\subsubsection{Wigits}
+
+\subsubsection{Chart Kit}
+
+\subsubsection{Data Analysis}
+
+\subsubsection{Settings Context}
+
+\subsubsection{Expo FileSystem}
+In order for users to export their data to a csv, expo FileSystem was used. This allows the app to create a file on the users device that can be opened in a spreadsheet program. FileSystem provides an API for accessing the file system, making it easy to work with files in a cross-platform way. The library also provides support for reading and writing files in different formats, such as JSON and CSV, making it easy to work with the users JSON data stored in Async Storage.
+
+\begin{figure}[]
+    \begin{center}
+      \includegraphics[scale=0.3]{file-system-diagram.png}
+      \caption{The Expo File System\cite{ExpoFileSystem2025}}
+      \label{figure:file-system-diagram}
+    \end{center}
+  \end{figure}
+
+In order to implement FileSystem, the expo-file-system library was integrated into the app. When the user selects the export data to CSV button in settings, their data is fetched from Async Storage. Rows are defined for the CSV file for date, user, key, and value. Each object in the user data is iterated over to check if there is any null or empty data before adding the data to the CSV file using writeAsStringAsync(). The data is then shared with the user using shareAsync() which allows the user to specify where to store the file.
 
 \subsection{Verification \& Validation}
-Using Expo, the app was trialed and tested on mobile devices and emulators to ensure that the app was functioning as expected. The app was tested on iOS devices with different screen sizes to ensure that it was responsive and that the UI was consistent across all devices. The app was also tested for performance, and adjustments were made to ensure that it was fast and responsive by using a timer to measure the time it takes for the app and its different pages to load on click. Jest (A JavaScript Testing Framework that works with React Native) was also used to make unit tests to validate whether components render and if they render correctly.
+Using Expo, the app was trialed and tested on mobile devices and emulators to ensure that the app was functioning as expected. The app was tested on iOS devices with different screen sizes to ensure that it was responsive and that the UI was consistent across all devices. The app was also tested for performance, and adjustments were made to ensure that it was fast and responsive by using a timer to measure the time it takes for the app and its different pages to load on click, comforming with the non-functional requirements. 
 
+\subsubsection{Testing with Jest}
+Jest (A JavaScript Testing Framework that works with React Native and Expo) was also used to make unit tests to validate whether components render and if they render correctly. The use of Jest was made even easier as Jest comes pre setup with a react native expo project so minimal setup is required and there is copious documentation for reference while developing. Jest tests were written in the components/tests/ directory in typescript to ensure strong type checking while validating the app. A common test is to be able to render a component and check if it is the correct component. This is done by using the toBeTruthy() method to check if the component is rendered correctly. The tests were run using the command line and the results were checked to ensure that all tests passed.

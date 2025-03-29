@@ -78,6 +78,11 @@ J.~Eschler, A.~Menking, S.~Fox, and U.~Backonja.
 \newblock Defining menstrual literacy with the aim of evaluating mobile menstrual tracking applications.
 \newblock {\em CIN: Computers, Informatics, Nursing}, 37(12):638--646, December 2019.
 
+\bibitem{ExpoFileSystem2025}
+{Expo Documentation Team}.
+\newblock Filesystem api - expo documentation, 2025.
+\newblock Accessed: 2025-03-29.
+
 \bibitem{OCR2022}
 O.~for Civil~Rights.
 \newblock Protecting the privacy and security of your health information when using your personal cell phone or tablet.
@@ -156,6 +161,11 @@ A.~Mundra, S.~Misra, and C.~Dhawale.
 {NHS}.
 \newblock Menopause - treatment, May 2022.
 \newblock Accessed: March 18, 2025.
+
+\bibitem{ReactNative2024}
+{React Native Team}.
+\newblock Release 0.76: New architecture, October 23 2024.
+\newblock Accessed: 2025-03-29.
 
 \bibitem{ScienceDaily2013}
 {ScienceDaily}.

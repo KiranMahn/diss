@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  29 MAR 2025 15:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  29 MAR 2025 18:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -642,7 +642,10 @@ Package pdftex.def Info: ./images/Figma-2.png  used on input line 88.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./images/app.pdf, id=305, 722.7pt x 542.025pt>
+
+
+[10]
+<./images/app.pdf, id=310, 722.7pt x 542.025pt>
 File: ./images/app.pdf Graphic file (type pdf)
 <use ./images/app.pdf>
 Package pdftex.def Info: ./images/app.pdf  used on input line 98.
@@ -655,7 +658,7 @@ Overfull \hbox (21.05836pt too wide) in paragraph at lines 98--99
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./images/app-Accessible.pdf, id=306, 722.7pt x 542.025pt>
+<./images/app-Accessible.pdf, id=311, 722.7pt x 542.025pt>
 File: ./images/app-Accessible.pdf Graphic file (type pdf)
 <use ./images/app-Accessible.pdf>
 Package pdftex.def Info: ./images/app-Accessible.pdf  used on input line 109.
@@ -670,55 +673,78 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[10]
+[11 <./images/Figma-1.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 
-[11 <./images/Figma-1.png>]
-
 [12 <./images/Figma-2.png>]
 
 [13 <./images/app.pdf>]
 
-[14 <./images/app-Accessible.pdf>] (./sections/product.tex)
+[14 <./images/app-Accessible.pdf>] (./sections/product.tex
 
 [15
 
-] (./sections/results.tex
+]
 
-[16
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 14.
+
+<./images/react-native.png, id=480, 1147.28625pt x 738.76pt>
+File: ./images/react-native.png Graphic file (type png)
+<use ./images/react-native.png>
+Package pdftex.def Info: ./images/react-native.png  used on input line 16.
+(pdftex.def)             Requested size: 229.45319pt x 147.74937pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 36.
+
+<./images/file-system-diagram.png, id=482, 852.18375pt x 553.06625pt>
+File: ./images/file-system-diagram.png Graphic file (type png)
+<use ./images/file-system-diagram.png>
+Package pdftex.def Info: ./images/file-system-diagram.png  used on input line 38.
+(pdftex.def)             Requested size: 255.65709pt x 165.92114pt.
+
+
+[16 <./images/react-native.png>])
+
+[17 <./images/file-system-diagram.png (PNG copy)>]
+
+[18] (./sections/results.tex
+
+[19
 
 ])
 
-[17] (./sections/reflection.tex
+[20] (./sections/reflection.tex
 
-[18
+[21
 
 ])
 
-[19] (./sections/conclusion.tex)
+[22] (./sections/conclusion.tex)
 
-[20
+[23
 
 ] (./main.bbl
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 12.
 
 
-[21
-
-]
-
-[22])
-
-[23] (./sections/appendix.tex
-
 [24
 
 ]
-<figs/marking.png, id=536, 533.995pt x 486.31688pt>
+
+[25])
+
+[26] (./sections/appendix.tex
+
+[27
+
+]
+<figs/marking.png, id=570, 533.995pt x 486.31688pt>
 File: figs/marking.png Graphic file (type png)
 <use figs/marking.png>
 Package pdftex.def Info: figs/marking.png  used on input line 28.
@@ -740,11 +766,11 @@ Overfull \hbox (173.9033pt too wide) in paragraph at lines 89--112
 
 )
 
-[25
+[28
 
  <./figs/marking.png>]
 
-[26] (./main.aux)
+[29] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -753,18 +779,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 4B5323C2C7104BFF62AF2DD6938DD904;4327.
  ) 
 Here is how much of TeX's memory you used:
- 23278 strings out of 473190
- 440268 string characters out of 5704335
- 924193 words of memory out of 5000000
- 46028 multiletter control sequences out of 15000+600000
+ 23318 strings out of 473190
+ 441229 string characters out of 5704335
+ 924407 words of memory out of 5000000
+ 46051 multiletter control sequences out of 15000+600000
  565428 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,126p,2284b,564s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,11n,126p,2284b,566s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on main.pdf (30 pages, 5804798 bytes).
+Output written on main.pdf (33 pages, 5885709 bytes).
 PDF statistics:
- 609 PDF objects out of 1000 (max. 8388607)
- 480 compressed objects within 5 object streams
- 116 named destinations out of 1000 (max. 500000)
- 293 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 646 PDF objects out of 1000 (max. 8388607)
+ 510 compressed objects within 6 object streams
+ 133 named destinations out of 1000 (max. 500000)
+ 303 words of extra memory for PDF output out of 10000 (max. 10000000)
 
