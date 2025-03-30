@@ -377,6 +377,14 @@ INPUT ./sections/results.tex
 INPUT ./sections/results.tex
 INPUT ./sections/results.tex
 INPUT sections/results.tex
+INPUT ./images/GA-frq.png
+INPUT ./images/GA-frq.png
+INPUT ./images/GA-frq.png
+INPUT ./images/GA-frq.png
+INPUT ./images/GB-frq.png
+INPUT ./images/GB-frq.png
+INPUT ./images/GB-frq.png
+INPUT ./images/GB-frq.png
 INPUT ./sections/reflection.tex
 INPUT ./sections/reflection.tex
 INPUT ./sections/reflection.tex
