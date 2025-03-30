@@ -325,6 +325,10 @@ INPUT ./images/Kanban.png
 INPUT ./images/Kanban.png
 INPUT ./images/Kanban.png
 INPUT ./images/Kanban.png
+INPUT ./images/SUS.png
+INPUT ./images/SUS.png
+INPUT ./images/SUS.png
+INPUT ./images/SUS.png
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/jknappen/ec/tcss1095.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT ./images/Figma-1.png

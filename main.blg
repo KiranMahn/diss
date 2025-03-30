@@ -8,45 +8,45 @@ Warning--empty author in PMC4834516
 Warning--empty journal in ExpoFileSystem2025
 Warning--empty journal in LevelUp2025
 Warning--empty journal in ReactNative2024
-You've used 46 entries,
+You've used 47 entries,
             2118 wiz_defined-function locations,
-            793 strings with 11331 characters,
-and the built_in function-call counts, 13455 in all, are:
-= -- 1295
-> -- 662
+            801 strings with 11563 characters,
+and the built_in function-call counts, 13923 in all, are:
+= -- 1335
+> -- 700
 < -- 2
-+ -- 271
-- -- 220
-* -- 902
-:= -- 2316
-add.period$ -- 146
-call.type$ -- 46
-change.case$ -- 246
++ -- 286
+- -- 234
+* -- 949
+:= -- 2399
+add.period$ -- 149
+call.type$ -- 47
+change.case$ -- 256
 chr.to.int$ -- 0
-cite$ -- 51
-duplicate$ -- 455
-empty$ -- 1055
-format.name$ -- 220
-if$ -- 2751
+cite$ -- 52
+duplicate$ -- 466
+empty$ -- 1081
+format.name$ -- 234
+if$ -- 2840
 int.to.chr$ -- 0
-int.to.str$ -- 46
-missing$ -- 32
-newline$ -- 241
-num.names$ -- 90
-pop$ -- 282
+int.to.str$ -- 47
+missing$ -- 33
+newline$ -- 246
+num.names$ -- 92
+pop$ -- 290
 preamble$ -- 1
-purify$ -- 201
+purify$ -- 210
 quote$ -- 0
-skip$ -- 342
+skip$ -- 349
 stack$ -- 0
-substring$ -- 666
-swap$ -- 60
+substring$ -- 689
+swap$ -- 61
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 180
+type$ -- 184
 warning$ -- 5
-while$ -- 124
-width$ -- 48
-write$ -- 497
+while$ -- 127
+width$ -- 49
+write$ -- 508
 (There were 5 warnings)
