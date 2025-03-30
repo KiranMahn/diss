@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  30 MAR 2025 12:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  30 MAR 2025 16:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -632,7 +632,7 @@ l.91 \clearpage
 
 [4]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 24.
+(Font)              <5> on input line 43.
 
 
 [5])
@@ -642,147 +642,165 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [7
 
 ]
-<./images/Kanban.png, id=296, 1716.4125pt x 853.1875pt>
+<./images/Kanban.png, id=302, 1716.4125pt x 853.1875pt>
 File: ./images/Kanban.png Graphic file (type png)
 <use ./images/Kanban.png>
-Package pdftex.def Info: ./images/Kanban.png  used on input line 47.
+Package pdftex.def Info: ./images/Kanban.png  used on input line 33.
 (pdftex.def)             Requested size: 429.10208pt x 213.29636pt.
 
-Overfull \hbox (16.53711pt too wide) in paragraph at lines 47--48
- [] 
- []
-
-
-
-[8 <./images/Kanban.png>]
-<./images/NetworkDiagram.drawio.png, id=303, 1829.83624pt x 430.60875pt>
-File: ./images/NetworkDiagram.drawio.png Graphic file (type png)
-<use ./images/NetworkDiagram.drawio.png>
-Package pdftex.def Info: ./images/NetworkDiagram.drawio.png  used on input line 57.
-(pdftex.def)             Requested size: 365.96077pt x 86.12021pt.
-
-
-[9 <./images/NetworkDiagram.drawio.png>]
-
-[10{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<./images/Figma-1.png, id=321, 468.75125pt x 600.2425pt>
-File: ./images/Figma-1.png Graphic file (type png)
-<use ./images/Figma-1.png>
-Package pdftex.def Info: ./images/Figma-1.png  used on input line 112.
-(pdftex.def)             Requested size: 328.12363pt x 420.16689pt.
-
-
-[11]
-
-[12 <./images/Figma-1.png>]
-<./images/Figma-2.png, id=335, 622.325pt x 807.015pt>
-File: ./images/Figma-2.png Graphic file (type png)
-<use ./images/Figma-2.png>
-Package pdftex.def Info: ./images/Figma-2.png  used on input line 124.
-(pdftex.def)             Requested size: 373.39787pt x 484.21274pt.
-
-
-[13 <./images/Figma-2.png>]
-<./images/app.pdf, id=342, 722.7pt x 542.025pt>
-File: ./images/app.pdf Graphic file (type pdf)
-<use ./images/app.pdf>
-Package pdftex.def Info: ./images/app.pdf  used on input line 134.
-(pdftex.def)             Requested size: 433.62334pt x 325.2175pt.
-
-Overfull \hbox (21.05836pt too wide) in paragraph at lines 134--135
- [] 
- []
-
-<./images/app-Accessible.pdf, id=343, 722.7pt x 542.025pt>
-File: ./images/app-Accessible.pdf Graphic file (type pdf)
-<use ./images/app-Accessible.pdf>
-Package pdftex.def Info: ./images/app-Accessible.pdf  used on input line 145.
-(pdftex.def)             Requested size: 433.62334pt x 325.2175pt.
-
-Overfull \hbox (21.05836pt too wide) in paragraph at lines 145--146
+Overfull \hbox (16.53711pt too wide) in paragraph at lines 33--34
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+
+[8]
+<./images/NetworkDiagram.drawio.png, id=310, 1829.83624pt x 430.60875pt>
+File: ./images/NetworkDiagram.drawio.png Graphic file (type png)
+<use ./images/NetworkDiagram.drawio.png>
+Package pdftex.def Info: ./images/NetworkDiagram.drawio.png  used on input line 43.
+(pdftex.def)             Requested size: 365.96077pt x 86.12021pt.
+
+
+[9 <./images/Kanban.png> <./images/NetworkDiagram.drawio.png>]
+
+[10{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+[11]
+<./images/Figma-1.png, id=336, 468.75125pt x 600.2425pt>
+File: ./images/Figma-1.png Graphic file (type png)
+<use ./images/Figma-1.png>
+Package pdftex.def Info: ./images/Figma-1.png  used on input line 98.
+(pdftex.def)             Requested size: 328.12363pt x 420.16689pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./images/Figma-2.png, id=338, 622.325pt x 807.015pt>
+File: ./images/Figma-2.png Graphic file (type png)
+<use ./images/Figma-2.png>
+Package pdftex.def Info: ./images/Figma-2.png  used on input line 110.
+(pdftex.def)             Requested size: 373.39787pt x 484.21274pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./images/app.pdf, id=340, 722.7pt x 542.025pt>
+File: ./images/app.pdf Graphic file (type pdf)
+<use ./images/app.pdf>
+Package pdftex.def Info: ./images/app.pdf  used on input line 120.
+(pdftex.def)             Requested size: 433.62334pt x 325.2175pt.
+
+Overfull \hbox (21.05836pt too wide) in paragraph at lines 120--121
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./images/app-Accessible.pdf, id=342, 722.7pt x 542.025pt>
+File: ./images/app-Accessible.pdf Graphic file (type pdf)
+<use ./images/app-Accessible.pdf>
+Package pdftex.def Info: ./images/app-Accessible.pdf  used on input line 131.
+(pdftex.def)             Requested size: 433.62334pt x 325.2175pt.
+
+Overfull \hbox (21.05836pt too wide) in paragraph at lines 131--132
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[12]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 
-[14 <./images/app.pdf>]
+[13 <./images/Figma-1.png>]
 
-[15 <./images/app-Accessible.pdf>] (./sections/product.tex
+[14 <./images/Figma-2.png>]
 
-[16
+[15 <./images/app.pdf>]
+
+[16 <./images/app-Accessible.pdf>] (./sections/product.tex
+
+[17
 
 ]
-<./images/react-native.png, id=498, 1147.28625pt x 738.76pt>
+<./images/react-native.png, id=517, 1147.28625pt x 738.76pt>
 File: ./images/react-native.png Graphic file (type png)
 <use ./images/react-native.png>
 Package pdftex.def Info: ./images/react-native.png  used on input line 20.
 (pdftex.def)             Requested size: 229.45319pt x 147.74937pt.
 
 
-[17 <./images/react-native.png>]
-<./images/analysis.png, id=510, 415.5525pt x 372.39125pt>
+[18 <./images/react-native.png>]
+
+[19]
+<./images/analysis.png, id=535, 415.5525pt x 372.39125pt>
 File: ./images/analysis.png Graphic file (type png)
 <use ./images/analysis.png>
-Package pdftex.def Info: ./images/analysis.png  used on input line 41.
+Package pdftex.def Info: ./images/analysis.png  used on input line 42.
 (pdftex.def)             Requested size: 124.6667pt x 111.71823pt.
 
 
-[18]
-
-[19 <./images/analysis.png>]
-<./images/file-system-diagram.png, id=525, 852.18375pt x 553.06625pt>
+[20 <./images/analysis.png>]
+<./images/file-system-diagram.png, id=545, 852.18375pt x 553.06625pt>
 File: ./images/file-system-diagram.png Graphic file (type png)
 <use ./images/file-system-diagram.png>
-Package pdftex.def Info: ./images/file-system-diagram.png  used on input line 55.
+Package pdftex.def Info: ./images/file-system-diagram.png  used on input line 56.
 (pdftex.def)             Requested size: 255.65709pt x 165.92114pt.
 
 
-[20 <./images/file-system-diagram.png (PNG copy)>]
-<./images/jest.png, id=534, 1188.44pt x 464.73625pt>
+[21 <./images/file-system-diagram.png (PNG copy)>]
+<./images/jest.png, id=555, 1188.44pt x 464.73625pt>
 File: ./images/jest.png Graphic file (type png)
 <use ./images/jest.png>
-Package pdftex.def Info: ./images/jest.png  used on input line 75.
+Package pdftex.def Info: ./images/jest.png  used on input line 76.
 (pdftex.def)             Requested size: 356.53476pt x 139.42194pt.
 )
 
-[21 <./images/jest.png>] (./sections/results.tex)
-
-[22
-
-] (./sections/reflection.tex
+[22 <./images/jest.png>] (./sections/results.tex
 
 [23
 
+]
+
+[24])
+
+[25] (./sections/reflection.tex
+
+[26
+
 ])
 
-[24] (./sections/conclusion.tex)
+[27] (./sections/conclusion.tex)
 
-[25
+[28
 
 ] (./main.bbl
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 5.
 
 
-[26
+[29
 
 ]
 
-[27])
+[30])
 
-[28] (./sections/appendix.tex
-<./images/Ethics_form.pdf, id=591, 597.4822pt x 845.1575pt>
+[31] (./sections/appendix.tex
+<./images/Ethics_form.pdf, id=630, 597.4822pt x 845.1575pt>
 File: ./images/Ethics_form.pdf Graphic file (type pdf)
 <use ./images/Ethics_form.pdf>
 Package pdftex.def Info: ./images/Ethics_form.pdf  used on input line 8.
 (pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
-<./images/Ethics_form.pdf, id=593, page=1, 597.4822pt x 845.1575pt>
+<./images/Ethics_form.pdf, id=632, page=1, 597.4822pt x 845.1575pt>
 File: ./images/Ethics_form.pdf Graphic file (type pdf)
 <use ./images/Ethics_form.pdf, page 1>
 Package pdftex.def Info: ./images/Ethics_form.pdf , page1 used on input line 8.
@@ -793,7 +811,7 @@ Package pdftex.def Info: ./images/Ethics_form.pdf , page1 used on input line 8.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
 
 
-[29
+[32
 
 ]
 File: ./images/Ethics_form.pdf Graphic file (type pdf)
@@ -810,69 +828,69 @@ File: ./images/Ethics_form.pdf Graphic file (type pdf)
 <use ./images/Ethics_form.pdf, page 1>
 Package pdftex.def Info: ./images/Ethics_form.pdf , page1 used on input line 8.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-[30
-
- <./images/Ethics_form.pdf>]
-<./images/Ethics_form.pdf, id=650, page=2, 597.4822pt x 845.1575pt>
-File: ./images/Ethics_form.pdf Graphic file (type pdf)
-<use ./images/Ethics_form.pdf, page 2>
-Package pdftex.def Info: ./images/Ethics_form.pdf , page2 used on input line 8.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-File: ./images/Ethics_form.pdf Graphic file (type pdf)
-<use ./images/Ethics_form.pdf, page 2>
-Package pdftex.def Info: ./images/Ethics_form.pdf , page2 used on input line 8.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-
-
-File: ./images/Ethics_form.pdf Graphic file (type pdf)
-<use ./images/Ethics_form.pdf, page 2>
-Package pdftex.def Info: ./images/Ethics_form.pdf , page2 used on input line 8.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-[31
-
- <./images/Ethics_form.pdf>]
-<./images/Ethics_form.pdf, id=656, page=3, 597.4822pt x 845.1575pt>
-File: ./images/Ethics_form.pdf Graphic file (type pdf)
-<use ./images/Ethics_form.pdf, page 3>
-Package pdftex.def Info: ./images/Ethics_form.pdf , page3 used on input line 8.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-File: ./images/Ethics_form.pdf Graphic file (type pdf)
-<use ./images/Ethics_form.pdf, page 3>
-Package pdftex.def Info: ./images/Ethics_form.pdf , page3 used on input line 8.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-
-
-File: ./images/Ethics_form.pdf Graphic file (type pdf)
-<use ./images/Ethics_form.pdf, page 3>
-Package pdftex.def Info: ./images/Ethics_form.pdf , page3 used on input line 8.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-[32
-
- <./images/Ethics_form.pdf>]
-<./images/Ethics_form.pdf, id=679, page=4, 597.4822pt x 845.1575pt>
-File: ./images/Ethics_form.pdf Graphic file (type pdf)
-<use ./images/Ethics_form.pdf, page 4>
-Package pdftex.def Info: ./images/Ethics_form.pdf , page4 used on input line 8.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-File: ./images/Ethics_form.pdf Graphic file (type pdf)
-<use ./images/Ethics_form.pdf, page 4>
-Package pdftex.def Info: ./images/Ethics_form.pdf , page4 used on input line 8.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-
-
-File: ./images/Ethics_form.pdf Graphic file (type pdf)
-<use ./images/Ethics_form.pdf, page 4>
-Package pdftex.def Info: ./images/Ethics_form.pdf , page4 used on input line 8.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
 [33
 
  <./images/Ethics_form.pdf>]
-<./images/Participant_Information_Sheet.pdf, id=686, 597.4822pt x 845.1575pt>
+<./images/Ethics_form.pdf, id=691, page=2, 597.4822pt x 845.1575pt>
+File: ./images/Ethics_form.pdf Graphic file (type pdf)
+<use ./images/Ethics_form.pdf, page 2>
+Package pdftex.def Info: ./images/Ethics_form.pdf , page2 used on input line 8.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: ./images/Ethics_form.pdf Graphic file (type pdf)
+<use ./images/Ethics_form.pdf, page 2>
+Package pdftex.def Info: ./images/Ethics_form.pdf , page2 used on input line 8.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+
+
+File: ./images/Ethics_form.pdf Graphic file (type pdf)
+<use ./images/Ethics_form.pdf, page 2>
+Package pdftex.def Info: ./images/Ethics_form.pdf , page2 used on input line 8.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+[34
+
+ <./images/Ethics_form.pdf>]
+<./images/Ethics_form.pdf, id=697, page=3, 597.4822pt x 845.1575pt>
+File: ./images/Ethics_form.pdf Graphic file (type pdf)
+<use ./images/Ethics_form.pdf, page 3>
+Package pdftex.def Info: ./images/Ethics_form.pdf , page3 used on input line 8.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: ./images/Ethics_form.pdf Graphic file (type pdf)
+<use ./images/Ethics_form.pdf, page 3>
+Package pdftex.def Info: ./images/Ethics_form.pdf , page3 used on input line 8.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+
+
+File: ./images/Ethics_form.pdf Graphic file (type pdf)
+<use ./images/Ethics_form.pdf, page 3>
+Package pdftex.def Info: ./images/Ethics_form.pdf , page3 used on input line 8.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+[35
+
+ <./images/Ethics_form.pdf>]
+<./images/Ethics_form.pdf, id=720, page=4, 597.4822pt x 845.1575pt>
+File: ./images/Ethics_form.pdf Graphic file (type pdf)
+<use ./images/Ethics_form.pdf, page 4>
+Package pdftex.def Info: ./images/Ethics_form.pdf , page4 used on input line 8.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: ./images/Ethics_form.pdf Graphic file (type pdf)
+<use ./images/Ethics_form.pdf, page 4>
+Package pdftex.def Info: ./images/Ethics_form.pdf , page4 used on input line 8.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+
+
+File: ./images/Ethics_form.pdf Graphic file (type pdf)
+<use ./images/Ethics_form.pdf, page 4>
+Package pdftex.def Info: ./images/Ethics_form.pdf , page4 used on input line 8.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+[36
+
+ <./images/Ethics_form.pdf>]
+<./images/Participant_Information_Sheet.pdf, id=726, 597.4822pt x 845.1575pt>
 File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
 <use ./images/Participant_Information_Sheet.pdf>
 Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf  used on input line 11.
 (pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
-<./images/Participant_Information_Sheet.pdf, id=688, page=1, 597.4822pt x 845.1575pt>
+<./images/Participant_Information_Sheet.pdf, id=728, page=1, 597.4822pt x 845.1575pt>
 File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
 <use ./images/Participant_Information_Sheet.pdf, page 1>
 Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page1 used on input line 11.
@@ -883,7 +901,7 @@ Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page1 used
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
 
 
-[34]
+[37]
 File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
 <use ./images/Participant_Information_Sheet.pdf, page 1>
 Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page1 used on input line 11.
@@ -898,10 +916,10 @@ File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
 <use ./images/Participant_Information_Sheet.pdf, page 1>
 Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page1 used on input line 11.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-[35
+[38
 
  <./images/Participant_Information_Sheet.pdf>]
-<./images/Participant_Information_Sheet.pdf, id=724, page=2, 597.4822pt x 845.1575pt>
+<./images/Participant_Information_Sheet.pdf, id=763, page=2, 597.4822pt x 845.1575pt>
 File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
 <use ./images/Participant_Information_Sheet.pdf, page 2>
 Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page2 used on input line 11.
@@ -916,10 +934,10 @@ File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
 <use ./images/Participant_Information_Sheet.pdf, page 2>
 Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page2 used on input line 11.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-[36
+[39
 
  <./images/Participant_Information_Sheet.pdf>]
-<./images/Participant_Information_Sheet.pdf, id=741, page=3, 597.4822pt x 845.1575pt>
+<./images/Participant_Information_Sheet.pdf, id=781, page=3, 597.4822pt x 845.1575pt>
 File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
 <use ./images/Participant_Information_Sheet.pdf, page 3>
 Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page3 used on input line 11.
@@ -934,15 +952,15 @@ File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
 <use ./images/Participant_Information_Sheet.pdf, page 3>
 Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page3 used on input line 11.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-[37
+[40
 
  <./images/Participant_Information_Sheet.pdf>]
-<./images/Consent_Form.pdf, id=747, 597.4822pt x 845.1575pt>
+<./images/Consent_Form.pdf, id=787, 597.4822pt x 845.1575pt>
 File: ./images/Consent_Form.pdf Graphic file (type pdf)
 <use ./images/Consent_Form.pdf>
 Package pdftex.def Info: ./images/Consent_Form.pdf  used on input line 14.
 (pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
-<./images/Consent_Form.pdf, id=749, page=1, 597.4822pt x 845.1575pt>
+<./images/Consent_Form.pdf, id=789, page=1, 597.4822pt x 845.1575pt>
 File: ./images/Consent_Form.pdf Graphic file (type pdf)
 <use ./images/Consent_Form.pdf, page 1>
 Package pdftex.def Info: ./images/Consent_Form.pdf , page1 used on input line 14.
@@ -953,7 +971,7 @@ Package pdftex.def Info: ./images/Consent_Form.pdf , page1 used on input line 14
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
 
 
-[38]
+[41]
 File: ./images/Consent_Form.pdf Graphic file (type pdf)
 <use ./images/Consent_Form.pdf, page 1>
 Package pdftex.def Info: ./images/Consent_Form.pdf , page1 used on input line 14.
@@ -968,33 +986,29 @@ File: ./images/Consent_Form.pdf Graphic file (type pdf)
 <use ./images/Consent_Form.pdf, page 1>
 Package pdftex.def Info: ./images/Consent_Form.pdf , page1 used on input line 14.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-[39
+[42
 
- <./images/Consent_Form.pdf>])
-
-[40
-
-] (./main.aux)
+ <./images/Consent_Form.pdf>]) (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2918C31D6755E61F6CB90BB5B2E63BE0;4095.
+(rerunfilecheck)             Checksum: 1B9CA5E0AA550AACB6B3DC4878707245;4090.
  ) 
 Here is how much of TeX's memory you used:
- 24234 strings out of 473190
- 459218 string characters out of 5704335
- 933504 words of memory out of 5000000
- 46928 multiletter control sequences out of 15000+600000
+ 24249 strings out of 473190
+ 459485 string characters out of 5704335
+ 938557 words of memory out of 5000000
+ 46929 multiletter control sequences out of 15000+600000
  565428 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,126p,2284b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on main.pdf (44 pages, 6281972 bytes).
+Output written on main.pdf (46 pages, 6286958 bytes).
 PDF statistics:
- 877 PDF objects out of 1000 (max. 8388607)
- 689 compressed objects within 7 object streams
- 148 named destinations out of 1000 (max. 500000)
+ 914 PDF objects out of 1000 (max. 8388607)
+ 723 compressed objects within 8 object streams
+ 162 named destinations out of 1000 (max. 500000)
  370 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,36 +1,22 @@
 
 \section{Specification \& Design}\label{process}
 
-Before beginning the process of gathering user requirements, an ethics form must be completed to ensure that the research follows ethical guidelines. To better understand user needs, a User Requirements survey was designed. In preparation, research was conducted through books on women’s experiences during perimenopause, including works by Kat Muir\cite{Muir2022} and Davina McCall\cite{McCall2022}, as well as reviewing research papers on health-tracking applications and a review of existing apps on the market to assess current solutions. Privacy emerged as a significant concern, with many apps engaging in surveillance capitalism and selling user data, often without informing the user or by misleading the user\cite{Gilman_2021}\cite{FTC2021}. Hackers are lured to health data such as that stored by symptom tracking apps because on the black market, a person's medical data sells for 50 times what credit card information sells for\cite{Rosato2020}. To ensure a user-centered approach, User Stories were developed to capture potential users’ needs and expectations. As the project developed, user requirements and stories were continually adjusted to best reflect the goal of this project. The Design Testing Stage incorporates the System Usability Scale (SUS) evaluations and A/B Testing through Microsoft forms. User interviews were also conducted to refine the design based on feedback. Recruitment for testing was also planned, stating the target audience for this study was women between the ages of 30 and 65.
+\subsection{User Requirements Survey Design}
 
-\begin{table}[h!!]
-  \caption{User Requirements Survey Results}
-  \resizebox{\textwidth}{!}{
-      \begin{tabular}{lll}
-      \hline
-      User Requirements Survey Results (n = 11)                                       &                        &      \\ \hline
-      What stage of menopause are you in?                                             & Premenopausal          & 9\%  \\
-                                                                                      & PeriMenopausal         & 55\% \\
-                                                                                      & Menopausal             & 0\%  \\
-                                                                                      & PostMenopausal         & 18\% \\
-                                                                                      & Other                  & 18\% \\
-      Do you experience any Period, Perimenopause, or Menopause symptoms?             & Yes                    & 82\% \\
-                                                                                      & No                     & 18\% \\
-      What peri-menopausal / menopausal symptoms do you currently experience, if any? & Hot Flashes            & 9\%  \\
-                                                                                      & Mood Swings            & 13\% \\
-                                                                                      & Irregular Periods      & 4\%  \\
-                                                                                      & Sleep Problems         & 13\% \\
-                                                                                      & Joint and Muscle Aches & 16\% \\
-                                                                                      & Vaginal Dryness        & 13\% \\
-                                                                                      & Night Sweats           & 6\%  \\
-                                                                                      & Have to pee often      & 9\%  \\
-                                                                                      & Other                  & 9\%  \\
-      How do you track your symptoms or periods?                                      & Smartwatch             & 18\% \\
-                                                                                      & Manually recorded      & 36\% \\
-                                                                                      & No tracking            & 18\% \\ \hline
-      \end{tabular}
-  }
-\end{table}
+\subsubsection{Ethics Form}
+Before beginning the process of gathering user requirements, an ethics form was drafted and completed to ensure that the research follows ethical guidelines. This Ethics form included a summary of all progress to date, included how participants were recruited, what information participants received about the study and what they were expected to do, and how user data was stored and processed. 
+
+\subsubsection{Recruitment}
+To recruit participants for the study, personal contacts in this demographic (women between the ages of 30 and 60) were invited and the supervisor for this project utilised professional and colleague email contacts and distribution lists to identify and invite women to participate. 
+
+\subsubsection{Survey Design}
+In preparation for building the product, participants were asked to complete a questionnaire via Microsoft Forms and so a User Requirements survey was designed. In preparation, research was conducted through books on women’s experiences during perimenopause, including works by Kat Muir\cite{Muir2022} and Davina McCall\cite{McCall2022}, as well as reviewing research papers on health-tracking applications and a review of existing apps on the market to assess current solutions. Privacy emerged as a significant concern, with many apps engaging in surveillance capitalism and selling user data, often without informing the user or by misleading the user\cite{Gilman_2021}\cite{FTC2021}. Hackers are lured to health data such as that stored by symptom tracking apps because on the black market, a person's medical data sells for 50 times what credit card information sells for\cite{Rosato2020}. This meant that the surveys myst include oppertunities for the uers to give their opinions on privacy and their priorities in a tracking app.
+
+The first page of all online surveys conducted during the study contained the consent form with text stated that by completing the survey, they were implying consent to take part in that phase. This User Requirements questionnaire contained questions regarding the users age, menopause stage, symptoms they experience, if they track their symptoms/periods, how, and the frequency of tracking. It also included questions to see if they share tracking data with their healthcare provider and if it was helpful. Along with tracking challenges, triggers, menopause medication or treatment. The final questions included open ended questions about tracking frustrations, helpful aspects of tracking, challenges in understanding/identifying patterns, reminder preferences, and insights/features a user might like to see in a tracking app. 
+
+\subsubsection{App feedback Survey Design} 
+User interviews were also conducted to refine the design based on feedback. 
+
 
 %% Susan:
 %% I'm not convinced that the background section is the right place 
@@ -40,7 +26,7 @@ Before beginning the process of gathering user requirements, an ethics form must
 %% to have evaluation and informed decision in one place.  
 %% 
 \subsection{Methodology}
-Following research on the different available software lifecycle approach softwares and methods available, Kanban boards were chosen as they are easy to maintain for one person, help with workflow, and have been proven to work in a student setting as mentioned prior. GitLab Issue boards were selected as the platform to host the Kanban as each issue card can be linked to branches within repositories to keep track of which tasks and changes are for which branches to improve organisation. Three labels: Code, Writing and research, and Critical, were also added to signify the type of task for each issue card. The Kanban board included four sections, one for each label and one for closed tasks. Gitlab would automatically sort each task into the relevent section based on its labels. The board was updated regularly to reflect the current status of each task, and tasks were moved from one section to another as they were completed. This resulted in tasks that were easy to prioritise, order, track, and complete on time. See Figure 1 for the Kanban board.
+Following research on the different available software lifecycle approach softwares and methods available, Kanban boards were chosen as they are easy to maintain for one person, help with workflow, and have been proven to work in a student setting as mentioned prior. GitLab Issue boards were selected as the platform to host the Kanban as each issue card can be linked to branches within repositories to keep track of which tasks and changes are for which branches to improve organisation. Three labels: Code, Writing and research, and Critical, were also added to signify the type of task for each issue card. The Kanban board included four sections, one for each label and one for closed tasks. Gitlab would automatically sort each task into the relevent section based on its labels. The board was updated regularly to reflect the current status of each task, and tasks were moved from one section to another as they were completed. This resulted in tasks that were easy to prioritise, order, track, and complete on time. See Figure \ref{figure:kanban-board} for the Kanban board.
 
 \begin{figure}[h!!]
   \begin{center}
@@ -50,7 +36,7 @@ Following research on the different available software lifecycle approach softwa
   \end{center}
 \end{figure}
 
-After around a month of progress, a network diagram was made to find the critical path in order to correctly prioritise work. Once a list of the main activities was made, the dependencies of each activity were identified and the time it would take to complete each activity was estimated. The critical path was then identified by finding the path through the network diagram with a float or leeway of zero. The critical path is the sequence of activities that must be completed on time for the project to be completed on schedule. The critical path is important because it helps to identify which activities are most important for the success of the project and which activities can be delayed without affecting the overall project timeline. See Figure 1 for the network diagram. The critical path activities are highlighted in red. From the network diagram, it was concluded that writing the report and obtaining feedback was the most important aspect of this project and should be prioritised over other tasks. The network diagram also helped to identify potential bottlenecks in the project timeline and allowed for better planning and scheduling of tasks.
+After around a month of progress, a network diagram was made to find the critical path in order to correctly prioritise work. Once a list of the main activities was made, the dependencies of each activity were identified and the time it would take to complete each activity was estimated. The critical path was then identified by finding the path through the network diagram with a float or leeway of zero. The critical path is the sequence of activities that must be completed on time for the project to be completed on schedule. The critical path is important because it helps to identify which activities are most important for the success of the project and which activities can be delayed without affecting the overall project timeline. See Figure \ref{figure:network-diagram} for the network diagram. The critical path activities are highlighted in red. From the network diagram, it was concluded that writing the report and obtaining feedback was the most important aspect of this project and should be prioritised over other tasks. The network diagram also helped to identify potential bottlenecks in the project timeline and allowed for better planning and scheduling of tasks.
 
 \begin{figure}[h!!]
   \begin{center}
@@ -105,7 +91,7 @@ This App's functional requirements were prioritized based on user needs and the 
 \subsection{Design}
 
 \subsubsection{Interface Design}
-At the beginning of the design process, low fidelity wireframes were created using Figma. See Figure 1.
+At the beginning of the design process, low fidelity wireframes were created using Figma (See Figure \ref{figure:figma-1}).
 
 \begin{figure}[h!!]
   \begin{center}
@@ -117,7 +103,7 @@ At the beginning of the design process, low fidelity wireframes were created usi
 
 The colour scheme was chosen to be relaxing and calming  through the use of blue and green tones. The app was designed to be user-friendly and intuitive, with a focus on simplicity and ease of use. The design was also created with the goal of making it easy for users to navigate the app and find the information they need, as well as be responsive and work well on different screen sizes, including tablets and smaller phones.  
 
-The design was then fleshed out into a more detailed figma design. See Figure 2.
+The design was then fleshed out into a more detailed figma design. See Figure \ref{figure:figma-2}.
 
 \begin{figure}[h!!]
   \begin{center}
@@ -127,7 +113,7 @@ The design was then fleshed out into a more detailed figma design. See Figure 2.
   \end{center}
 \end{figure}
 
-The design was created with a focus on simplicity and ease of use. The app was designed to be user-friendly and intuitive, with a clean and simple design. The final color scheme was chosen to be calming and easy on the eyes, with a focus on blues and greens. Feedback from user evaluations was incorporated into the design to ensure that it met the needs of the target audience. Some user feedback that was implemented includes adding days of the week to the mini calendar in the home page, making the track button in the nav bar larger and a different color to make it more visible, ability to refresh the home page, and ability to track by clicking a day in the calendar. 
+The final design as seen in figure\ref{figure:app} was created with a focus on simplicity and ease of use. The app was designed to be user-friendly and intuitive, with a clean and simple design. The final color scheme was chosen to be calming and easy on the eyes, with a focus on blues and greens. Feedback from user evaluations was incorporated into the design to ensure that it met the needs of the target audience. Some user feedback that was implemented includes adding days of the week to the mini calendar in the home page, making the track button in the nav bar larger and a different color to make it more visible, ability to refresh the home page, and ability to track by clicking a day in the calendar. 
 
 \begin{figure}[h!!]
   \begin{center}
@@ -138,7 +124,7 @@ The design was created with a focus on simplicity and ease of use. The app was d
 \end{figure}
 
 
-The app was then compared to the EU WAG 2.1 accessibility standards and adjusted to be accessible to all users, with large text and color contrast options in the settings. Figre 4 shows the app in dark mode with high contrast and large text mode enabled.
+The app was then compared to the EU WAG 2.1 accessibility standards and adjusted to be accessible to all users, with large text and color contrast options in the settings. Figure \ref{figure:app-Accessible} shows the app in dark mode with high contrast and large text mode enabled.
  
 \begin{figure}[h!!]
   \begin{center}
@@ -149,7 +135,7 @@ The app was then compared to the EU WAG 2.1 accessibility standards and adjusted
 \end{figure}
 
 \subsubsection{System Design}
-In the interest of protecting user privacy, there is no database and all data is stored on the user's local device. The data that is saved in AsyncStorage on their device is formatted as featured in the table below.
+In the interest of protecting user privacy, there is no database and all data is stored on the user's local device. The data that is saved in AsyncStorage on their device is formatted as featured in table\ref{table:user-data}.
 
 \begin{table}[h!!]
     \caption{Structure of User Data Stored in AsyncStorage}
