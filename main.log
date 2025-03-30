@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  31 MAR 2025 00:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  31 MAR 2025 00:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -632,7 +632,7 @@ l.91 \clearpage
 
 [4]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 43.
+(Font)              <5> on input line 40.
 
 
 [5])
@@ -750,7 +750,7 @@ Package pdftex.def Info: ./images/NetworkDiagram.drawio.png  used on input line 
 <./images/react-native.png, id=566, 1147.28625pt x 738.76pt>
 File: ./images/react-native.png Graphic file (type png)
 <use ./images/react-native.png>
-Package pdftex.def Info: ./images/react-native.png  used on input line 20.
+Package pdftex.def Info: ./images/react-native.png  used on input line 18.
 (pdftex.def)             Requested size: 229.45319pt x 147.74937pt.
 
 
@@ -760,7 +760,7 @@ Package pdftex.def Info: ./images/react-native.png  used on input line 20.
 <./images/analysis.png, id=584, 415.5525pt x 372.39125pt>
 File: ./images/analysis.png Graphic file (type png)
 <use ./images/analysis.png>
-Package pdftex.def Info: ./images/analysis.png  used on input line 42.
+Package pdftex.def Info: ./images/analysis.png  used on input line 40.
 (pdftex.def)             Requested size: 124.6667pt x 111.71823pt.
 
 
@@ -768,7 +768,7 @@ Package pdftex.def Info: ./images/analysis.png  used on input line 42.
 <./images/file-system-diagram.png, id=595, 852.18375pt x 553.06625pt>
 File: ./images/file-system-diagram.png Graphic file (type png)
 <use ./images/file-system-diagram.png>
-Package pdftex.def Info: ./images/file-system-diagram.png  used on input line 56.
+Package pdftex.def Info: ./images/file-system-diagram.png  used on input line 54.
 (pdftex.def)             Requested size: 255.65709pt x 165.92114pt.
 
 
@@ -776,7 +776,7 @@ Package pdftex.def Info: ./images/file-system-diagram.png  used on input line 56
 <./images/jest.png, id=604, 1188.44pt x 464.73625pt>
 File: ./images/jest.png Graphic file (type png)
 <use ./images/jest.png>
-Package pdftex.def Info: ./images/jest.png  used on input line 76.
+Package pdftex.def Info: ./images/jest.png  used on input line 74.
 (pdftex.def)             Requested size: 356.53476pt x 139.42194pt.
 )
 
@@ -1069,7 +1069,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,18n,126p,2284b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on main.pdf (56 pages, 7013249 bytes).
+Output written on main.pdf (56 pages, 7013223 bytes).
 PDF statistics:
  1018 PDF objects out of 1200 (max. 8388607)
  808 compressed objects within 9 object streams

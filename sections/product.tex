@@ -2,8 +2,6 @@
 
 \subsection{Implementation}
 
-%% Susan: 
-%% Rephrase: The change to another solution -- from what to what? This phrasing is confusing.
 \subsubsection{Prototyping}
 During the design and initial development phase, a prototype was first made using React and js with an npm node.js server as a web app. This was extremely sucsessfull and the first round of user testing was conducted with this React and node.js web version of the app. However, a change from this React prototype to a different solution was much needed. Since React is a web based framework AsyncStorage is not available, meaning localstorage or a database must be used. Both these options come with many privacy and security concerns that don't align with the functional requirements of this project.
 
@@ -79,4 +77,4 @@ Using Expo, the app was trialed and tested on mobile devices and emulators to en
     \end{center}
   \end{figure}
   
-Jest (A JavaScript Testing Framework that works with React Native and Expo) was also used to make unit tests to validate whether components render and if they render correctly. The use of Jest was made even easier as Jest comes pre setup with a react native expo project so minimal setup is required and there is copious documentation for reference while developing (See Figure \ref{figure:jest} for Jest setup details). Jest tests were written in the components/tests/ directory in typescript to ensure strong type checking while validating the app. A common test is to be able to render a component and check if it is the correct component. This is done by using the toBeTruthy() method to check if the component is rendered correctly. The tests were run using the command line and the results were checked to ensure that all tests passed.
+Jest (A JavaScript Testing Framework that works with React Native and Expo) was also used to make unit tests to validate whether components render and if they render correctly. The use of Jest was made even easier as Jest comes pre setup with a react native expo project so minimal setup is required and there is copious documentation for reference while developing (See Figure \ref{figure:jest} for Jest setup details). Jest tests were written in the components/tests/ directory in typescript to ensure strong type checking while validating the app. A common test is to be able to render a component and check if it is the correct component. This is done by using the toBeTruthy() method to check if the component is rendered correctly. The tests were run using the command line and the results were checked to ensure that all tests passed. Each component is tested to see if it renders on the screen correctly, if it renders correctly with specified large text or high contrast settings on, and if it renders correctly with the correct props passed to it. 
