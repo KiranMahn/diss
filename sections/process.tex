@@ -1,32 +1,10 @@
 
 \section{Specification \& Design}\label{process}
 
-\subsection{User Requirements Survey Design}
-
-\subsubsection{Ethics Form}
-Before beginning the process of gathering user requirements, an ethics form was drafted and completed to ensure that the research follows ethical guidelines. This Ethics form included a summary of all progress to date, included how participants were recruited, what information participants received about the study and what they were expected to do, and how user data was stored and processed. 
-
-\subsubsection{Recruitment}
-To recruit participants for the study, personal contacts in this demographic (women between the ages of 30 and 60) were invited and the supervisor for this project utilised professional and colleague email contacts and distribution lists to identify and invite women to participate. 
-
-\subsubsection{Survey Design}
-In preparation for building the product, participants were asked to complete a questionnaire via Microsoft Forms and so a User Requirements survey was designed. In preparation, research was conducted through books on women’s experiences during perimenopause, including works by Kat Muir\cite{Muir2022} and Davina McCall\cite{McCall2022}, as well as reviewing research papers on health-tracking applications and a review of existing apps on the market to assess current solutions. Privacy emerged as a significant concern, with many apps engaging in surveillance capitalism and selling user data, often without informing the user or by misleading the user\cite{Gilman_2021}\cite{FTC2021}. Hackers are lured to health data such as that stored by symptom tracking apps because on the black market, a person's medical data sells for 50 times what credit card information sells for\cite{Rosato2020}. This meant that the surveys myst include oppertunities for the uers to give their opinions on privacy and their priorities in a tracking app.
-
-The first page of all online surveys conducted during the study contained the consent form with text stated that by completing the survey, they were implying consent to take part in that phase. This User Requirements questionnaire contained questions regarding the users age, menopause stage, symptoms they experience, if they track their symptoms/periods, how, and the frequency of tracking. It also included questions to see if they share tracking data with their healthcare provider and if it was helpful. Along with tracking challenges, triggers, menopause medication or treatment. The final questions included open ended questions about tracking frustrations, helpful aspects of tracking, challenges in understanding/identifying patterns, reminder preferences, and insights/features a user might like to see in a tracking app. 
-
-\subsubsection{App feedback Survey Design} 
-User interviews were also conducted to refine the design based on feedback. 
-
-
-%% Susan:
-%% I'm not convinced that the background section is the right place 
-%% to evaluate whether to use Kanban or Scrum.  
-%% Unless you've already been given explicit feedback to include it there, 
-%% I would consider moving your evalution to this section instead, 
-%% to have evaluation and informed decision in one place.  
-%% 
 \subsection{Methodology}
-Following research on the different available software lifecycle approach softwares and methods available, Kanban boards were chosen as they are easy to maintain for one person, help with workflow, and have been proven to work in a student setting as mentioned prior. GitLab Issue boards were selected as the platform to host the Kanban as each issue card can be linked to branches within repositories to keep track of which tasks and changes are for which branches to improve organisation. Three labels: Code, Writing and research, and Critical, were also added to signify the type of task for each issue card. The Kanban board included four sections, one for each label and one for closed tasks. Gitlab would automatically sort each task into the relevent section based on its labels. The board was updated regularly to reflect the current status of each task, and tasks were moved from one section to another as they were completed. This resulted in tasks that were easy to prioritise, order, track, and complete on time. See Figure \ref{figure:kanban-board} for the Kanban board.
+In order to decide what software development framework to use when developing this app, two common Agile frameworks were considered: Scrum and Kanban. When comparing Scrum to Kanban methods, Kanban is found to often be better in terms of managing project schedules\cite{Lei2017}. It also has the following benefits: increased visibility, improved workflow, and faster time to market\cite{Ahmad2018}. Kanban boards and cards are easier to manage for a solo project compared to organising sprints, backlogs, and checkpoints for a Scrum system. Scrum also works better in teams of 3-9, not solo projects\cite{Mundra2013Practical}. Kanban has even been shown to help student manage their workload and get assignments in on time\cite{Sheng2021Kanban}. Ultimately, Kanban was chosen as the best software development framework for this project for keeping the project on schedule, workload, increasing organisation, workflow, are easy to maintain for one person, and have been proven to work in a student setting.
+
+GitLab Issue boards were selected as the platform to host the Kanban as each issue card can be linked to branches within repositories to keep track of which tasks and changes are for which branches to improve organisation. Three labels: Code, Writing and research, and Critical, were also added to signify the type of task for each issue card. The Kanban board included four sections, one for each label and one for closed tasks. Gitlab would automatically sort each task into the relevent section based on its labels. The board was updated regularly to reflect the current status of each task, and tasks were moved from one section to another as they were completed. This resulted in tasks that were easy to prioritise, order, track, and complete on time. See Figure \ref{figure:kanban-board} for the Kanban board.
 
 \begin{figure}[h!!]
   \begin{center}
@@ -36,15 +14,30 @@ Following research on the different available software lifecycle approach softwa
   \end{center}
 \end{figure}
 
-After around a month of progress, a network diagram was made to find the critical path in order to correctly prioritise work. Once a list of the main activities was made, the dependencies of each activity were identified and the time it would take to complete each activity was estimated. The critical path was then identified by finding the path through the network diagram with a float or leeway of zero. The critical path is the sequence of activities that must be completed on time for the project to be completed on schedule. The critical path is important because it helps to identify which activities are most important for the success of the project and which activities can be delayed without affecting the overall project timeline. See Figure \ref{figure:network-diagram} for the network diagram. The critical path activities are highlighted in red. From the network diagram, it was concluded that writing the report and obtaining feedback was the most important aspect of this project and should be prioritised over other tasks. The network diagram also helped to identify potential bottlenecks in the project timeline and allowed for better planning and scheduling of tasks.
 
-\begin{figure}[h!!]
-  \begin{center}
-    \includegraphics[scale=0.2]{NetworkDiagram.drawio.png}
-    \caption{Network Diagram showing critical path.}
-    \label{figure:network-diagram}
-  \end{center}
-\end{figure}
+\subsection{Survey Specification and Design}
+
+\subsubsection{Ethics Form}
+Before beginning the process of gathering user requirements, an ethics form was drafted and completed to ensure that the research follows ethical guidelines. This Ethics form included a summary of all progress to date, included how participants were recruited, what information participants received about the study and what they were expected to do, and how user data was stored and processed. 
+
+\subsubsection{Recruitment}
+To recruit participants for the study, personal contacts in this demographic (women between the ages of 30 and 60) were invited and the supervisor for this project utilised professional and colleague email contacts and distribution lists to identify and invite women to participate. 
+
+\subsubsection{Survey Design}
+In preparation for building the product, the design and app testing stages were designed. Each testing stage involved participants completing a questionnaire via Microsoft Forms for User Requirements and app testing. 
+
+In preparation, research was conducted through books on women’s experiences during perimenopause, including works by Kat Muir\cite{Muir2022} and Davina McCall\cite{McCall2022}, as well as reviewing research papers on health-tracking applications and a review of existing apps on the market to assess current solutions. Privacy emerged as a significant concern, with many apps engaging in surveillance capitalism and selling user data, often without informing the user or by misleading the user\cite{Gilman_2021}\cite{FTC2021}. Hackers are lured to health data such as that stored by symptom tracking apps because on the black market, a person's medical data sells for 50 times what credit card information sells for\cite{Rosato2020}. This meant that the surveys must include oppertunities for the uers to give their opinions on privacy and their priorities in a tracking app.
+
+The first page of all online surveys conducted during the study contained the consent form with text stated that by completing the survey, they were implying consent to take part in that phase. 
+
+The User Requirements questionnaire contained questions regarding the users age, menopause stage, symptoms they experience, if they track their symptoms/periods, how, and the frequency of tracking. It also included questions to see if they share tracking data with their healthcare provider and if it was helpful. Along with tracking challenges, triggers, menopause medication or treatment. The final questions included open ended questions about tracking frustrations, helpful aspects of tracking, challenges in understanding/identifying patterns, reminder preferences, and insights/features a user might like to see in a tracking app. 
+
+\subsubsection{App feedback Survey Design} 
+
+The app testing surveys were designed to gather feedback on the app's usability and user experience using a System Usability Scale (SUS) along with additional free response questions. The SUS is a widely used tool for measuring the usability of a product or system, and it consists of 10 questions that assess various aspects of the user experience. The SUS scores range from 0 to 100. The score number represents the percentile the app lands in with higher scores indicating better usability. The survey also included questions about the app's design, ease of use, and overall satisfaction. Participants were asked to provide open-ended feedback on what they liked and disliked about the app. The survey also included questions about the participants' demographics, such as age and experience with perimenopause, to better understand the target audience.
+
+The app testing process was divided into 3 stages: prototype evaluation, and final app evaluation with Group A, and final app evaluation with Group B. The prototype evaluation was conducted using a web app version of the app, which was designed to be similar to the final app but with fewer features and a simpler design. The final app evaluation was conducted in an A/B testing format. Participants were divided into two eequal sized groups, Group A and Group B. Group A
+reviewed the React Native version of the app, which included all the features and design elements of the final product then provided their feedback. Group B would then evaluation an updated version of the Native App that implemented the feedback from Group A. The goal of this evaluation was to see if the changes made had a positive impact on the usability of the app. Both group A and B provided valuable feedback on the app's usability and user experience, as well as to identified areas for improvement. The Microsoft Form used for evaluation was the same for both the web and Native app for Group A and Group B. 
  
 \subsection{Analysis}
 Given many peri-menopausal women are not receiving support from the government education system or their doctors\cite{Aljumah2023}\cite{MenopauseSupport2021}\cite{UCL2023}, additional resources and tools must be provided to help them navigate this stage of life. With the rise of technology, several tools are now available to allow women to track their peri-menopausal symptoms. However, these tools are often not user-friendly, do not provide enough educational information, or are not privacy-focused. The issue around privacy is especially concerning as many apps are selling user data to third parties without user knowledge and consent, and in today's political climate this can result in the incarceration of the user in some parts of the US\cite{Kelly2023}. Since there are no apps that provide a comprehensive solution to these problems, the goal of this project is to create a user-friendly, educational, and privacy-focused peri-menopausal symptom tracking app.
@@ -87,6 +80,8 @@ This App's functional requirements were prioritized based on user needs and the 
   \item The app must be designed with easy language switching to support multiple languages in the future.
   \item The app should maintain consistent navigation and UI patterns across all features to reduce confusion.
 \end{itemize}
+
+As the project developed, user requirements were designed to be continually adjusted to best reflect the goal of this project.
 
 \subsection{Design}
 
@@ -154,3 +149,16 @@ In the interest of protecting user privacy, there is no database and all data is
                   &        & Symptom2 & Severity \\ \hline
   \end{tabular}
 \end{table}
+
+
+\subsection{Mid Project Organisation}
+
+After around a month of progress, a network diagram was made to find the critical path in order to correctly prioritise work. Once a list of the main activities was made, the dependencies of each activity were identified and the time it would take to complete each activity was estimated. The critical path was then identified by finding the path through the network diagram with a float or leeway of zero. The critical path is the sequence of activities that must be completed on time for the project to be completed on schedule. The critical path is important because it helps to identify which activities are most important for the success of the project and which activities can be delayed without affecting the overall project timeline. See Figure \ref{figure:network-diagram} for the network diagram. The critical path activities are highlighted in red. From the network diagram, it was concluded that writing the report and obtaining feedback was the most important aspect of this project and should be prioritised over other tasks. The network diagram also helped to identify potential bottlenecks in the project timeline and allowed for better planning and scheduling of tasks.
+
+\begin{figure}[h!!]
+  \begin{center}
+    \includegraphics[scale=0.2]{NetworkDiagram.drawio.png}
+    \caption{Network Diagram showing critical path.}
+    \label{figure:network-diagram}
+  \end{center}
+\end{figure}

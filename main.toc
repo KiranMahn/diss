@@ -6,51 +6,52 @@
 \contentsline {subsection}{\numberline {2.3}Symptom Tracking Apps and Technology}{3}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Project Direction}{6}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Specification \& Design}{7}{section.3}%
-\contentsline {subsection}{\numberline {3.1}User Requirements Survey Design}{7}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Ethics Form}{7}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Recruitment}{7}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}Survey Design}{7}{subsubsection.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.1.4}App feedback Survey Design}{8}{subsubsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.2}Methodology}{8}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Analysis}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.1}Methodology}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Survey Specification and Design}{7}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Ethics Form}{7}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Recruitment}{8}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Survey Design}{8}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}App feedback Survey Design}{9}{subsubsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.3}Analysis}{10}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Requirements}{10}{subsection.3.4}%
 \contentsline {subsubsection}{\numberline {3.4.1}Functional Requirements}{10}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Non-Functional Requirements}{11}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.2}Non-Functional Requirements}{12}{subsubsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.5}Design}{12}{subsection.3.5}%
 \contentsline {subsubsection}{\numberline {3.5.1}Interface Design}{12}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}System Design}{13}{subsubsection.3.5.2}%
-\contentsline {section}{\numberline {4}Product}{17}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Implementation}{17}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Prototyping}{17}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Expo \& React Native}{17}{subsubsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.3}The new React Native}{18}{subsubsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.4}React Navigation}{18}{subsubsection.4.1.4}%
-\contentsline {subsubsection}{\numberline {4.1.5}Widgets}{19}{subsubsection.4.1.5}%
-\contentsline {subsubsection}{\numberline {4.1.6}Chart Kit}{19}{subsubsection.4.1.6}%
-\contentsline {subsubsection}{\numberline {4.1.7}Data Analysis}{20}{subsubsection.4.1.7}%
-\contentsline {subsubsection}{\numberline {4.1.8}Settings Context}{20}{subsubsection.4.1.8}%
-\contentsline {subsubsection}{\numberline {4.1.9}Expo FileSystem}{21}{subsubsection.4.1.9}%
-\contentsline {subsection}{\numberline {4.2}Verification \& Validation}{21}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Testing with Jest}{22}{subsubsection.4.2.1}%
-\contentsline {section}{\numberline {5}Results \& Evaluation}{23}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Evaluation Process}{23}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}User Requirements Results}{23}{subsubsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}Round 1: Web App Evaluation}{23}{subsubsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.3}Round 2: React Native Evaluation with Group A}{24}{subsubsection.5.1.3}%
-\contentsline {subsubsection}{\numberline {5.1.4}Round 3: React Native Evaluation with Group B}{24}{subsubsection.5.1.4}%
-\contentsline {subsection}{\numberline {5.2}Results of Evaluation}{24}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.2}System Design}{15}{subsubsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.6}Mid Project Organisation}{15}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Product}{18}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Implementation}{18}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Prototyping}{18}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Expo \& React Native}{18}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}The new React Native}{19}{subsubsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.4}React Navigation}{19}{subsubsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.5}Widgets}{20}{subsubsection.4.1.5}%
+\contentsline {subsubsection}{\numberline {4.1.6}Chart Kit}{20}{subsubsection.4.1.6}%
+\contentsline {subsubsection}{\numberline {4.1.7}Data Analysis}{21}{subsubsection.4.1.7}%
+\contentsline {subsubsection}{\numberline {4.1.8}Settings Context}{21}{subsubsection.4.1.8}%
+\contentsline {subsubsection}{\numberline {4.1.9}Expo FileSystem}{22}{subsubsection.4.1.9}%
+\contentsline {subsection}{\numberline {4.2}Verification \& Validation}{22}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Testing with Jest}{23}{subsubsection.4.2.1}%
+\contentsline {section}{\numberline {5}Results \& Evaluation}{24}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Evaluation Process}{24}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}User Requirements Results}{24}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Round 1: Web App Evaluation}{24}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}Round 2: React Native Evaluation with Group A}{25}{subsubsection.5.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.4}Round 3: React Native Evaluation with Group B}{25}{subsubsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.2}Results of Evaluation}{25}{subsection.5.2}%
 \contentsline {subsubsection}{\numberline {5.2.1}User Requirements Results}{25}{subsubsection.5.2.1}%
 \contentsline {subsubsection}{\numberline {5.2.2}Round 1: Web App Evaluation}{25}{subsubsection.5.2.2}%
-\contentsline {subsubsection}{\numberline {5.2.3}Round 2: React Native Evaluation with Group A}{25}{subsubsection.5.2.3}%
-\contentsline {subsubsection}{\numberline {5.2.4}Round 3: React Native Evaluation with Group B}{25}{subsubsection.5.2.4}%
-\contentsline {section}{\numberline {6}Discussion \& Reflection}{26}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Interpreting the Results}{26}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Reflection}{26}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Challenges}{26}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Limitations}{26}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Future Work}{27}{subsection.6.5}%
-\contentsline {section}{\numberline {7}Conclusion}{28}{section.7}%
-\contentsline {section}{\numberline {A}Appendix}{32}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Ethical Approval Form}{32}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Participant Information Sheet }{37}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}Consent Form }{41}{subsection.A.3}%
+\contentsline {subsubsection}{\numberline {5.2.3}Round 2: React Native Evaluation with Group A}{26}{subsubsection.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.4}Round 3: React Native Evaluation with Group B}{26}{subsubsection.5.2.4}%
+\contentsline {section}{\numberline {6}Discussion \& Reflection}{27}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Interpreting the Results}{27}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Reflection}{27}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Challenges}{27}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Limitations}{27}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Future Work}{28}{subsection.6.5}%
+\contentsline {section}{\numberline {7}Conclusion}{29}{section.7}%
+\contentsline {section}{\numberline {A}Appendix}{33}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Ethical Approval Form}{33}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Participant Information Sheet }{38}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Consent Form }{42}{subsection.A.3}%

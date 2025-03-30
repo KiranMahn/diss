@@ -325,10 +325,6 @@ INPUT ./images/Kanban.png
 INPUT ./images/Kanban.png
 INPUT ./images/Kanban.png
 INPUT ./images/Kanban.png
-INPUT ./images/NetworkDiagram.drawio.png
-INPUT ./images/NetworkDiagram.drawio.png
-INPUT ./images/NetworkDiagram.drawio.png
-INPUT ./images/NetworkDiagram.drawio.png
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/jknappen/ec/tcss1095.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT ./images/Figma-1.png
@@ -347,6 +343,10 @@ INPUT ./images/app-Accessible.pdf
 INPUT ./images/app-Accessible.pdf
 INPUT ./images/app-Accessible.pdf
 INPUT ./images/app-Accessible.pdf
+INPUT ./images/NetworkDiagram.drawio.png
+INPUT ./images/NetworkDiagram.drawio.png
+INPUT ./images/NetworkDiagram.drawio.png
+INPUT ./images/NetworkDiagram.drawio.png
 INPUT ./sections/product.tex
 INPUT ./sections/product.tex
 INPUT ./sections/product.tex
