@@ -3,7 +3,6 @@
 \bibitem{PMC4834516}
 Article from pubmed central (pmc).
 \newblock {\em PubMed Central}, Accessed: 2025-03-29.
-\newblock Accessed: 2025-03-29.
 
 \bibitem{AbilityNet2024}
 {AbilityNet}.
@@ -108,11 +107,6 @@ D.~Gaytri.
 \bibitem{Gilman2021}
 M.~E. Gilman.
 \newblock Periods for profit and the rise of menstrual surveillance.
-\newblock {\em Columbia Journal of Gender and Law}, 41:100, 2021.
-
-\bibitem{Gilman_2021}
-M.~E. Gilman.
-\newblock Periods for profit and the rise of menstrual surveillance.
 \newblock {\em Columbia Journal of Gender and Law}, 41(1):100–13, Nov. 2021.
 
 \bibitem{Guthrie2003}
@@ -125,10 +119,20 @@ S.~Harlow.
 \newblock Menstruation and the menopausal transition.
 \newblock {\em Obstetrics and Gynecology Clinics of North America}, pages 595--607, 2011.
 
+\bibitem{JSON2025}
+{JSON.org}.
+\newblock Introducing json (javascript object notation), Accessed: 2025-03-30.
+\newblock Accessed: 2025-03-30.
+
 \bibitem{Kelly2023}
 B.~G. Kelly and M.~Habib.
 \newblock Missed period? the significance of period-tracking applications in a post-roe america.
 \newblock {\em Sexual and Reproductive Health Matters}, 31(4):2238940, December 2023.
+
+\bibitem{KellyDonel2023}
+D.~S. Kelly, S.~Sabharwal, D.~J. Ramsey, and M.~I. Morkin.
+\newblock The effects of female sex hormones on the human cornea across a woman’s life cycle.
+\newblock {\em BMC Ophthalmology}, 23(358), August 2023.
 
 \bibitem{LSCFT2024}
 {Lancashire and South Cumbria NHS Foundation Trust}.
