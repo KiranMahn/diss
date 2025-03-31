@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  31 MAR 2025 13:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  31 MAR 2025 13:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2150,7 +2150,542 @@ Package pdftex.def Info: ./images/Perry.pdf , page8 used on input line 23.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [109
 
- <./images/Perry.pdf>]) (./main.aux)
+ <./images/Perry.pdf>]
+<./images/OtherMARSEvals.pdf, id=1552, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf  used on input line 24.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<./images/OtherMARSEvals.pdf, id=1554, page=1, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 1>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page1 used on input line 24.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 1>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page1 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 1>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page1 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 1>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page1 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 1>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page1 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[110
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1563, page=2, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 2>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page2 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 2>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page2 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 2>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page2 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[111
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1570, page=3, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 3>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page3 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 3>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page3 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 3>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page3 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[112
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1576, page=4, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 4>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page4 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 4>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page4 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 4>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page4 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[113
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1583, page=5, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 5>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page5 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 5>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page5 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 5>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page5 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[114
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1589, page=6, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 6>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page6 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 6>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page6 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 6>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page6 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[115
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1595, page=7, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 7>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page7 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 7>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page7 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 7>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page7 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[116
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1601, page=8, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 8>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page8 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 8>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page8 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 8>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page8 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[117
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1608, page=9, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 9>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page9 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 9>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page9 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 9>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page9 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[118
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1614, page=10, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 10>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page10 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 10>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page10 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 10>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page10 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[119
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1620, page=11, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 11>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page11 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 11>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page11 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 11>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page11 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[120
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1626, page=12, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 12>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page12 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 12>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page12 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 12>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page12 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[121
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1632, page=13, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 13>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page13 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 13>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page13 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 13>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page13 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[122
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1638, page=14, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 14>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page14 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 14>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page14 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 14>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page14 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[123
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1645, page=15, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 15>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page15 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 15>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page15 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 15>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page15 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[124
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1651, page=16, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 16>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page16 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 16>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page16 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 16>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page16 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[125
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1657, page=17, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 17>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page17 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 17>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page17 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 17>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page17 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[126
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1663, page=18, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 18>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page18 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 18>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page18 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 18>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page18 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[127
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1669, page=19, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 19>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page19 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 19>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page19 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 19>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page19 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[128
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1675, page=20, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 20>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page20 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 20>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page20 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 20>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page20 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[129
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1682, page=21, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 21>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page21 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 21>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page21 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 21>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page21 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[130
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1688, page=22, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 22>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page22 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 22>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page22 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 22>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page22 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[131
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1694, page=23, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 23>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page23 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 23>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page23 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 23>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page23 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[132
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1700, page=24, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 24>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page24 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 24>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page24 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 24>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page24 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[133
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1706, page=25, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 25>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page25 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 25>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page25 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 25>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page25 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[134
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1712, page=26, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 26>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page26 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 26>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page26 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 26>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page26 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[135
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1719, page=27, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 27>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page27 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 27>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page27 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 27>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page27 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[136
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1725, page=28, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 28>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page28 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 28>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page28 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 28>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page28 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[137
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1731, page=29, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 29>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page29 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 29>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page29 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 29>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page29 used on input line 24.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[138
+
+ <./images/OtherMARSEvals.pdf>]) (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -2159,18 +2694,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B70FE5AB2D9CE41F89D6C0FD20358517;4230.
  ) 
 Here is how much of TeX's memory you used:
- 24634 strings out of 473190
- 469716 string characters out of 5704335
+ 24763 strings out of 473190
+ 474304 string characters out of 5704335
  939286 words of memory out of 5000000
- 47230 multiletter control sequences out of 15000+600000
+ 47330 multiletter control sequences out of 15000+600000
  565428 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,126p,2284b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on main.pdf (113 pages, 8149817 bytes).
+Output written on main.pdf (142 pages, 22614104 bytes).
 PDF statistics:
- 1647 PDF objects out of 1728 (max. 8388607)
- 1123 compressed objects within 12 object streams
- 246 named destinations out of 1000 (max. 500000)
- 727 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1838 PDF objects out of 2073 (max. 8388607)
+ 1223 compressed objects within 13 object streams
+ 275 named destinations out of 1000 (max. 500000)
+ 882 words of extra memory for PDF output out of 10000 (max. 10000000)
 
