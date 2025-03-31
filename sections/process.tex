@@ -26,12 +26,18 @@ To recruit participants for the study, personal contacts in this demographic (wo
 \subsubsection{Survey Design}
 In preparation for building the product, the design and app testing stages were designed. Each testing stage involved participants completing a questionnaire via Microsoft Forms for User Requirements and app testing. 
 
+%% Susan: 
+%% oppertunities for the uers > opportunities for the users
 In preparation, research was conducted through books on women’s experiences during perimenopause, including works by Kat Muir\cite{Muir2022} and Davina McCall\cite{McCall2022}, as well as reviewing research papers on health-tracking applications and a review of existing apps on the market to assess current solutions. Privacy emerged as a significant concern, with many apps engaging in surveillance capitalism and selling user data, often without informing the user or by misleading the user\cite{Gilman2021}\cite{FTC2021}. Hackers are lured to health data such as that stored by symptom tracking apps because on the black market, a person's medical data sells for 50 times what credit card information sells for\cite{Rosato2020}. This meant that the surveys must include oppertunities for the uers to give their opinions on privacy and their priorities in a tracking app.
 
+%% Susan: 
+%% with text stated that > with text that stated that
 The first page of all online surveys conducted during the study contained the consent form with text stated that by completing the survey, they were implying consent to take part in that phase. 
 
 \subsubsection{User Requirements Survey Design} 
 
+%% Susan: 
+%% Along with tracking > There were additional questions tracking 
 The User Requirements questionnaire contained questions regarding the users age, menopause stage, symptoms they experience, if they track their symptoms/periods, how, and the frequency of tracking. It also included questions to see if they share tracking data with their healthcare provider and if it was helpful. Along with tracking challenges, triggers, menopause medication or treatment. The final questions included open ended questions about tracking frustrations, helpful aspects of tracking, challenges in understanding/identifying patterns, reminder preferences, and insights/features a user might like to see in a tracking app. 
 
 \subsubsection{App feedback Survey Design} 
@@ -65,11 +71,24 @@ Both groups used the app for 2-5 minutes either by downloading and starting the 
 
 Group A got to trial the app with the initial design and features. They were asked to provide feedback on the app's usability and user experience using the SUS survey. The feedback from Group A was used to make improvements to the app before it was released to Group B. Group B then tried the app with the new design and features. They were also asked to provide feedback on the app's usability and user experience using the SUS survey. The feedback from Group B was used to make final improvements. The goal of this evaluation was to see if the changes made had a positive impact on the usability of the app. Both group A and B provided valuable feedback on the app's usability and user experience, as well as to identified areas for improvement. The Microsoft Form used for evaluation was the same for both the web and Native app for Group A and Group B. 
  
+%% Susan: 
+%% Suggest you drop this section.
+%% Move ref to incarceration to Background:Project Direction
+%% Move last sentence from "the goal of this project" onwards 
+%% to be the first sentence under Functional Requirements, 
+%% as a reminder of overall goal before launching into the details of the requirements.
 \subsection{Analysis}
 Given many peri-menopausal women are not receiving support from the government education system or their doctors\cite{Aljumah2023}\cite{MenopauseSupport2021}\cite{UCL2023}, additional resources and tools must be provided to help them navigate this stage of life. With the rise of technology, several tools are now available to allow women to track their peri-menopausal symptoms. However, these tools are often not user-friendly, do not provide enough educational information, or are not privacy-focused. The issue around privacy is especially concerning as many apps are selling user data to third parties without user knowledge and consent, and in today's political climate this can result in the incarceration of the user in some parts of the US\cite{Kelly2023}. Since there are no apps that provide a comprehensive solution to these problems, the goal of this project is to create a user-friendly, educational, and privacy-focused peri-menopausal symptom tracking app.
 
 \subsection{Requirements}
 
+%% Susan: 
+%% Identify the sources of your requirements: 
+%% The following functional requirements were identified...
+%% from the evaluation of existing apps and from the results of the User Requirements Survey.
+%% 
+%% (then cite appropriate sections in the Appendix as sources from which these requirements were derived)
+%% 
 \subsubsection{Functional Requirements}
 This App's functional requirements were prioritized based on user needs and the project goal. Essential functional requirements impacting usability such as being able to navigate to a screen were prioritised over design and content details. The following functional requirements were identified:
 
@@ -156,6 +175,8 @@ The colour scheme was chosen to be relaxing and calming  through the use of blue
 
 The design was then fleshed out into a more detailed figma design. See Figure \ref{figure:figma-2}.
 
+%% Susan: 
+%% Deatiled > Detailed
 \begin{figure}[h!!]
   \begin{center}
     \includegraphics[scale=0.6]{Figma-2.png}
@@ -208,6 +229,12 @@ In the interest of protecting user privacy, there is no database and all data is
 
 The data is stored using JSON as that is the required format specified by Async Storage. JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write, and easy for machines to parse and generate\cite{JSON2025}. The data is stored in a dictionary format with the date as the key and the symptoms and their severity as the values. The severity is stored as a number from 1-5, with 1 being not severe and 5 being extremely severe. This allows for easy access to the data and makes it easy to display in graphs and charts. The data is also stored in a way that is easy to update and delete.
 
+%% Susan: 
+%% json > JSON
+%% 
+%% The quotes around the word symptoms did not display as you intended. 
+%% Try using two single quote marks on either side like this instead: ``symptoms''
+%% 
 The list of perimenopause symptoms is also structured in the same way as user data. There is a json file with \"symptoms\" as the top level object. Each symptom is then stored with the display name as the value and a version of the symptom with no spaces or capitals is used as the key. This allows for easy access to the symptoms and makes it easy to display in the app. The symptoms are also stored in a way that allows for easy editing and deletion of symptoms. This file is small and acessed frequently so it is stored in the app bundle and not Async Storage.
 
 \subsection{Mid Project Organisation}

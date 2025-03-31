@@ -2,6 +2,8 @@
 
 \subsection{Implementation}
 
+%% Susan: 
+%% sucsessfull > successful
 \subsubsection{Prototyping}
 During the design and initial development phase, a prototype was first made using React and js with an npm node.js server as a web app. This was extremely sucsessfull and the first round of user testing was conducted with this React and node.js web version of the app. However, a change from this React prototype to a different solution was much needed. Since React is a web based framework AsyncStorage is not available, meaning localstorage or a database must be used. Both these options come with many privacy and security concerns that don't align with the functional requirements of this project.
 
@@ -32,6 +34,8 @@ Given many Doctors and women lack knowledge about perimenopause and the symptoms
 
 Two charts were created for the app: a symptom chart and a period chart. Since perimenopause is the time in a woman's life when their period begins to change, the period chart is used to show the users period cycle and how it changes over time. This way, when a user bleeds inconsistently or has a missed period, they can see how their cycle has changed over time and if it is normal for them. This data can then be exported to a csv file and shared with their doctor who can provide them with their expert opinion based on the users data. The period chart has three options, view data for the past two weeks, two months, or the past year. An algorithm was implemented that averages the data over time so it displays in an aesthetically pleasing way for the user. When two weeks is selected, data from every two days is averaged and showed on the chart. When two months is selected, data from every 7 days is averaged and showed on the chart. When a year is selected, data from every month is averaged and shown on the chart. Likewise, the Symptom chart averages the number of symptoms tracked over time and displays it on the chart. 
 
+%% Susan: 
+%% Still having problems spelling widgets... - 2 instances of wigits here!
 \subsubsection{Data Analysis}
 To further support women in perimenopause, the analysis page in the app displays data that is relevant to a perimenopausal woman. This includes data commonly asked about by a doctor such as the last period start date, average cycle length, most common symptoms, and average period length. The average cycle length is found by calculating the average number of days between the start of each period. The most common symptoms are found by counting the number of times each symptom is tracked and displaying the one with the highest count. The average period length is found by calculating the average number of days between the start and end of each period. This data is displayed in wigits, making it easy for users to understand, and easily accessible to share with their doctor. The analysis wigets are shown in Figure \ref{figure:analysis}.
 
@@ -46,6 +50,8 @@ To further support women in perimenopause, the analysis page in the app displays
 \subsubsection{Settings Context}
 As women enter perimenopause, they may experience symptoms such as brain fog, poor concentration, memory loss, dry eyes, blurred vision, and increased sensitivity to light\cite{KellyDonel2023}. To help users manage their symptoms, the app includes a settings page that allows users to change the font size and colour contrast of the app. This is done using a context provider that stores the user's settings in Async Storage. A settings-context typescript file was created that specifies the context type and the types of settings that the user can change which were specified as two booleans, one for large text and one for high contrast. It creates a context provider that wraps the app (used in layout.tsx) and passes the state of the user's settings and a function to update the settings, making it easy to access the settings from within each component. These components have been written to dynamically change depending on the setting used in line css. 
 
+%% Susan: 
+%% architechture > architecture
 \subsubsection{Expo FileSystem}
 In order for users to export their data to a csv, Expo FileSystem was used. This allows the app to create a file on the user's device that can be opened in a spreadsheet program. FileSystem provides an API for accessing the file system, making it easy to work with files in a cross-platform way. The library also provides support for reading and writing files in different formats, such as JSON and CSV, making it easy to work with the user's JSON data stored in Async Storage. The FileSystem architechture is shown in Figure \ref{figure:file-system-diagram}.
 
