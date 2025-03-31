@@ -227,6 +227,12 @@ INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/eso-pic
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/pdfpages/pppdftex.def
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/pdfpages/pppdftex.def
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/pdfpages/pppdftex.def
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/caption/caption.sty
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/caption/caption.sty
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/generic/babel/babel.sty
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/generic/babel/babel.sty
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/generic/babel/txtbabel.def
@@ -334,6 +340,7 @@ INPUT ./images/Figma-1.png
 INPUT ./images/Figma-1.png
 INPUT ./images/Figma-1.png
 INPUT ./images/Figma-1.png
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
 INPUT ./images/Figma-2.png
 INPUT ./images/Figma-2.png
 INPUT ./images/Figma-2.png
