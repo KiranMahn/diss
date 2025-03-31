@@ -1,9 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{PMC4834516}
-Article from pubmed central (pmc).
-\newblock {\em PubMed Central}, Accessed: 2025-03-29.
-
 \bibitem{AbilityNet2024}
 {AbilityNet}.
 \newblock European accessibility act (eaa).
@@ -25,6 +21,11 @@ R.~Aljumah, S.~Phillips, and J.~C. Harper.
 R.~Andrews, G.~Hale, B.~John, and D.~Lancastle.
 \newblock Evaluating the effects of symptom monitoring on menopausal health outcomes: A systematic review and meta-analysis.
 \newblock {\em Frontiers in Global Women's Health}, 2:757706, December 2021.
+
+\bibitem{Apple2025}
+{Apple Inc.}
+\newblock App store review guidelines, 2025.
+\newblock Accessed: 2025-03-30.
 
 \bibitem{AzadKhaneghah2020}
 P.~Azad-Khaneghah, N.~Neubauer, A.~Miguel~Cruz, and L.~Liu.
@@ -164,6 +165,10 @@ D.~McCall and N.~Potter.
 \newblock \url{https://www.menopausesupport.co.uk}, May 2021.
 \newblock Accessed: March 18, 2025.
 
+\bibitem{React2025}
+{Meta Platforms, Inc.}
+\newblock React documentation, 2025.
+
 \bibitem{Morley2024}
 J.~Morley, J.~Laitila, J.~Ross, J.~Schamroth, J.~Zhang, and L.~Floridi.
 \newblock An app a day will (probably not) keep the doctor away: An evidence audit of health and medical apps available on the apple app store.
@@ -207,6 +212,12 @@ D.~Rosato.
 \newblock What your period tracker app knows about you.
 \newblock Consumer Reports, January 2020.
 
+\bibitem{Santoro2016}
+N.~Santoro.
+\newblock Perimenopause: From research to practice.
+\newblock {\em Journal of Women's Health (Larchmont)}, 25(4):332--339, April 2016.
+\newblock Epub 2015 Dec 10.
+
 \bibitem{ScienceDaily2013}
 {ScienceDaily}.
 \newblock Estrogen may relieve post-menopausal joint pain, study suggests.
@@ -227,6 +238,16 @@ Y.~Sheng.
 S.~R. Stoyanov, L.~Hides, D.~J. Kavanagh, O.~Zelenko, D.~Tjondronegoro, and M.~Mani.
 \newblock Mobile app rating scale: A new tool for assessing the quality of health mobile apps.
 \newblock {\em JMIR MHealth UHealth}, 3(1):e27, March 2015.
+
+\bibitem{Tundwal2025}
+D.~Tundwal.
+\newblock Mastering non-functional requirements for mobile application development, 2025.
+\newblock Accessed: 2025-03-30.
+
+\bibitem{GovUK_WCAG}
+{UK Government Digital Service}.
+\newblock Understanding wcag, 2025.
+\newblock Accessed: 2025-03-30.
 
 \bibitem{UCL2023}
 {University College London}.

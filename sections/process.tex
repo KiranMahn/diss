@@ -15,6 +15,18 @@ GitLab Issue boards were selected as the platform to host the Kanban as each iss
 \end{figure}
 
 
+\subsection{Mid Project Organisation}
+
+After around a month of progress, a network diagram was made to find the critical path in order to correctly prioritise work. Once a list of the main activities was made, the dependencies of each activity were identified and the time it would take to complete each activity was estimated. The critical path was then identified by finding the path through the network diagram with a float or leeway of zero. The critical path is the sequence of activities that must be completed on time for the project to be completed on schedule. The critical path is important because it helps to identify which activities are most important for the success of the project and which activities can be delayed without affecting the overall project timeline. See Figure \ref{figure:network-diagram} for the network diagram. The critical path activities are highlighted in red. From the network diagram, it was concluded that writing the report and obtaining feedback was the most important aspect of this project and should be prioritised over other tasks. The network diagram also helped to identify potential bottlenecks in the project timeline and allowed for better planning and scheduling of tasks.
+
+\begin{figure}[h!!]
+  \begin{center}
+    \includegraphics[scale=0.2]{NetworkDiagram.drawio.png}
+    \caption{Network Diagram showing critical path.}
+    \label{figure:network-diagram}
+  \end{center}
+\end{figure}
+
 \subsection{Survey Specification and Design}
 
 \subsubsection{Ethics Form}
@@ -77,8 +89,8 @@ Group A got to trial the app with the initial design and features. They were ask
 %% Move last sentence from "the goal of this project" onwards 
 %% to be the first sentence under Functional Requirements, 
 %% as a reminder of overall goal before launching into the details of the requirements.
-\subsection{Analysis}
-Given many peri-menopausal women are not receiving support from the government education system or their doctors\cite{Aljumah2023}\cite{MenopauseSupport2021}\cite{UCL2023}, additional resources and tools must be provided to help them navigate this stage of life. With the rise of technology, several tools are now available to allow women to track their peri-menopausal symptoms. However, these tools are often not user-friendly, do not provide enough educational information, or are not privacy-focused. The issue around privacy is especially concerning as many apps are selling user data to third parties without user knowledge and consent, and in today's political climate this can result in the incarceration of the user in some parts of the US\cite{Kelly2023}. Since there are no apps that provide a comprehensive solution to these problems, the goal of this project is to create a user-friendly, educational, and privacy-focused peri-menopausal symptom tracking app.
+% \subsection{Analysis}
+% Given many peri-menopausal women are not receiving support from the government education system or their doctors\cite{Aljumah2023}\cite{MenopauseSupport2021}\cite{UCL2023}, additional resources and tools must be provided to help them navigate this stage of life. With the rise of technology, several tools are now available to allow women to track their peri-menopausal symptoms. However, these tools are often not user-friendly, do not provide enough educational information, or are not privacy-focused. The issue around privacy is especially concerning as many apps are selling user data to third parties without user knowledge and consent, and in today's political climate this can result in the incarceration of the user in some parts of the US\cite{Kelly2023}. Since there are no apps that provide a comprehensive solution to these problems, the goal of this project is to create a user-friendly, educational, and privacy-focused peri-menopausal symptom tracking app.
 
 \subsection{Requirements}
 
@@ -90,7 +102,7 @@ Given many peri-menopausal women are not receiving support from the government e
 %% (then cite appropriate sections in the Appendix as sources from which these requirements were derived)
 %% 
 \subsubsection{Functional Requirements}
-This App's functional requirements were prioritized based on user needs and the project goal. Essential functional requirements impacting usability such as being able to navigate to a screen were prioritised over design and content details. The following functional requirements were identified:
+This App's functional requirements were prioritized based on user needs and the project goal. Essential functional requirements impacting usability such as being able to navigate to a screen were prioritised over design and content details. The following functional requirements were identified from the evaluation of existing apps and from the results of the User Requirements Survey in \ref{sec:userReqResults}:
 
 \begin{itemize}
       \item Users must be able to log the dates of their periods.
@@ -144,21 +156,33 @@ This App's functional requirements were prioritized based on user needs and the 
 \end{itemize}
 
 \subsubsection{Non-Functional Requirements}
+There are well-established industry standards for the non-functional requirements of Apps\cite{Apple2025}\cite{Tundwal2025}. The key topics for non functional requirements touch on performance, security, usability, comptaibility, reliability, and maintainability. The most relevant ones for this project are:
+
 \begin{itemize}
-  \item The app should be easy to use and navigate, with a clean and simple design.
-  \item The app home page should load within 3 seconds.
-  \item All data visualization such as graphs, calendar, and analysis charts should render in under 2 seconds.
-  \item The app should allow easy localization to support multiple languages.
-  \item The UI should offer a dark mode and high-contrast mode to improve readability for all users.
-  \item All text elements must support dynamic font resizing based on user preferences.
-  \item The app should look the same for various screen sizes, including tablets and smaller phones.
-  \item The app must be designed with easy language switching to support multiple languages in the future.
-  \item The app should maintain consistent navigation and UI patterns across all features to reduce confusion.
+  \item The time taken by the app to respond to user input should be minimal
+  to ensure a smooth user experience\cite{Tundwal2025}.
+  \item The time taken for the app to start up should be optimized to prevent
+  user drop-off\cite{Tundwal2025}.
+  \item The app should handle increases in load without a
+  significant drop in performance\cite{Tundwal2025}.
+  \item The app must run on the currently shipping OS\cite{Apple2025}.
+  \item Apps must request explicit user consent and provide a clear visual
+  and/or audible indication when recording, logging, or otherwise making a
+  record of user activity\cite{Apple2025}.
+  \item Widgets, extensions, and notifications should be related to the
+  content and functionality of your app\cite{Apple2025}.
+  \item Apply code hardening techniques and obfuscate the code to make it
+  harder for attackers to analyze and exploit the app.\cite{Tundwal2025}.
+  \item Create an intuitive user interface that allows users to navigate easily and accomplish tasks without confusion\cite{Tundwal2025}.
+  \item Use high contrast colors and allow font size adjustments to improve readability for users with visual impairments\cite{Tundwal2025}.
+  \item The app should comply with WCAG 2.2 level AA guidelines and standards to maintain acessibility\cite{GovUK_WCAG}.
 \end{itemize}
 
 As the project developed, user requirements were designed to be continually adjusted to best reflect the goal of this project.
 
+
 \subsection{Design}
+To meet the user-friendly goal, the design of the App's user interface went through multiple iterations, informed by user feedback.
 
 \subsubsection{Interface Design}
 At the beginning of the design process, low fidelity wireframes were created using Figma (See Figure \ref{figure:figma-1}).
@@ -207,7 +231,7 @@ The app was then compared to the EU WAG 2.1 accessibility standards and adjusted
 \end{figure}
 
 \subsubsection{System Design}
-In the interest of protecting user privacy, there is no database and all data is stored on the user's local device. The data that is saved in AsyncStorage on their device is formatted as featured in table\ref{table:user-data}. 
+In the interest of protecting user privacy, there is no database and all data is stored on the user's local device. The data that is saved in AsyncStorage on their device is formatted as featured in table\ref{table:user-data}. This JSON schema follow
 
 \begin{table}[h!!]
     \caption{Structure of User Data Stored in AsyncStorage}
@@ -236,15 +260,3 @@ The data is stored using JSON as that is the required format specified by Async 
 %% Try using two single quote marks on either side like this instead: ``symptoms''
 %% 
 The list of perimenopause symptoms is also structured in the same way as user data. There is a json file with \"symptoms\" as the top level object. Each symptom is then stored with the display name as the value and a version of the symptom with no spaces or capitals is used as the key. This allows for easy access to the symptoms and makes it easy to display in the app. The symptoms are also stored in a way that allows for easy editing and deletion of symptoms. This file is small and acessed frequently so it is stored in the app bundle and not Async Storage.
-
-\subsection{Mid Project Organisation}
-
-After around a month of progress, a network diagram was made to find the critical path in order to correctly prioritise work. Once a list of the main activities was made, the dependencies of each activity were identified and the time it would take to complete each activity was estimated. The critical path was then identified by finding the path through the network diagram with a float or leeway of zero. The critical path is the sequence of activities that must be completed on time for the project to be completed on schedule. The critical path is important because it helps to identify which activities are most important for the success of the project and which activities can be delayed without affecting the overall project timeline. See Figure \ref{figure:network-diagram} for the network diagram. The critical path activities are highlighted in red. From the network diagram, it was concluded that writing the report and obtaining feedback was the most important aspect of this project and should be prioritised over other tasks. The network diagram also helped to identify potential bottlenecks in the project timeline and allowed for better planning and scheduling of tasks.
-
-\begin{figure}[h!!]
-  \begin{center}
-    \includegraphics[scale=0.2]{NetworkDiagram.drawio.png}
-    \caption{Network Diagram showing critical path.}
-    \label{figure:network-diagram}
-  \end{center}
-\end{figure}

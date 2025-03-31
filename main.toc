@@ -7,20 +7,19 @@
 \contentsline {subsection}{\numberline {2.4}Project Direction}{6}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Specification \& Design}{7}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Methodology}{7}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Survey Specification and Design}{7}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Ethics Form}{7}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Recruitment}{8}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Survey Design}{8}{subsubsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.4}User Requirements Survey Design}{9}{subsubsection.3.2.4}%
-\contentsline {subsubsection}{\numberline {3.2.5}App feedback Survey Design}{9}{subsubsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.3}Analysis}{12}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.2}Mid Project Organisation}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Survey Specification and Design}{8}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Ethics Form}{8}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Recruitment}{9}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Survey Design}{9}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}User Requirements Survey Design}{10}{subsubsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.5}App feedback Survey Design}{10}{subsubsection.3.3.5}%
 \contentsline {subsection}{\numberline {3.4}Requirements}{12}{subsection.3.4}%
 \contentsline {subsubsection}{\numberline {3.4.1}Functional Requirements}{12}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Non-Functional Requirements}{14}{subsubsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.5}Design}{15}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Interface Design}{15}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}System Design}{17}{subsubsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.6}Mid Project Organisation}{20}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.4.2}Non-Functional Requirements}{15}{subsubsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.5}Design}{16}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Interface Design}{16}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}System Design}{16}{subsubsection.3.5.2}%
 \contentsline {section}{\numberline {4}Product}{21}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Implementation}{21}{subsection.4.1}%
 \contentsline {subsubsection}{\numberline {4.1.1}Prototyping}{21}{subsubsection.4.1.1}%
@@ -48,13 +47,11 @@
 \contentsline {subsubsection}{\numberline {5.2.5}MARS Evaluation}{34}{subsubsection.5.2.5}%
 \contentsline {section}{\numberline {6}Discussion \& Reflection}{36}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Interpreting the Results}{36}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Reflection}{36}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Challenges}{36}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Limitations}{36}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Future Work}{37}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.2}Challenges \& Limitations}{36}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Reflection \& Future Work}{36}{subsection.6.3}%
 \contentsline {section}{\numberline {7}Conclusion}{38}{section.7}%
-\contentsline {section}{\numberline {A}Appendix}{42}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Ethical Approval Form}{42}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Participant Information Sheet }{47}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}Consent Form }{51}{subsection.A.3}%
-\contentsline {subsection}{\numberline {A.4}MARS Reviews}{53}{subsection.A.4}%
+\contentsline {section}{\numberline {A}Appendix}{43}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Ethical Approval Form}{43}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Participant Information Sheet }{48}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Consent Form }{52}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}MARS Reviews}{54}{subsection.A.4}%

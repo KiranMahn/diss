@@ -325,6 +325,10 @@ INPUT ./images/Kanban.png
 INPUT ./images/Kanban.png
 INPUT ./images/Kanban.png
 INPUT ./images/Kanban.png
+INPUT ./images/NetworkDiagram.drawio.png
+INPUT ./images/NetworkDiagram.drawio.png
+INPUT ./images/NetworkDiagram.drawio.png
+INPUT ./images/NetworkDiagram.drawio.png
 INPUT ./images/SUS.png
 INPUT ./images/SUS.png
 INPUT ./images/SUS.png
@@ -347,10 +351,6 @@ INPUT ./images/app-Accessible.pdf
 INPUT ./images/app-Accessible.pdf
 INPUT ./images/app-Accessible.pdf
 INPUT ./images/app-Accessible.pdf
-INPUT ./images/NetworkDiagram.drawio.png
-INPUT ./images/NetworkDiagram.drawio.png
-INPUT ./images/NetworkDiagram.drawio.png
-INPUT ./images/NetworkDiagram.drawio.png
 INPUT ./sections/product.tex
 INPUT ./sections/product.tex
 INPUT ./sections/product.tex
@@ -398,8 +398,8 @@ INPUT sections/conclusion.tex
 INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl
-INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 INPUT ./sections/appendix.tex
 INPUT ./sections/appendix.tex
 INPUT ./sections/appendix.tex
