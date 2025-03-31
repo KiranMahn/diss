@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1743428117.29033 "main.aux" "main.bbl" "main" 1743428120.43618 0
+["bibtex main"] 1743428358.5033 "main.aux" "main.bbl" "main" 1743428368.96946 0
   "./bibliography.bib" 1743428101.0717 27187 ca2e82cb11f319c8940a658383fa151d ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/bibtex/bst/base/abbrv.bst" 1741388039 20329 b5fed53e10044d0f8112183785c759b1 ""
-  "main.aux" 1743428120.22413 16459 5a75f7b177a1229142388a249951b95a "pdflatex"
+  "main.aux" 1743428368.77059 16663 4ab8b100a50773467203e6ea4645a869 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1743428117.33693 "/Users/kiranmahn/Downloads/L4Project-Template/main.tex" "main.pdf" "main" 1743428120.43633 0
+["pdflatex"] 1743428365.79895 "/Users/kiranmahn/Downloads/L4Project-Template/main.tex" "main.pdf" "main" 1743428368.96956 0
   "/Users/kiranmahn/Downloads/L4Project-Template/main.tex" 1743425845.26459 3088 81ef88ec9be9a22731c53f957b9944d8 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1741388039 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/fontname/texfonts.map" 1741388039 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -175,6 +175,7 @@
   "images/Caria.pdf" 1743378862.05896 192304 c6435dc2d70bb1a41a7099095401a892 ""
   "images/Clue.pdf" 1743378862.04351 194296 e621517be94795333d8f4c82478dea2c ""
   "images/Consent_Form.pdf" 1743275523.97398 65070 720a164f31a7bc84542d329afd7a6cb6 ""
+  "images/EthicsApproval.png" 1743428295.37281 94238 5dc7e88b5488b1f2e4a7fa2be8c67313 ""
   "images/Ethics_form.pdf" 1743274873.37261 100435 7ab49f9bbc4eed2f1df1f25d35585f08 ""
   "images/Figma-1.png" 1743248793.14424 114068 9f35752f3b972688481b71f1c026aa7c ""
   "images/Figma-2.png" 1743253013.51917 218310 2a79ffa23c837bcd09f73de6884bc18a ""
@@ -196,14 +197,14 @@
   "images/jest.png" 1743274323.56572 144176 5786e2c9019ee48ffd111c0c335ee127 ""
   "images/react-native.png" 1743270505.14343 45531 2865f980aeeb5c2e13b32e72478e52c5 ""
   "images/strath_fullcolour.png" 1635529802 845771 7391e64cbd78bad8412cf5d5173cbb5a ""
-  "main.aux" 1743428120.22413 16459 5a75f7b177a1229142388a249951b95a "pdflatex"
-  "main.bbl" 1743428117.33461 10621 b655a09a2bf6517d6c6b772eb3d33b56 "bibtex main"
-  "main.out" 1743428120.22556 4230 b70fe5ab2d9ce41f89d6c0fd20358517 "pdflatex"
+  "main.aux" 1743428368.77059 16663 4ab8b100a50773467203e6ea4645a869 "pdflatex"
+  "main.bbl" 1743428358.55118 10621 b655a09a2bf6517d6c6b772eb3d33b56 "bibtex main"
+  "main.out" 1743428368.7721 4230 b70fe5ab2d9ce41f89d6c0fd20358517 "pdflatex"
   "main.tex" 1743425845.26459 3088 81ef88ec9be9a22731c53f957b9944d8 ""
-  "main.toc" 1743428120.22575 5001 117a3a2d212f0bcffd3e429ad128a722 "pdflatex"
+  "main.toc" 1743428368.77237 5001 117a3a2d212f0bcffd3e429ad128a722 "pdflatex"
   "sections/abstract.tex" 1743421886.68208 1542 478c04dd552f2dc1e7f372f35cd7e543 ""
   "sections/acknowledgements.tex" 1743278818.36292 118 64f36ee22f58eeb65bf6874aba31b4d9 ""
-  "sections/appendix.tex" 1743424727.9108 912 a67f5d9d5cc569171db26c260ccf5f75 ""
+  "sections/appendix.tex" 1743428365.53643 1109 fe1539fe1ceb0b6e91e4a65127610bfa ""
   "sections/background-literature.tex" 1743422114.76335 16417 30dd631810105532ff8673a4af6bb4ed ""
   "sections/conclusion.tex" 1635529802 553 60f51a6f652e362edb62ddc9f08df1d8 ""
   "sections/introduction.tex" 1743421592.16586 2230 a2545c3fde4150122f18eb7d6329fb4c ""
