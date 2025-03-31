@@ -384,11 +384,6 @@ INPUT ./images/GB-frq.png
 INPUT ./images/GB-frq.png
 INPUT ./images/GB-frq.png
 INPUT ./images/GB-frq.png
-INPUT ./sections/reflection.tex
-INPUT ./sections/reflection.tex
-INPUT ./sections/reflection.tex
-INPUT ./sections/reflection.tex
-INPUT sections/reflection.tex
 INPUT ./sections/conclusion.tex
 INPUT ./sections/conclusion.tex
 INPUT ./sections/conclusion.tex
