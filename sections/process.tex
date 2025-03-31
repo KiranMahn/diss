@@ -4,6 +4,8 @@
 \subsection{Methodology}
 In order to decide what software development framework to use when developing this app, two common Agile frameworks were considered: Scrum and Kanban. When comparing Scrum to Kanban methods, Kanban is found to often be better in terms of managing project schedules\cite{Lei2017}. It also has the following benefits: increased visibility, improved workflow, and faster time to market\cite{Ahmad2018}. Kanban boards and cards are easier to manage for a solo project compared to organising sprints, backlogs, and checkpoints for a Scrum system. Scrum also works better in teams of 3-9, not solo projects\cite{Mundra2013Practical}. Kanban has even been shown to help student manage their workload and get assignments in on time\cite{Sheng2021Kanban}. Ultimately, Kanban was chosen as the best software development framework for this project for keeping the project on schedule, workload, increasing organisation, workflow, are easy to maintain for one person, and have been proven to work in a student setting.
 
+%% Susan:
+%% relevent > relevant
 GitLab Issue boards were selected as the platform to host the Kanban as each issue card can be linked to branches within repositories to keep track of which tasks and changes are for which branches to improve organisation. Three labels: Code, Writing and research, and Critical, were also added to signify the type of task for each issue card. The Kanban board included four sections, one for each label and one for closed tasks. Gitlab would automatically sort each task into the relevent section based on its labels. The board was updated regularly to reflect the current status of each task, and tasks were moved from one section to another as they were completed. This resulted in tasks that were easy to prioritise, order, track, and complete on time. See Figure \ref{figure:kanban-board} for the Kanban board.
 
 \begin{figure}[h!!]
@@ -61,6 +63,8 @@ The app testing surveys were designed to gather feedback on the app's usability 
   \end{center}
 \end{figure}
 
+%% Susan: 
+%% beacuse > because
 Alternative to SUS include the User Experience Questionnaire (UEQ), the Net Promoter Score (NPS), and the System Usability Metric (SUM). The UEQ is a more comprehensive tool that assesses various aspects of user experience, including attractiveness, perspicuity, efficiency, dependability, stimulation, and novelty. The NPS measures customer loyalty and satisfaction by asking users how likely they are to recommend the product to others. The SUM is a metric that combines various usability metrics into a single score. These tools were considered for this study however these were not chosen beacuse they are not as widely used and accepted as the SUS. The SUS is a well-established and validated tool that has been used in numerous studies to assess the usability of various products and systems. It is also easy to administer and interpret, making it a practical choice for this study. The SUS is also widely recognized and accepted in the field of usability testing, which adds credibility to the findings.
 
 The survey also included questions about the app's design, ease of use, and overall satisfaction. Participants were asked to provide open-ended feedback on what they liked and disliked about the app. The survey also included questions about the participants' demographics, such as age and experience with perimenopause, to better understand the target audience.
@@ -79,6 +83,10 @@ Group A got to trial the app with the initial design and features. They were ask
 \subsubsection{Functional Requirements}
 The goal of this project is to create a user-friendly, educational, and privacy-focused perimenopausal symptom tracking app. This App's functional requirements were prioritized based on user needs and the project goal. Essential functional requirements impacting usability such as being able to navigate to a screen were prioritised over design and content details. The following functional requirements were identified from the evaluation of existing apps and from the results of the User Requirements Survey in \ref{sec:userReqResults}:
 
+%% Susan: 
+%% mentruation > menstruation
+%% cruicial > crucial
+%% extremly > extremely
 \begin{itemize}
       \item Users must be able to log the dates of their periods.
         \begin{itemize}
@@ -130,6 +138,9 @@ The goal of this project is to create a user-friendly, educational, and privacy-
         \end{itemize}      
 \end{itemize}
 
+%% Susan: 
+%% comptaibility > compatibility
+%% acessibility > accessibility
 \subsubsection{Non-Functional Requirements}
 There are well-established industry standards for the non-functional requirements of Apps\cite{Apple2025}\cite{Tundwal2025}. The key topics for non functional requirements touch on performance, security, usability, comptaibility, reliability, and maintainability. The most relevant ones for this project are:
 
@@ -220,6 +231,8 @@ In the interest of protecting user privacy, there is no database and all data is
 
 The data is stored using JSON as that is the required format specified by Async Storage. JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write, and easy for machines to parse and generate\cite{JSON2025}. The data is stored in a dictionary format with the date as the key and the symptoms and their severity as the values. The severity is stored as a number from 1-5, with 1 being not severe and 5 being extremely severe. This allows for easy access to the data and makes it easy to display in graphs and charts. The data is also stored in a way that is easy to update and delete.
 
+%% Susan: 
+%% acessed > accessed
 The list of perimenopause symptoms is also structured in the same way as user data. There is a JSON file with ``symptoms'' as the top level object. Each symptom is then stored with the display name as the value and a version of the symptom with no spaces or capitals is used as the key. This allows for easy access to the symptoms and makes it easy to display in the app. The symptoms are also stored in a way that allows for easy editing and deletion of symptoms. This file is small and acessed frequently so it is stored in the app bundle and not Async Storage.
 
 For each json structure (articles, symptoms, and userData), there is a relevant JSON Schema to validate the objects. A JSON schema is used to validate JSON data to ensure validity, consistency, correct structure, and valid data types\cite{JsonSchema2025}\cite{JsonSchemaOrg2025}. Each schema is in the root directory of the project and ends in ''.schema.json''. The JSON Schema Validator is used to show validation issues in the problems tab of VS code during development to highlight any issues with the JSON structure and make it easier to debug.
