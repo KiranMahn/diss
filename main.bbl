@@ -125,6 +125,16 @@ M.~Hyzy, R.~Bond, M.~Mulvenna, L.~Bai, A.~Dix, S.~Leigh, and S.~Hunt.
 \newblock System usability scale benchmarking for digital health apps: Meta-analysis.
 \newblock {\em JMIR Mhealth Uhealth}, 10(8):e37290, Aug 2022.
 
+\bibitem{JsonSchemaOrg2025}
+{JSON Schema Organization}.
+\newblock Understanding json schema: Declaring a json schema, 2025.
+\newblock Accessed: 2025-03-30.
+
+\bibitem{JsonSchema2025}
+{JSON Schema Working Group}.
+\newblock Json schema: Objects specification, 2025.
+\newblock Accessed: 2025-03-30.
+
 \bibitem{JSON2025}
 {JSON.org}.
 \newblock Introducing json (javascript object notation), Accessed: 2025-03-30.

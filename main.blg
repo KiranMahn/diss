@@ -6,45 +6,45 @@ Database file #1: bibliography.bib
 Warning--empty journal in ExpoFileSystem2025
 Warning--empty journal in LevelUp2025
 Warning--empty journal in ReactNative2024
-You've used 51 entries,
+You've used 53 entries,
             2118 wiz_defined-function locations,
-            820 strings with 11910 characters,
-and the built_in function-call counts, 14872 in all, are:
-= -- 1424
-> -- 734
+            828 strings with 12109 characters,
+and the built_in function-call counts, 15284 in all, are:
+= -- 1462
+> -- 748
 < -- 2
-+ -- 300
-- -- 244
-* -- 985
-:= -- 2561
-add.period$ -- 162
-call.type$ -- 51
-change.case$ -- 273
++ -- 306
+- -- 248
+* -- 997
+:= -- 2629
+add.period$ -- 168
+call.type$ -- 53
+change.case$ -- 281
 chr.to.int$ -- 0
-cite$ -- 54
-duplicate$ -- 495
-empty$ -- 1178
-format.name$ -- 244
-if$ -- 3045
+cite$ -- 56
+duplicate$ -- 509
+empty$ -- 1222
+format.name$ -- 248
+if$ -- 3135
 int.to.chr$ -- 0
-int.to.str$ -- 51
+int.to.str$ -- 53
 missing$ -- 33
-newline$ -- 267
-num.names$ -- 102
-pop$ -- 323
+newline$ -- 277
+num.names$ -- 106
+pop$ -- 341
 preamble$ -- 1
-purify$ -- 223
+purify$ -- 229
 quote$ -- 0
-skip$ -- 378
+skip$ -- 392
 stack$ -- 0
-substring$ -- 730
-swap$ -- 65
+substring$ -- 740
+swap$ -- 67
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 200
+type$ -- 208
 warning$ -- 3
-while$ -- 138
-width$ -- 53
-write$ -- 551
+while$ -- 142
+width$ -- 55
+write$ -- 571
 (There were 3 warnings)
