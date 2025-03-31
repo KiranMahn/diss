@@ -285,11 +285,6 @@ INPUT ./sections/abstract.tex
 INPUT ./sections/abstract.tex
 INPUT ./sections/abstract.tex
 INPUT sections/abstract.tex
-INPUT ./sections/acknowledgements.tex
-INPUT ./sections/acknowledgements.tex
-INPUT ./sections/acknowledgements.tex
-INPUT ./sections/acknowledgements.tex
-INPUT sections/acknowledgements.tex
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT ./main.toc

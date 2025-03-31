@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  31 MAR 2025 14:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  31 MAR 2025 16:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -589,16 +589,7 @@ Package pdftex.def Info: ./images/strath_fullcolour.png  used on input line 30.
 
 {/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./images/strath_fullcolour.png>] (./sections/abstract.tex
 
-[1]) (./sections/acknowledgements.tex)
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.81 \clearpage
-                [1
-
-] (./main.toc
+[1]) (./main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -611,22 +602,23 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 
-[2
 
-] (./sections/introduction.tex)
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.84 \clearpage
+                [1] (./sections/introduction.tex) (./sections/background-literature.tex
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 \clearpage
-                [1
-
-] (./sections/background-literature.tex
-
-[2
+l.5 
+     [1
 
 ]
+
+[2]
 
 [3]
 
@@ -635,9 +627,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 40.
 
 
-[5])
+[5]) (./sections/process.tex
 
-[6] (./sections/process.tex
+[6]
 <./images/Kanban.png, id=278, 1716.4125pt x 853.1875pt>
 File: ./images/Kanban.png Graphic file (type png)
 <use ./images/Kanban.png>
@@ -648,22 +640,19 @@ Overfull \hbox (16.53711pt too wide) in paragraph at lines 11--12
  [] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-
-[7
-
-]
-<./images/NetworkDiagram.drawio.png, id=289, 1829.83624pt x 430.60875pt>
+<./images/NetworkDiagram.drawio.png, id=280, 1829.83624pt x 430.60875pt>
 File: ./images/NetworkDiagram.drawio.png Graphic file (type png)
 <use ./images/NetworkDiagram.drawio.png>
 Package pdftex.def Info: ./images/NetworkDiagram.drawio.png  used on input line 24.
 (pdftex.def)             Requested size: 365.96077pt x 86.12021pt.
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 <./images/Kanban.png> <./images/NetworkDiagram.drawio.png>]
+
+
+[7 <./images/Kanban.png>]
+
+[8 <./images/NetworkDiagram.drawio.png>]
 
 [9]
 <./images/SUS.png, id=316, 674.52pt x 731.73375pt>
@@ -673,35 +662,33 @@ Package pdftex.def Info: ./images/SUS.png  used on input line 58.
 (pdftex.def)             Requested size: 269.80322pt x 292.68831pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+[10 <./images/SUS.png>]
 
+[11]
 
+[12{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
-[10]
-
-[11 <./images/SUS.png>]
-
-[12]
-
-[13{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+[13]
 
 [14]
-
-[15]
-<./images/Figma-1.png, id=387, 468.75125pt x 600.2425pt>
+<./images/Figma-1.png, id=377, 468.75125pt x 600.2425pt>
 File: ./images/Figma-1.png Graphic file (type png)
 <use ./images/Figma-1.png>
 Package pdftex.def Info: ./images/Figma-1.png  used on input line 167.
 (pdftex.def)             Requested size: 328.12363pt x 420.16689pt.
-<./images/Figma-2.png, id=389, 622.325pt x 807.015pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./images/Figma-2.png, id=379, 622.325pt x 807.015pt>
 File: ./images/Figma-2.png Graphic file (type png)
 <use ./images/Figma-2.png>
 Package pdftex.def Info: ./images/Figma-2.png  used on input line 176.
 (pdftex.def)             Requested size: 373.39787pt x 484.21274pt.
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16 <./images/Figma-1.png>]
-<./images/app.pdf, id=398, 722.7pt x 542.025pt>
+<./images/app.pdf, id=381, 722.7pt x 542.025pt>
 File: ./images/app.pdf Graphic file (type pdf)
 <use ./images/app.pdf>
 Package pdftex.def Info: ./images/app.pdf  used on input line 185.
@@ -713,8 +700,11 @@ Overfull \hbox (21.05836pt too wide) in paragraph at lines 185--186
 
 
 
-[17 <./images/Figma-2.png>]
-<./images/app-Accessible.pdf, id=406, 722.7pt x 542.025pt>
+[15]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./images/app-Accessible.pdf, id=392, 722.7pt x 542.025pt>
 File: ./images/app-Accessible.pdf Graphic file (type pdf)
 <use ./images/app-Accessible.pdf>
 Package pdftex.def Info: ./images/app-Accessible.pdf  used on input line 194.
@@ -729,65 +719,67 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[18 <./images/app.pdf>]
+[16 <./images/Figma-1.png>]
 
-[19 <./images/app-Accessible.pdf>])
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[20] (./sections/product.tex
 
-[21
 
-]
-<./images/react-native.png, id=576, 1147.28625pt x 738.76pt>
+[17 <./images/Figma-2.png>]
+
+[18 <./images/app.pdf>]) (./sections/product.tex
+
+[19 <./images/app-Accessible.pdf>]
+
+[20]
+<./images/react-native.png, id=567, 1147.28625pt x 738.76pt>
 File: ./images/react-native.png Graphic file (type png)
 <use ./images/react-native.png>
 Package pdftex.def Info: ./images/react-native.png  used on input line 18.
 (pdftex.def)             Requested size: 229.45319pt x 147.74937pt.
 
 
-[22 <./images/react-native.png>]
-<./images/analysis.png, id=588, 415.5525pt x 372.39125pt>
+[21 <./images/react-native.png>]
+<./images/analysis.png, id=579, 415.5525pt x 372.39125pt>
 File: ./images/analysis.png Graphic file (type png)
 <use ./images/analysis.png>
 Package pdftex.def Info: ./images/analysis.png  used on input line 39.
 (pdftex.def)             Requested size: 124.6667pt x 111.71823pt.
 
 
-[23]
+[22]
 
-[24 <./images/analysis.png>]
-<./images/file-system-diagram.png, id=605, 852.18375pt x 553.06625pt>
+[23 <./images/analysis.png>]
+<./images/file-system-diagram.png, id=597, 852.18375pt x 553.06625pt>
 File: ./images/file-system-diagram.png Graphic file (type png)
 <use ./images/file-system-diagram.png>
 Package pdftex.def Info: ./images/file-system-diagram.png  used on input line 53.
 (pdftex.def)             Requested size: 255.65709pt x 165.92114pt.
 
 
-[25 <./images/file-system-diagram.png (PNG copy)>]
-<./images/jest.png, id=614, 1188.44pt x 464.73625pt>
+[24 <./images/file-system-diagram.png (PNG copy)>]
+<./images/jest.png, id=606, 1188.44pt x 464.73625pt>
 File: ./images/jest.png Graphic file (type png)
 <use ./images/jest.png>
 Package pdftex.def Info: ./images/jest.png  used on input line 68.
 (pdftex.def)             Requested size: 356.53476pt x 139.42194pt.
-)
+) (./sections/results.tex
 
-[26 <./images/jest.png>] (./sections/results.tex
+[25 <./images/jest.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[27
-
-]
+[26]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 75.
 
 
 
-[28]
-<./images/GA-frq.png, id=645, 963.6pt x 678.535pt>
+[27]
+<./images/GA-frq.png, id=636, 963.6pt x 678.535pt>
 File: ./images/GA-frq.png Graphic file (type png)
 <use ./images/GA-frq.png>
 Package pdftex.def Info: ./images/GA-frq.png  used on input line 112.
@@ -798,14 +790,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[29]
+[28]
 
-[30 <./images/GA-frq.png>]
+[29 <./images/GA-frq.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 140.
 
-<./images/GB-frq.png, id=658, 1263.72125pt x 517.935pt>
+<./images/GB-frq.png, id=650, 1263.72125pt x 517.935pt>
 File: ./images/GB-frq.png Graphic file (type png)
 <use ./images/GB-frq.png>
 Package pdftex.def Info: ./images/GB-frq.png  used on input line 168.
@@ -820,47 +812,41 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[31]
+[30]
 
-[32 <./images/GB-frq.png>]
+[31 <./images/GB-frq.png>]
 
-[33])
+[32]) (./sections/reflection.tex
 
-[34] (./sections/reflection.tex
+[33]
 
-[35
+[34]) (./sections/conclusion.tex)
 
-])
-
-[36] (./sections/conclusion.tex)
-
-[37
-
-] (./main.bbl
+[35] (./main.bbl
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 12.
 
 
-[38
+[36
 
 ]
 
-[39]
+[37]
 Underfull \hbox (badness 2707) in paragraph at lines 253--256
 []\OT1/cmss/m/n/10.95 D. Tundwal.  Mastering non-functional requirements for mobile application
  []
 
 
 
-[40])
+[38])
 
-[41] (./sections/appendix.tex
-<./images/Ethics_form.pdf, id=732, 597.4822pt x 845.1575pt>
+[39] (./sections/appendix.tex
+<./images/Ethics_form.pdf, id=719, 597.4822pt x 845.1575pt>
 File: ./images/Ethics_form.pdf Graphic file (type pdf)
 <use ./images/Ethics_form.pdf>
 Package pdftex.def Info: ./images/Ethics_form.pdf  used on input line 8.
 (pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
-<./images/Ethics_form.pdf, id=734, page=1, 597.4822pt x 845.1575pt>
+<./images/Ethics_form.pdf, id=721, page=1, 597.4822pt x 845.1575pt>
 File: ./images/Ethics_form.pdf Graphic file (type pdf)
 <use ./images/Ethics_form.pdf, page 1>
 Package pdftex.def Info: ./images/Ethics_form.pdf , page1 used on input line 8.
@@ -871,7 +857,7 @@ Package pdftex.def Info: ./images/Ethics_form.pdf , page1 used on input line 8.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
 
 
-[42
+[40
 
 ]
 File: ./images/Ethics_form.pdf Graphic file (type pdf)
@@ -888,64 +874,64 @@ File: ./images/Ethics_form.pdf Graphic file (type pdf)
 <use ./images/Ethics_form.pdf, page 1>
 Package pdftex.def Info: ./images/Ethics_form.pdf , page1 used on input line 8.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+[41
+
+ <./images/Ethics_form.pdf>]
+<./images/Ethics_form.pdf, id=779, page=2, 597.4822pt x 845.1575pt>
+File: ./images/Ethics_form.pdf Graphic file (type pdf)
+<use ./images/Ethics_form.pdf, page 2>
+Package pdftex.def Info: ./images/Ethics_form.pdf , page2 used on input line 8.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: ./images/Ethics_form.pdf Graphic file (type pdf)
+<use ./images/Ethics_form.pdf, page 2>
+Package pdftex.def Info: ./images/Ethics_form.pdf , page2 used on input line 8.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+
+
+File: ./images/Ethics_form.pdf Graphic file (type pdf)
+<use ./images/Ethics_form.pdf, page 2>
+Package pdftex.def Info: ./images/Ethics_form.pdf , page2 used on input line 8.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+[42
+
+ <./images/Ethics_form.pdf>]
+<./images/Ethics_form.pdf, id=785, page=3, 597.4822pt x 845.1575pt>
+File: ./images/Ethics_form.pdf Graphic file (type pdf)
+<use ./images/Ethics_form.pdf, page 3>
+Package pdftex.def Info: ./images/Ethics_form.pdf , page3 used on input line 8.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: ./images/Ethics_form.pdf Graphic file (type pdf)
+<use ./images/Ethics_form.pdf, page 3>
+Package pdftex.def Info: ./images/Ethics_form.pdf , page3 used on input line 8.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+
+
+File: ./images/Ethics_form.pdf Graphic file (type pdf)
+<use ./images/Ethics_form.pdf, page 3>
+Package pdftex.def Info: ./images/Ethics_form.pdf , page3 used on input line 8.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
 [43
 
  <./images/Ethics_form.pdf>]
-<./images/Ethics_form.pdf, id=791, page=2, 597.4822pt x 845.1575pt>
+<./images/Ethics_form.pdf, id=809, page=4, 597.4822pt x 845.1575pt>
 File: ./images/Ethics_form.pdf Graphic file (type pdf)
-<use ./images/Ethics_form.pdf, page 2>
-Package pdftex.def Info: ./images/Ethics_form.pdf , page2 used on input line 8.
+<use ./images/Ethics_form.pdf, page 4>
+Package pdftex.def Info: ./images/Ethics_form.pdf , page4 used on input line 8.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
 File: ./images/Ethics_form.pdf Graphic file (type pdf)
-<use ./images/Ethics_form.pdf, page 2>
-Package pdftex.def Info: ./images/Ethics_form.pdf , page2 used on input line 8.
+<use ./images/Ethics_form.pdf, page 4>
+Package pdftex.def Info: ./images/Ethics_form.pdf , page4 used on input line 8.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
 
 
 File: ./images/Ethics_form.pdf Graphic file (type pdf)
-<use ./images/Ethics_form.pdf, page 2>
-Package pdftex.def Info: ./images/Ethics_form.pdf , page2 used on input line 8.
+<use ./images/Ethics_form.pdf, page 4>
+Package pdftex.def Info: ./images/Ethics_form.pdf , page4 used on input line 8.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
 [44
 
  <./images/Ethics_form.pdf>]
-<./images/Ethics_form.pdf, id=797, page=3, 597.4822pt x 845.1575pt>
-File: ./images/Ethics_form.pdf Graphic file (type pdf)
-<use ./images/Ethics_form.pdf, page 3>
-Package pdftex.def Info: ./images/Ethics_form.pdf , page3 used on input line 8.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-File: ./images/Ethics_form.pdf Graphic file (type pdf)
-<use ./images/Ethics_form.pdf, page 3>
-Package pdftex.def Info: ./images/Ethics_form.pdf , page3 used on input line 8.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-
-
-File: ./images/Ethics_form.pdf Graphic file (type pdf)
-<use ./images/Ethics_form.pdf, page 3>
-Package pdftex.def Info: ./images/Ethics_form.pdf , page3 used on input line 8.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-[45
-
- <./images/Ethics_form.pdf>]
-<./images/Ethics_form.pdf, id=822, page=4, 597.4822pt x 845.1575pt>
-File: ./images/Ethics_form.pdf Graphic file (type pdf)
-<use ./images/Ethics_form.pdf, page 4>
-Package pdftex.def Info: ./images/Ethics_form.pdf , page4 used on input line 8.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-File: ./images/Ethics_form.pdf Graphic file (type pdf)
-<use ./images/Ethics_form.pdf, page 4>
-Package pdftex.def Info: ./images/Ethics_form.pdf , page4 used on input line 8.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-
-
-File: ./images/Ethics_form.pdf Graphic file (type pdf)
-<use ./images/Ethics_form.pdf, page 4>
-Package pdftex.def Info: ./images/Ethics_form.pdf , page4 used on input line 8.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-[46
-
- <./images/Ethics_form.pdf>]
-<./images/EthicsApproval.png, id=828, 1574.88374pt x 174.6525pt>
+<./images/EthicsApproval.png, id=815, 1574.88374pt x 174.6525pt>
 File: ./images/EthicsApproval.png Graphic file (type png)
 <use ./images/EthicsApproval.png>
 Package pdftex.def Info: ./images/EthicsApproval.png  used on input line 11.
@@ -955,12 +941,12 @@ Overfull \hbox (59.9038pt too wide) in paragraph at lines 11--12
  [] 
  []
 
-<./images/Participant_Information_Sheet.pdf, id=829, 597.4822pt x 845.1575pt>
+<./images/Participant_Information_Sheet.pdf, id=816, 597.4822pt x 845.1575pt>
 File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
 <use ./images/Participant_Information_Sheet.pdf>
 Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf  used on input line 18.
 (pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
-<./images/Participant_Information_Sheet.pdf, id=831, page=1, 597.4822pt x 845.1575pt>
+<./images/Participant_Information_Sheet.pdf, id=818, page=1, 597.4822pt x 845.1575pt>
 File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
 <use ./images/Participant_Information_Sheet.pdf, page 1>
 Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page1 used on input line 18.
@@ -971,7 +957,7 @@ Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page1 used
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
 
 
-[47 <./images/EthicsApproval.png>]
+[45 <./images/EthicsApproval.png>]
 File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
 <use ./images/Participant_Information_Sheet.pdf, page 1>
 Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page1 used on input line 18.
@@ -985,52 +971,52 @@ Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page1 used
 File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
 <use ./images/Participant_Information_Sheet.pdf, page 1>
 Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page1 used on input line 18.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+[46
+
+ <./images/Participant_Information_Sheet.pdf>]
+<./images/Participant_Information_Sheet.pdf, id=856, page=2, 597.4822pt x 845.1575pt>
+File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
+<use ./images/Participant_Information_Sheet.pdf, page 2>
+Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page2 used on input line 18.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
+<use ./images/Participant_Information_Sheet.pdf, page 2>
+Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page2 used on input line 18.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+
+
+File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
+<use ./images/Participant_Information_Sheet.pdf, page 2>
+Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page2 used on input line 18.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+[47
+
+ <./images/Participant_Information_Sheet.pdf>]
+<./images/Participant_Information_Sheet.pdf, id=873, page=3, 597.4822pt x 845.1575pt>
+File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
+<use ./images/Participant_Information_Sheet.pdf, page 3>
+Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page3 used on input line 18.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
+<use ./images/Participant_Information_Sheet.pdf, page 3>
+Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page3 used on input line 18.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+
+
+File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
+<use ./images/Participant_Information_Sheet.pdf, page 3>
+Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page3 used on input line 18.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
 [48
 
  <./images/Participant_Information_Sheet.pdf>]
-<./images/Participant_Information_Sheet.pdf, id=868, page=2, 597.4822pt x 845.1575pt>
-File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
-<use ./images/Participant_Information_Sheet.pdf, page 2>
-Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page2 used on input line 18.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
-<use ./images/Participant_Information_Sheet.pdf, page 2>
-Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page2 used on input line 18.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-
-
-File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
-<use ./images/Participant_Information_Sheet.pdf, page 2>
-Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page2 used on input line 18.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-[49
-
- <./images/Participant_Information_Sheet.pdf>]
-<./images/Participant_Information_Sheet.pdf, id=885, page=3, 597.4822pt x 845.1575pt>
-File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
-<use ./images/Participant_Information_Sheet.pdf, page 3>
-Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page3 used on input line 18.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
-<use ./images/Participant_Information_Sheet.pdf, page 3>
-Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page3 used on input line 18.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-
-
-File: ./images/Participant_Information_Sheet.pdf Graphic file (type pdf)
-<use ./images/Participant_Information_Sheet.pdf, page 3>
-Package pdftex.def Info: ./images/Participant_Information_Sheet.pdf , page3 used on input line 18.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-[50
-
- <./images/Participant_Information_Sheet.pdf>]
-<./images/Consent_Form.pdf, id=891, 597.4822pt x 845.1575pt>
+<./images/Consent_Form.pdf, id=879, 597.4822pt x 845.1575pt>
 File: ./images/Consent_Form.pdf Graphic file (type pdf)
 <use ./images/Consent_Form.pdf>
 Package pdftex.def Info: ./images/Consent_Form.pdf  used on input line 21.
 (pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
-<./images/Consent_Form.pdf, id=893, page=1, 597.4822pt x 845.1575pt>
+<./images/Consent_Form.pdf, id=881, page=1, 597.4822pt x 845.1575pt>
 File: ./images/Consent_Form.pdf Graphic file (type pdf)
 <use ./images/Consent_Form.pdf, page 1>
 Package pdftex.def Info: ./images/Consent_Form.pdf , page1 used on input line 21.
@@ -1041,7 +1027,7 @@ Package pdftex.def Info: ./images/Consent_Form.pdf , page1 used on input line 21
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
 
 
-[51]
+[49]
 File: ./images/Consent_Form.pdf Graphic file (type pdf)
 <use ./images/Consent_Form.pdf, page 1>
 Package pdftex.def Info: ./images/Consent_Form.pdf , page1 used on input line 21.
@@ -1056,15 +1042,15 @@ File: ./images/Consent_Form.pdf Graphic file (type pdf)
 <use ./images/Consent_Form.pdf, page 1>
 Package pdftex.def Info: ./images/Consent_Form.pdf , page1 used on input line 21.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-[52
+[50
 
  <./images/Consent_Form.pdf>]
-<./images/Balance.pdf, id=949, 598.235pt x 845.1575pt>
+<./images/Balance.pdf, id=935, 598.235pt x 845.1575pt>
 File: ./images/Balance.pdf Graphic file (type pdf)
 <use ./images/Balance.pdf>
 Package pdftex.def Info: ./images/Balance.pdf  used on input line 24.
 (pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
-<./images/Balance.pdf, id=951, page=1, 598.235pt x 845.1575pt>
+<./images/Balance.pdf, id=937, page=1, 598.235pt x 845.1575pt>
 File: ./images/Balance.pdf Graphic file (type pdf)
 <use ./images/Balance.pdf, page 1>
 Package pdftex.def Info: ./images/Balance.pdf , page1 used on input line 24.
@@ -1075,7 +1061,7 @@ Package pdftex.def Info: ./images/Balance.pdf , page1 used on input line 24.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
-[53]
+[51]
 File: ./images/Balance.pdf Graphic file (type pdf)
 <use ./images/Balance.pdf, page 1>
 Package pdftex.def Info: ./images/Balance.pdf , page1 used on input line 24.
@@ -1089,142 +1075,142 @@ Package pdftex.def Info: ./images/Balance.pdf , page1 used on input line 24.
 File: ./images/Balance.pdf Graphic file (type pdf)
 <use ./images/Balance.pdf, page 1>
 Package pdftex.def Info: ./images/Balance.pdf , page1 used on input line 24.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+[52
+
+ <./images/Balance.pdf>]
+<./images/Balance.pdf, id=976, page=2, 598.235pt x 845.1575pt>
+File: ./images/Balance.pdf Graphic file (type pdf)
+<use ./images/Balance.pdf, page 2>
+Package pdftex.def Info: ./images/Balance.pdf , page2 used on input line 24.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+File: ./images/Balance.pdf Graphic file (type pdf)
+<use ./images/Balance.pdf, page 2>
+Package pdftex.def Info: ./images/Balance.pdf , page2 used on input line 24.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+
+
+File: ./images/Balance.pdf Graphic file (type pdf)
+<use ./images/Balance.pdf, page 2>
+Package pdftex.def Info: ./images/Balance.pdf , page2 used on input line 24.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+[53
+
+ <./images/Balance.pdf>]
+<./images/Balance.pdf, id=984, page=3, 598.235pt x 845.1575pt>
+File: ./images/Balance.pdf Graphic file (type pdf)
+<use ./images/Balance.pdf, page 3>
+Package pdftex.def Info: ./images/Balance.pdf , page3 used on input line 24.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+File: ./images/Balance.pdf Graphic file (type pdf)
+<use ./images/Balance.pdf, page 3>
+Package pdftex.def Info: ./images/Balance.pdf , page3 used on input line 24.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+
+
+File: ./images/Balance.pdf Graphic file (type pdf)
+<use ./images/Balance.pdf, page 3>
+Package pdftex.def Info: ./images/Balance.pdf , page3 used on input line 24.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [54
 
  <./images/Balance.pdf>]
-<./images/Balance.pdf, id=988, page=2, 598.235pt x 845.1575pt>
+<./images/Balance.pdf, id=991, page=4, 598.235pt x 845.1575pt>
 File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 2>
-Package pdftex.def Info: ./images/Balance.pdf , page2 used on input line 24.
+<use ./images/Balance.pdf, page 4>
+Package pdftex.def Info: ./images/Balance.pdf , page4 used on input line 24.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 2>
-Package pdftex.def Info: ./images/Balance.pdf , page2 used on input line 24.
+<use ./images/Balance.pdf, page 4>
+Package pdftex.def Info: ./images/Balance.pdf , page4 used on input line 24.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 2>
-Package pdftex.def Info: ./images/Balance.pdf , page2 used on input line 24.
+<use ./images/Balance.pdf, page 4>
+Package pdftex.def Info: ./images/Balance.pdf , page4 used on input line 24.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [55
 
  <./images/Balance.pdf>]
-<./images/Balance.pdf, id=996, page=3, 598.235pt x 845.1575pt>
+<./images/Balance.pdf, id=998, page=5, 598.235pt x 845.1575pt>
 File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 3>
-Package pdftex.def Info: ./images/Balance.pdf , page3 used on input line 24.
+<use ./images/Balance.pdf, page 5>
+Package pdftex.def Info: ./images/Balance.pdf , page5 used on input line 24.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 3>
-Package pdftex.def Info: ./images/Balance.pdf , page3 used on input line 24.
+<use ./images/Balance.pdf, page 5>
+Package pdftex.def Info: ./images/Balance.pdf , page5 used on input line 24.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 3>
-Package pdftex.def Info: ./images/Balance.pdf , page3 used on input line 24.
+<use ./images/Balance.pdf, page 5>
+Package pdftex.def Info: ./images/Balance.pdf , page5 used on input line 24.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [56
 
  <./images/Balance.pdf>]
-<./images/Balance.pdf, id=1003, page=4, 598.235pt x 845.1575pt>
+<./images/Balance.pdf, id=1005, page=6, 598.235pt x 845.1575pt>
 File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 4>
-Package pdftex.def Info: ./images/Balance.pdf , page4 used on input line 24.
+<use ./images/Balance.pdf, page 6>
+Package pdftex.def Info: ./images/Balance.pdf , page6 used on input line 24.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 4>
-Package pdftex.def Info: ./images/Balance.pdf , page4 used on input line 24.
+<use ./images/Balance.pdf, page 6>
+Package pdftex.def Info: ./images/Balance.pdf , page6 used on input line 24.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 4>
-Package pdftex.def Info: ./images/Balance.pdf , page4 used on input line 24.
+<use ./images/Balance.pdf, page 6>
+Package pdftex.def Info: ./images/Balance.pdf , page6 used on input line 24.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [57
 
  <./images/Balance.pdf>]
-<./images/Balance.pdf, id=1011, page=5, 598.235pt x 845.1575pt>
+<./images/Balance.pdf, id=1013, page=7, 598.235pt x 845.1575pt>
 File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 5>
-Package pdftex.def Info: ./images/Balance.pdf , page5 used on input line 24.
+<use ./images/Balance.pdf, page 7>
+Package pdftex.def Info: ./images/Balance.pdf , page7 used on input line 24.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 5>
-Package pdftex.def Info: ./images/Balance.pdf , page5 used on input line 24.
+<use ./images/Balance.pdf, page 7>
+Package pdftex.def Info: ./images/Balance.pdf , page7 used on input line 24.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 5>
-Package pdftex.def Info: ./images/Balance.pdf , page5 used on input line 24.
+<use ./images/Balance.pdf, page 7>
+Package pdftex.def Info: ./images/Balance.pdf , page7 used on input line 24.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [58
 
  <./images/Balance.pdf>]
-<./images/Balance.pdf, id=1018, page=6, 598.235pt x 845.1575pt>
+<./images/Balance.pdf, id=1021, page=8, 598.235pt x 845.1575pt>
 File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 6>
-Package pdftex.def Info: ./images/Balance.pdf , page6 used on input line 24.
+<use ./images/Balance.pdf, page 8>
+Package pdftex.def Info: ./images/Balance.pdf , page8 used on input line 24.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 6>
-Package pdftex.def Info: ./images/Balance.pdf , page6 used on input line 24.
+<use ./images/Balance.pdf, page 8>
+Package pdftex.def Info: ./images/Balance.pdf , page8 used on input line 24.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 6>
-Package pdftex.def Info: ./images/Balance.pdf , page6 used on input line 24.
+<use ./images/Balance.pdf, page 8>
+Package pdftex.def Info: ./images/Balance.pdf , page8 used on input line 24.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [59
 
  <./images/Balance.pdf>]
-<./images/Balance.pdf, id=1026, page=7, 598.235pt x 845.1575pt>
-File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 7>
-Package pdftex.def Info: ./images/Balance.pdf , page7 used on input line 24.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 7>
-Package pdftex.def Info: ./images/Balance.pdf , page7 used on input line 24.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-
-
-File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 7>
-Package pdftex.def Info: ./images/Balance.pdf , page7 used on input line 24.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-[60
-
- <./images/Balance.pdf>]
-<./images/Balance.pdf, id=1033, page=8, 598.235pt x 845.1575pt>
-File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 8>
-Package pdftex.def Info: ./images/Balance.pdf , page8 used on input line 24.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 8>
-Package pdftex.def Info: ./images/Balance.pdf , page8 used on input line 24.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-
-
-File: ./images/Balance.pdf Graphic file (type pdf)
-<use ./images/Balance.pdf, page 8>
-Package pdftex.def Info: ./images/Balance.pdf , page8 used on input line 24.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-[61
-
- <./images/Balance.pdf>]
-<./images/Caria.pdf, id=1040, 598.235pt x 845.1575pt>
+<./images/Caria.pdf, id=1028, 598.235pt x 845.1575pt>
 File: ./images/Caria.pdf Graphic file (type pdf)
 <use ./images/Caria.pdf>
 Package pdftex.def Info: ./images/Caria.pdf  used on input line 25.
 (pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
-<./images/Caria.pdf, id=1042, page=1, 598.235pt x 845.1575pt>
+<./images/Caria.pdf, id=1030, page=1, 598.235pt x 845.1575pt>
 File: ./images/Caria.pdf Graphic file (type pdf)
 <use ./images/Caria.pdf, page 1>
 Package pdftex.def Info: ./images/Caria.pdf , page1 used on input line 25.
@@ -1246,142 +1232,142 @@ Package pdftex.def Info: ./images/Caria.pdf , page1 used on input line 25.
 File: ./images/Caria.pdf Graphic file (type pdf)
 <use ./images/Caria.pdf, page 1>
 Package pdftex.def Info: ./images/Caria.pdf , page1 used on input line 25.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+[60
+
+ <./images/Caria.pdf>]
+<./images/Caria.pdf, id=1063, page=2, 598.235pt x 845.1575pt>
+File: ./images/Caria.pdf Graphic file (type pdf)
+<use ./images/Caria.pdf, page 2>
+Package pdftex.def Info: ./images/Caria.pdf , page2 used on input line 25.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+File: ./images/Caria.pdf Graphic file (type pdf)
+<use ./images/Caria.pdf, page 2>
+Package pdftex.def Info: ./images/Caria.pdf , page2 used on input line 25.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+
+
+File: ./images/Caria.pdf Graphic file (type pdf)
+<use ./images/Caria.pdf, page 2>
+Package pdftex.def Info: ./images/Caria.pdf , page2 used on input line 25.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+[61
+
+ <./images/Caria.pdf>]
+<./images/Caria.pdf, id=1071, page=3, 598.235pt x 845.1575pt>
+File: ./images/Caria.pdf Graphic file (type pdf)
+<use ./images/Caria.pdf, page 3>
+Package pdftex.def Info: ./images/Caria.pdf , page3 used on input line 25.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+File: ./images/Caria.pdf Graphic file (type pdf)
+<use ./images/Caria.pdf, page 3>
+Package pdftex.def Info: ./images/Caria.pdf , page3 used on input line 25.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+
+
+File: ./images/Caria.pdf Graphic file (type pdf)
+<use ./images/Caria.pdf, page 3>
+Package pdftex.def Info: ./images/Caria.pdf , page3 used on input line 25.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [62
 
  <./images/Caria.pdf>]
-<./images/Caria.pdf, id=1075, page=2, 598.235pt x 845.1575pt>
+<./images/Caria.pdf, id=1078, page=4, 598.235pt x 845.1575pt>
 File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 2>
-Package pdftex.def Info: ./images/Caria.pdf , page2 used on input line 25.
+<use ./images/Caria.pdf, page 4>
+Package pdftex.def Info: ./images/Caria.pdf , page4 used on input line 25.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 2>
-Package pdftex.def Info: ./images/Caria.pdf , page2 used on input line 25.
+<use ./images/Caria.pdf, page 4>
+Package pdftex.def Info: ./images/Caria.pdf , page4 used on input line 25.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 2>
-Package pdftex.def Info: ./images/Caria.pdf , page2 used on input line 25.
+<use ./images/Caria.pdf, page 4>
+Package pdftex.def Info: ./images/Caria.pdf , page4 used on input line 25.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [63
 
  <./images/Caria.pdf>]
-<./images/Caria.pdf, id=1084, page=3, 598.235pt x 845.1575pt>
+<./images/Caria.pdf, id=1085, page=5, 598.235pt x 845.1575pt>
 File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 3>
-Package pdftex.def Info: ./images/Caria.pdf , page3 used on input line 25.
+<use ./images/Caria.pdf, page 5>
+Package pdftex.def Info: ./images/Caria.pdf , page5 used on input line 25.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 3>
-Package pdftex.def Info: ./images/Caria.pdf , page3 used on input line 25.
+<use ./images/Caria.pdf, page 5>
+Package pdftex.def Info: ./images/Caria.pdf , page5 used on input line 25.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 3>
-Package pdftex.def Info: ./images/Caria.pdf , page3 used on input line 25.
+<use ./images/Caria.pdf, page 5>
+Package pdftex.def Info: ./images/Caria.pdf , page5 used on input line 25.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [64
 
  <./images/Caria.pdf>]
-<./images/Caria.pdf, id=1091, page=4, 598.235pt x 845.1575pt>
+<./images/Caria.pdf, id=1094, page=6, 598.235pt x 845.1575pt>
 File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 4>
-Package pdftex.def Info: ./images/Caria.pdf , page4 used on input line 25.
+<use ./images/Caria.pdf, page 6>
+Package pdftex.def Info: ./images/Caria.pdf , page6 used on input line 25.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 4>
-Package pdftex.def Info: ./images/Caria.pdf , page4 used on input line 25.
+<use ./images/Caria.pdf, page 6>
+Package pdftex.def Info: ./images/Caria.pdf , page6 used on input line 25.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 4>
-Package pdftex.def Info: ./images/Caria.pdf , page4 used on input line 25.
+<use ./images/Caria.pdf, page 6>
+Package pdftex.def Info: ./images/Caria.pdf , page6 used on input line 25.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [65
 
  <./images/Caria.pdf>]
-<./images/Caria.pdf, id=1098, page=5, 598.235pt x 845.1575pt>
+<./images/Caria.pdf, id=1101, page=7, 598.235pt x 845.1575pt>
 File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 5>
-Package pdftex.def Info: ./images/Caria.pdf , page5 used on input line 25.
+<use ./images/Caria.pdf, page 7>
+Package pdftex.def Info: ./images/Caria.pdf , page7 used on input line 25.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 5>
-Package pdftex.def Info: ./images/Caria.pdf , page5 used on input line 25.
+<use ./images/Caria.pdf, page 7>
+Package pdftex.def Info: ./images/Caria.pdf , page7 used on input line 25.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 5>
-Package pdftex.def Info: ./images/Caria.pdf , page5 used on input line 25.
+<use ./images/Caria.pdf, page 7>
+Package pdftex.def Info: ./images/Caria.pdf , page7 used on input line 25.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [66
 
  <./images/Caria.pdf>]
-<./images/Caria.pdf, id=1106, page=6, 598.235pt x 845.1575pt>
+<./images/Caria.pdf, id=1108, page=8, 598.235pt x 845.1575pt>
 File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 6>
-Package pdftex.def Info: ./images/Caria.pdf , page6 used on input line 25.
+<use ./images/Caria.pdf, page 8>
+Package pdftex.def Info: ./images/Caria.pdf , page8 used on input line 25.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 6>
-Package pdftex.def Info: ./images/Caria.pdf , page6 used on input line 25.
+<use ./images/Caria.pdf, page 8>
+Package pdftex.def Info: ./images/Caria.pdf , page8 used on input line 25.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 6>
-Package pdftex.def Info: ./images/Caria.pdf , page6 used on input line 25.
+<use ./images/Caria.pdf, page 8>
+Package pdftex.def Info: ./images/Caria.pdf , page8 used on input line 25.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [67
 
  <./images/Caria.pdf>]
-<./images/Caria.pdf, id=1113, page=7, 598.235pt x 845.1575pt>
-File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 7>
-Package pdftex.def Info: ./images/Caria.pdf , page7 used on input line 25.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 7>
-Package pdftex.def Info: ./images/Caria.pdf , page7 used on input line 25.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-
-
-File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 7>
-Package pdftex.def Info: ./images/Caria.pdf , page7 used on input line 25.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-[68
-
- <./images/Caria.pdf>]
-<./images/Caria.pdf, id=1120, page=8, 598.235pt x 845.1575pt>
-File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 8>
-Package pdftex.def Info: ./images/Caria.pdf , page8 used on input line 25.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 8>
-Package pdftex.def Info: ./images/Caria.pdf , page8 used on input line 25.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-
-
-File: ./images/Caria.pdf Graphic file (type pdf)
-<use ./images/Caria.pdf, page 8>
-Package pdftex.def Info: ./images/Caria.pdf , page8 used on input line 25.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-[69
-
- <./images/Caria.pdf>]
-<./images/Clue.pdf, id=1128, 598.235pt x 845.1575pt>
+<./images/Clue.pdf, id=1115, 598.235pt x 845.1575pt>
 File: ./images/Clue.pdf Graphic file (type pdf)
 <use ./images/Clue.pdf>
 Package pdftex.def Info: ./images/Clue.pdf  used on input line 26.
 (pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
-<./images/Clue.pdf, id=1130, page=1, 598.235pt x 845.1575pt>
+<./images/Clue.pdf, id=1117, page=1, 598.235pt x 845.1575pt>
 File: ./images/Clue.pdf Graphic file (type pdf)
 <use ./images/Clue.pdf, page 1>
 Package pdftex.def Info: ./images/Clue.pdf , page1 used on input line 26.
@@ -1403,142 +1389,142 @@ Package pdftex.def Info: ./images/Clue.pdf , page1 used on input line 26.
 File: ./images/Clue.pdf Graphic file (type pdf)
 <use ./images/Clue.pdf, page 1>
 Package pdftex.def Info: ./images/Clue.pdf , page1 used on input line 26.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+[68
+
+ <./images/Clue.pdf>]
+<./images/Clue.pdf, id=1152, page=2, 598.235pt x 845.1575pt>
+File: ./images/Clue.pdf Graphic file (type pdf)
+<use ./images/Clue.pdf, page 2>
+Package pdftex.def Info: ./images/Clue.pdf , page2 used on input line 26.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+File: ./images/Clue.pdf Graphic file (type pdf)
+<use ./images/Clue.pdf, page 2>
+Package pdftex.def Info: ./images/Clue.pdf , page2 used on input line 26.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+
+
+File: ./images/Clue.pdf Graphic file (type pdf)
+<use ./images/Clue.pdf, page 2>
+Package pdftex.def Info: ./images/Clue.pdf , page2 used on input line 26.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+[69
+
+ <./images/Clue.pdf>]
+<./images/Clue.pdf, id=1160, page=3, 598.235pt x 845.1575pt>
+File: ./images/Clue.pdf Graphic file (type pdf)
+<use ./images/Clue.pdf, page 3>
+Package pdftex.def Info: ./images/Clue.pdf , page3 used on input line 26.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+File: ./images/Clue.pdf Graphic file (type pdf)
+<use ./images/Clue.pdf, page 3>
+Package pdftex.def Info: ./images/Clue.pdf , page3 used on input line 26.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+
+
+File: ./images/Clue.pdf Graphic file (type pdf)
+<use ./images/Clue.pdf, page 3>
+Package pdftex.def Info: ./images/Clue.pdf , page3 used on input line 26.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [70
 
  <./images/Clue.pdf>]
-<./images/Clue.pdf, id=1165, page=2, 598.235pt x 845.1575pt>
+<./images/Clue.pdf, id=1168, page=4, 598.235pt x 845.1575pt>
 File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 2>
-Package pdftex.def Info: ./images/Clue.pdf , page2 used on input line 26.
+<use ./images/Clue.pdf, page 4>
+Package pdftex.def Info: ./images/Clue.pdf , page4 used on input line 26.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 2>
-Package pdftex.def Info: ./images/Clue.pdf , page2 used on input line 26.
+<use ./images/Clue.pdf, page 4>
+Package pdftex.def Info: ./images/Clue.pdf , page4 used on input line 26.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 2>
-Package pdftex.def Info: ./images/Clue.pdf , page2 used on input line 26.
+<use ./images/Clue.pdf, page 4>
+Package pdftex.def Info: ./images/Clue.pdf , page4 used on input line 26.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [71
 
  <./images/Clue.pdf>]
-<./images/Clue.pdf, id=1173, page=3, 598.235pt x 845.1575pt>
+<./images/Clue.pdf, id=1175, page=5, 598.235pt x 845.1575pt>
 File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 3>
-Package pdftex.def Info: ./images/Clue.pdf , page3 used on input line 26.
+<use ./images/Clue.pdf, page 5>
+Package pdftex.def Info: ./images/Clue.pdf , page5 used on input line 26.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 3>
-Package pdftex.def Info: ./images/Clue.pdf , page3 used on input line 26.
+<use ./images/Clue.pdf, page 5>
+Package pdftex.def Info: ./images/Clue.pdf , page5 used on input line 26.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 3>
-Package pdftex.def Info: ./images/Clue.pdf , page3 used on input line 26.
+<use ./images/Clue.pdf, page 5>
+Package pdftex.def Info: ./images/Clue.pdf , page5 used on input line 26.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [72
 
  <./images/Clue.pdf>]
-<./images/Clue.pdf, id=1180, page=4, 598.235pt x 845.1575pt>
+<./images/Clue.pdf, id=1182, page=6, 598.235pt x 845.1575pt>
 File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 4>
-Package pdftex.def Info: ./images/Clue.pdf , page4 used on input line 26.
+<use ./images/Clue.pdf, page 6>
+Package pdftex.def Info: ./images/Clue.pdf , page6 used on input line 26.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 4>
-Package pdftex.def Info: ./images/Clue.pdf , page4 used on input line 26.
+<use ./images/Clue.pdf, page 6>
+Package pdftex.def Info: ./images/Clue.pdf , page6 used on input line 26.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 4>
-Package pdftex.def Info: ./images/Clue.pdf , page4 used on input line 26.
+<use ./images/Clue.pdf, page 6>
+Package pdftex.def Info: ./images/Clue.pdf , page6 used on input line 26.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [73
 
  <./images/Clue.pdf>]
-<./images/Clue.pdf, id=1187, page=5, 598.235pt x 845.1575pt>
+<./images/Clue.pdf, id=1189, page=7, 598.235pt x 845.1575pt>
 File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 5>
-Package pdftex.def Info: ./images/Clue.pdf , page5 used on input line 26.
+<use ./images/Clue.pdf, page 7>
+Package pdftex.def Info: ./images/Clue.pdf , page7 used on input line 26.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 5>
-Package pdftex.def Info: ./images/Clue.pdf , page5 used on input line 26.
+<use ./images/Clue.pdf, page 7>
+Package pdftex.def Info: ./images/Clue.pdf , page7 used on input line 26.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 5>
-Package pdftex.def Info: ./images/Clue.pdf , page5 used on input line 26.
+<use ./images/Clue.pdf, page 7>
+Package pdftex.def Info: ./images/Clue.pdf , page7 used on input line 26.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [74
 
  <./images/Clue.pdf>]
-<./images/Clue.pdf, id=1194, page=6, 598.235pt x 845.1575pt>
+<./images/Clue.pdf, id=1196, page=8, 598.235pt x 845.1575pt>
 File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 6>
-Package pdftex.def Info: ./images/Clue.pdf , page6 used on input line 26.
+<use ./images/Clue.pdf, page 8>
+Package pdftex.def Info: ./images/Clue.pdf , page8 used on input line 26.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 6>
-Package pdftex.def Info: ./images/Clue.pdf , page6 used on input line 26.
+<use ./images/Clue.pdf, page 8>
+Package pdftex.def Info: ./images/Clue.pdf , page8 used on input line 26.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 6>
-Package pdftex.def Info: ./images/Clue.pdf , page6 used on input line 26.
+<use ./images/Clue.pdf, page 8>
+Package pdftex.def Info: ./images/Clue.pdf , page8 used on input line 26.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [75
 
  <./images/Clue.pdf>]
-<./images/Clue.pdf, id=1202, page=7, 598.235pt x 845.1575pt>
-File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 7>
-Package pdftex.def Info: ./images/Clue.pdf , page7 used on input line 26.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 7>
-Package pdftex.def Info: ./images/Clue.pdf , page7 used on input line 26.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-
-
-File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 7>
-Package pdftex.def Info: ./images/Clue.pdf , page7 used on input line 26.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-[76
-
- <./images/Clue.pdf>]
-<./images/Clue.pdf, id=1209, page=8, 598.235pt x 845.1575pt>
-File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 8>
-Package pdftex.def Info: ./images/Clue.pdf , page8 used on input line 26.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 8>
-Package pdftex.def Info: ./images/Clue.pdf , page8 used on input line 26.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-
-
-File: ./images/Clue.pdf Graphic file (type pdf)
-<use ./images/Clue.pdf, page 8>
-Package pdftex.def Info: ./images/Clue.pdf , page8 used on input line 26.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-[77
-
- <./images/Clue.pdf>]
-<./images/HealthandHer.pdf, id=1216, 598.235pt x 845.1575pt>
+<./images/HealthandHer.pdf, id=1203, 598.235pt x 845.1575pt>
 File: ./images/HealthandHer.pdf Graphic file (type pdf)
 <use ./images/HealthandHer.pdf>
 Package pdftex.def Info: ./images/HealthandHer.pdf  used on input line 27.
 (pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
-<./images/HealthandHer.pdf, id=1218, page=1, 598.235pt x 845.1575pt>
+<./images/HealthandHer.pdf, id=1205, page=1, 598.235pt x 845.1575pt>
 File: ./images/HealthandHer.pdf Graphic file (type pdf)
 <use ./images/HealthandHer.pdf, page 1>
 Package pdftex.def Info: ./images/HealthandHer.pdf , page1 used on input line 27.
@@ -1560,142 +1546,142 @@ Package pdftex.def Info: ./images/HealthandHer.pdf , page1 used on input line 27
 File: ./images/HealthandHer.pdf Graphic file (type pdf)
 <use ./images/HealthandHer.pdf, page 1>
 Package pdftex.def Info: ./images/HealthandHer.pdf , page1 used on input line 27.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+[76
+
+ <./images/HealthandHer.pdf>]
+<./images/HealthandHer.pdf, id=1239, page=2, 598.235pt x 845.1575pt>
+File: ./images/HealthandHer.pdf Graphic file (type pdf)
+<use ./images/HealthandHer.pdf, page 2>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page2 used on input line 27.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+File: ./images/HealthandHer.pdf Graphic file (type pdf)
+<use ./images/HealthandHer.pdf, page 2>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page2 used on input line 27.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+
+
+File: ./images/HealthandHer.pdf Graphic file (type pdf)
+<use ./images/HealthandHer.pdf, page 2>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page2 used on input line 27.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+[77
+
+ <./images/HealthandHer.pdf>]
+<./images/HealthandHer.pdf, id=1247, page=3, 598.235pt x 845.1575pt>
+File: ./images/HealthandHer.pdf Graphic file (type pdf)
+<use ./images/HealthandHer.pdf, page 3>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page3 used on input line 27.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+File: ./images/HealthandHer.pdf Graphic file (type pdf)
+<use ./images/HealthandHer.pdf, page 3>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page3 used on input line 27.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+
+
+File: ./images/HealthandHer.pdf Graphic file (type pdf)
+<use ./images/HealthandHer.pdf, page 3>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page3 used on input line 27.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [78
 
  <./images/HealthandHer.pdf>]
-<./images/HealthandHer.pdf, id=1251, page=2, 598.235pt x 845.1575pt>
+<./images/HealthandHer.pdf, id=1254, page=4, 598.235pt x 845.1575pt>
 File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 2>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page2 used on input line 27.
+<use ./images/HealthandHer.pdf, page 4>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page4 used on input line 27.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 2>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page2 used on input line 27.
+<use ./images/HealthandHer.pdf, page 4>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page4 used on input line 27.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 2>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page2 used on input line 27.
+<use ./images/HealthandHer.pdf, page 4>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page4 used on input line 27.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [79
 
  <./images/HealthandHer.pdf>]
-<./images/HealthandHer.pdf, id=1259, page=3, 598.235pt x 845.1575pt>
+<./images/HealthandHer.pdf, id=1261, page=5, 598.235pt x 845.1575pt>
 File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 3>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page3 used on input line 27.
+<use ./images/HealthandHer.pdf, page 5>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page5 used on input line 27.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 3>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page3 used on input line 27.
+<use ./images/HealthandHer.pdf, page 5>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page5 used on input line 27.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 3>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page3 used on input line 27.
+<use ./images/HealthandHer.pdf, page 5>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page5 used on input line 27.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [80
 
  <./images/HealthandHer.pdf>]
-<./images/HealthandHer.pdf, id=1266, page=4, 598.235pt x 845.1575pt>
+<./images/HealthandHer.pdf, id=1268, page=6, 598.235pt x 845.1575pt>
 File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 4>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page4 used on input line 27.
+<use ./images/HealthandHer.pdf, page 6>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page6 used on input line 27.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 4>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page4 used on input line 27.
+<use ./images/HealthandHer.pdf, page 6>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page6 used on input line 27.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 4>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page4 used on input line 27.
+<use ./images/HealthandHer.pdf, page 6>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page6 used on input line 27.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [81
 
  <./images/HealthandHer.pdf>]
-<./images/HealthandHer.pdf, id=1274, page=5, 598.235pt x 845.1575pt>
+<./images/HealthandHer.pdf, id=1276, page=7, 598.235pt x 845.1575pt>
 File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 5>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page5 used on input line 27.
+<use ./images/HealthandHer.pdf, page 7>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page7 used on input line 27.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 5>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page5 used on input line 27.
+<use ./images/HealthandHer.pdf, page 7>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page7 used on input line 27.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 5>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page5 used on input line 27.
+<use ./images/HealthandHer.pdf, page 7>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page7 used on input line 27.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [82
 
  <./images/HealthandHer.pdf>]
-<./images/HealthandHer.pdf, id=1281, page=6, 598.235pt x 845.1575pt>
+<./images/HealthandHer.pdf, id=1284, page=8, 598.235pt x 845.1575pt>
 File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 6>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page6 used on input line 27.
+<use ./images/HealthandHer.pdf, page 8>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page8 used on input line 27.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 6>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page6 used on input line 27.
+<use ./images/HealthandHer.pdf, page 8>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page8 used on input line 27.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 6>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page6 used on input line 27.
+<use ./images/HealthandHer.pdf, page 8>
+Package pdftex.def Info: ./images/HealthandHer.pdf , page8 used on input line 27.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [83
 
  <./images/HealthandHer.pdf>]
-<./images/HealthandHer.pdf, id=1289, page=7, 598.235pt x 845.1575pt>
-File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 7>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page7 used on input line 27.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 7>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page7 used on input line 27.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-
-
-File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 7>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page7 used on input line 27.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-[84
-
- <./images/HealthandHer.pdf>]
-<./images/HealthandHer.pdf, id=1296, page=8, 598.235pt x 845.1575pt>
-File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 8>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page8 used on input line 27.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 8>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page8 used on input line 27.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-
-
-File: ./images/HealthandHer.pdf Graphic file (type pdf)
-<use ./images/HealthandHer.pdf, page 8>
-Package pdftex.def Info: ./images/HealthandHer.pdf , page8 used on input line 27.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-[85
-
- <./images/HealthandHer.pdf>]
-<./images/MenoLife.pdf, id=1303, 598.235pt x 845.1575pt>
+<./images/MenoLife.pdf, id=1291, 598.235pt x 845.1575pt>
 File: ./images/MenoLife.pdf Graphic file (type pdf)
 <use ./images/MenoLife.pdf>
 Package pdftex.def Info: ./images/MenoLife.pdf  used on input line 28.
 (pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
-<./images/MenoLife.pdf, id=1305, page=1, 598.235pt x 845.1575pt>
+<./images/MenoLife.pdf, id=1293, page=1, 598.235pt x 845.1575pt>
 File: ./images/MenoLife.pdf Graphic file (type pdf)
 <use ./images/MenoLife.pdf, page 1>
 Package pdftex.def Info: ./images/MenoLife.pdf , page1 used on input line 28.
@@ -1717,142 +1703,142 @@ Package pdftex.def Info: ./images/MenoLife.pdf , page1 used on input line 28.
 File: ./images/MenoLife.pdf Graphic file (type pdf)
 <use ./images/MenoLife.pdf, page 1>
 Package pdftex.def Info: ./images/MenoLife.pdf , page1 used on input line 28.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+[84
+
+ <./images/MenoLife.pdf>]
+<./images/MenoLife.pdf, id=1325, page=2, 598.235pt x 845.1575pt>
+File: ./images/MenoLife.pdf Graphic file (type pdf)
+<use ./images/MenoLife.pdf, page 2>
+Package pdftex.def Info: ./images/MenoLife.pdf , page2 used on input line 28.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+File: ./images/MenoLife.pdf Graphic file (type pdf)
+<use ./images/MenoLife.pdf, page 2>
+Package pdftex.def Info: ./images/MenoLife.pdf , page2 used on input line 28.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+
+
+File: ./images/MenoLife.pdf Graphic file (type pdf)
+<use ./images/MenoLife.pdf, page 2>
+Package pdftex.def Info: ./images/MenoLife.pdf , page2 used on input line 28.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+[85
+
+ <./images/MenoLife.pdf>]
+<./images/MenoLife.pdf, id=1333, page=3, 598.235pt x 845.1575pt>
+File: ./images/MenoLife.pdf Graphic file (type pdf)
+<use ./images/MenoLife.pdf, page 3>
+Package pdftex.def Info: ./images/MenoLife.pdf , page3 used on input line 28.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+File: ./images/MenoLife.pdf Graphic file (type pdf)
+<use ./images/MenoLife.pdf, page 3>
+Package pdftex.def Info: ./images/MenoLife.pdf , page3 used on input line 28.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+
+
+File: ./images/MenoLife.pdf Graphic file (type pdf)
+<use ./images/MenoLife.pdf, page 3>
+Package pdftex.def Info: ./images/MenoLife.pdf , page3 used on input line 28.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [86
 
  <./images/MenoLife.pdf>]
-<./images/MenoLife.pdf, id=1337, page=2, 598.235pt x 845.1575pt>
+<./images/MenoLife.pdf, id=1340, page=4, 598.235pt x 845.1575pt>
 File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 2>
-Package pdftex.def Info: ./images/MenoLife.pdf , page2 used on input line 28.
+<use ./images/MenoLife.pdf, page 4>
+Package pdftex.def Info: ./images/MenoLife.pdf , page4 used on input line 28.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 2>
-Package pdftex.def Info: ./images/MenoLife.pdf , page2 used on input line 28.
+<use ./images/MenoLife.pdf, page 4>
+Package pdftex.def Info: ./images/MenoLife.pdf , page4 used on input line 28.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 2>
-Package pdftex.def Info: ./images/MenoLife.pdf , page2 used on input line 28.
+<use ./images/MenoLife.pdf, page 4>
+Package pdftex.def Info: ./images/MenoLife.pdf , page4 used on input line 28.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [87
 
  <./images/MenoLife.pdf>]
-<./images/MenoLife.pdf, id=1346, page=3, 598.235pt x 845.1575pt>
+<./images/MenoLife.pdf, id=1347, page=5, 598.235pt x 845.1575pt>
 File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 3>
-Package pdftex.def Info: ./images/MenoLife.pdf , page3 used on input line 28.
+<use ./images/MenoLife.pdf, page 5>
+Package pdftex.def Info: ./images/MenoLife.pdf , page5 used on input line 28.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 3>
-Package pdftex.def Info: ./images/MenoLife.pdf , page3 used on input line 28.
+<use ./images/MenoLife.pdf, page 5>
+Package pdftex.def Info: ./images/MenoLife.pdf , page5 used on input line 28.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 3>
-Package pdftex.def Info: ./images/MenoLife.pdf , page3 used on input line 28.
+<use ./images/MenoLife.pdf, page 5>
+Package pdftex.def Info: ./images/MenoLife.pdf , page5 used on input line 28.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [88
 
  <./images/MenoLife.pdf>]
-<./images/MenoLife.pdf, id=1353, page=4, 598.235pt x 845.1575pt>
+<./images/MenoLife.pdf, id=1355, page=6, 598.235pt x 845.1575pt>
 File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 4>
-Package pdftex.def Info: ./images/MenoLife.pdf , page4 used on input line 28.
+<use ./images/MenoLife.pdf, page 6>
+Package pdftex.def Info: ./images/MenoLife.pdf , page6 used on input line 28.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 4>
-Package pdftex.def Info: ./images/MenoLife.pdf , page4 used on input line 28.
+<use ./images/MenoLife.pdf, page 6>
+Package pdftex.def Info: ./images/MenoLife.pdf , page6 used on input line 28.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 4>
-Package pdftex.def Info: ./images/MenoLife.pdf , page4 used on input line 28.
+<use ./images/MenoLife.pdf, page 6>
+Package pdftex.def Info: ./images/MenoLife.pdf , page6 used on input line 28.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [89
 
  <./images/MenoLife.pdf>]
-<./images/MenoLife.pdf, id=1361, page=5, 598.235pt x 845.1575pt>
+<./images/MenoLife.pdf, id=1363, page=7, 598.235pt x 845.1575pt>
 File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 5>
-Package pdftex.def Info: ./images/MenoLife.pdf , page5 used on input line 28.
+<use ./images/MenoLife.pdf, page 7>
+Package pdftex.def Info: ./images/MenoLife.pdf , page7 used on input line 28.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 5>
-Package pdftex.def Info: ./images/MenoLife.pdf , page5 used on input line 28.
+<use ./images/MenoLife.pdf, page 7>
+Package pdftex.def Info: ./images/MenoLife.pdf , page7 used on input line 28.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 5>
-Package pdftex.def Info: ./images/MenoLife.pdf , page5 used on input line 28.
+<use ./images/MenoLife.pdf, page 7>
+Package pdftex.def Info: ./images/MenoLife.pdf , page7 used on input line 28.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [90
 
  <./images/MenoLife.pdf>]
-<./images/MenoLife.pdf, id=1368, page=6, 598.235pt x 845.1575pt>
+<./images/MenoLife.pdf, id=1371, page=8, 598.235pt x 845.1575pt>
 File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 6>
-Package pdftex.def Info: ./images/MenoLife.pdf , page6 used on input line 28.
+<use ./images/MenoLife.pdf, page 8>
+Package pdftex.def Info: ./images/MenoLife.pdf , page8 used on input line 28.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 6>
-Package pdftex.def Info: ./images/MenoLife.pdf , page6 used on input line 28.
+<use ./images/MenoLife.pdf, page 8>
+Package pdftex.def Info: ./images/MenoLife.pdf , page8 used on input line 28.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 6>
-Package pdftex.def Info: ./images/MenoLife.pdf , page6 used on input line 28.
+<use ./images/MenoLife.pdf, page 8>
+Package pdftex.def Info: ./images/MenoLife.pdf , page8 used on input line 28.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [91
 
  <./images/MenoLife.pdf>]
-<./images/MenoLife.pdf, id=1376, page=7, 598.235pt x 845.1575pt>
-File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 7>
-Package pdftex.def Info: ./images/MenoLife.pdf , page7 used on input line 28.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 7>
-Package pdftex.def Info: ./images/MenoLife.pdf , page7 used on input line 28.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-
-
-File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 7>
-Package pdftex.def Info: ./images/MenoLife.pdf , page7 used on input line 28.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-[92
-
- <./images/MenoLife.pdf>]
-<./images/MenoLife.pdf, id=1383, page=8, 598.235pt x 845.1575pt>
-File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 8>
-Package pdftex.def Info: ./images/MenoLife.pdf , page8 used on input line 28.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 8>
-Package pdftex.def Info: ./images/MenoLife.pdf , page8 used on input line 28.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-
-
-File: ./images/MenoLife.pdf Graphic file (type pdf)
-<use ./images/MenoLife.pdf, page 8>
-Package pdftex.def Info: ./images/MenoLife.pdf , page8 used on input line 28.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-[93
-
- <./images/MenoLife.pdf>]
-<./images/PeriPath.pdf, id=1391, 598.235pt x 845.1575pt>
+<./images/PeriPath.pdf, id=1378, 598.235pt x 845.1575pt>
 File: ./images/PeriPath.pdf Graphic file (type pdf)
 <use ./images/PeriPath.pdf>
 Package pdftex.def Info: ./images/PeriPath.pdf  used on input line 29.
 (pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
-<./images/PeriPath.pdf, id=1393, page=1, 598.235pt x 845.1575pt>
+<./images/PeriPath.pdf, id=1380, page=1, 598.235pt x 845.1575pt>
 File: ./images/PeriPath.pdf Graphic file (type pdf)
 <use ./images/PeriPath.pdf, page 1>
 Package pdftex.def Info: ./images/PeriPath.pdf , page1 used on input line 29.
@@ -1874,142 +1860,142 @@ Package pdftex.def Info: ./images/PeriPath.pdf , page1 used on input line 29.
 File: ./images/PeriPath.pdf Graphic file (type pdf)
 <use ./images/PeriPath.pdf, page 1>
 Package pdftex.def Info: ./images/PeriPath.pdf , page1 used on input line 29.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+[92
+
+ <./images/PeriPath.pdf>]
+<./images/PeriPath.pdf, id=1407, page=2, 598.235pt x 845.1575pt>
+File: ./images/PeriPath.pdf Graphic file (type pdf)
+<use ./images/PeriPath.pdf, page 2>
+Package pdftex.def Info: ./images/PeriPath.pdf , page2 used on input line 29.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+File: ./images/PeriPath.pdf Graphic file (type pdf)
+<use ./images/PeriPath.pdf, page 2>
+Package pdftex.def Info: ./images/PeriPath.pdf , page2 used on input line 29.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+
+
+File: ./images/PeriPath.pdf Graphic file (type pdf)
+<use ./images/PeriPath.pdf, page 2>
+Package pdftex.def Info: ./images/PeriPath.pdf , page2 used on input line 29.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+[93
+
+ <./images/PeriPath.pdf>]
+<./images/PeriPath.pdf, id=1415, page=3, 598.235pt x 845.1575pt>
+File: ./images/PeriPath.pdf Graphic file (type pdf)
+<use ./images/PeriPath.pdf, page 3>
+Package pdftex.def Info: ./images/PeriPath.pdf , page3 used on input line 29.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+File: ./images/PeriPath.pdf Graphic file (type pdf)
+<use ./images/PeriPath.pdf, page 3>
+Package pdftex.def Info: ./images/PeriPath.pdf , page3 used on input line 29.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+
+
+File: ./images/PeriPath.pdf Graphic file (type pdf)
+<use ./images/PeriPath.pdf, page 3>
+Package pdftex.def Info: ./images/PeriPath.pdf , page3 used on input line 29.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [94
 
  <./images/PeriPath.pdf>]
-<./images/PeriPath.pdf, id=1420, page=2, 598.235pt x 845.1575pt>
+<./images/PeriPath.pdf, id=1423, page=4, 598.235pt x 845.1575pt>
 File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 2>
-Package pdftex.def Info: ./images/PeriPath.pdf , page2 used on input line 29.
+<use ./images/PeriPath.pdf, page 4>
+Package pdftex.def Info: ./images/PeriPath.pdf , page4 used on input line 29.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 2>
-Package pdftex.def Info: ./images/PeriPath.pdf , page2 used on input line 29.
+<use ./images/PeriPath.pdf, page 4>
+Package pdftex.def Info: ./images/PeriPath.pdf , page4 used on input line 29.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 2>
-Package pdftex.def Info: ./images/PeriPath.pdf , page2 used on input line 29.
+<use ./images/PeriPath.pdf, page 4>
+Package pdftex.def Info: ./images/PeriPath.pdf , page4 used on input line 29.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [95
 
  <./images/PeriPath.pdf>]
-<./images/PeriPath.pdf, id=1428, page=3, 598.235pt x 845.1575pt>
+<./images/PeriPath.pdf, id=1430, page=5, 598.235pt x 845.1575pt>
 File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 3>
-Package pdftex.def Info: ./images/PeriPath.pdf , page3 used on input line 29.
+<use ./images/PeriPath.pdf, page 5>
+Package pdftex.def Info: ./images/PeriPath.pdf , page5 used on input line 29.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 3>
-Package pdftex.def Info: ./images/PeriPath.pdf , page3 used on input line 29.
+<use ./images/PeriPath.pdf, page 5>
+Package pdftex.def Info: ./images/PeriPath.pdf , page5 used on input line 29.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 3>
-Package pdftex.def Info: ./images/PeriPath.pdf , page3 used on input line 29.
+<use ./images/PeriPath.pdf, page 5>
+Package pdftex.def Info: ./images/PeriPath.pdf , page5 used on input line 29.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [96
 
  <./images/PeriPath.pdf>]
-<./images/PeriPath.pdf, id=1435, page=4, 598.235pt x 845.1575pt>
+<./images/PeriPath.pdf, id=1438, page=6, 598.235pt x 845.1575pt>
 File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 4>
-Package pdftex.def Info: ./images/PeriPath.pdf , page4 used on input line 29.
+<use ./images/PeriPath.pdf, page 6>
+Package pdftex.def Info: ./images/PeriPath.pdf , page6 used on input line 29.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 4>
-Package pdftex.def Info: ./images/PeriPath.pdf , page4 used on input line 29.
+<use ./images/PeriPath.pdf, page 6>
+Package pdftex.def Info: ./images/PeriPath.pdf , page6 used on input line 29.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 4>
-Package pdftex.def Info: ./images/PeriPath.pdf , page4 used on input line 29.
+<use ./images/PeriPath.pdf, page 6>
+Package pdftex.def Info: ./images/PeriPath.pdf , page6 used on input line 29.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [97
 
  <./images/PeriPath.pdf>]
-<./images/PeriPath.pdf, id=1442, page=5, 598.235pt x 845.1575pt>
+<./images/PeriPath.pdf, id=1445, page=7, 598.235pt x 845.1575pt>
 File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 5>
-Package pdftex.def Info: ./images/PeriPath.pdf , page5 used on input line 29.
+<use ./images/PeriPath.pdf, page 7>
+Package pdftex.def Info: ./images/PeriPath.pdf , page7 used on input line 29.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 5>
-Package pdftex.def Info: ./images/PeriPath.pdf , page5 used on input line 29.
+<use ./images/PeriPath.pdf, page 7>
+Package pdftex.def Info: ./images/PeriPath.pdf , page7 used on input line 29.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 5>
-Package pdftex.def Info: ./images/PeriPath.pdf , page5 used on input line 29.
+<use ./images/PeriPath.pdf, page 7>
+Package pdftex.def Info: ./images/PeriPath.pdf , page7 used on input line 29.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [98
 
  <./images/PeriPath.pdf>]
-<./images/PeriPath.pdf, id=1450, page=6, 598.235pt x 845.1575pt>
+<./images/PeriPath.pdf, id=1452, page=8, 598.235pt x 845.1575pt>
 File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 6>
-Package pdftex.def Info: ./images/PeriPath.pdf , page6 used on input line 29.
+<use ./images/PeriPath.pdf, page 8>
+Package pdftex.def Info: ./images/PeriPath.pdf , page8 used on input line 29.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 6>
-Package pdftex.def Info: ./images/PeriPath.pdf , page6 used on input line 29.
+<use ./images/PeriPath.pdf, page 8>
+Package pdftex.def Info: ./images/PeriPath.pdf , page8 used on input line 29.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 6>
-Package pdftex.def Info: ./images/PeriPath.pdf , page6 used on input line 29.
+<use ./images/PeriPath.pdf, page 8>
+Package pdftex.def Info: ./images/PeriPath.pdf , page8 used on input line 29.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [99
 
  <./images/PeriPath.pdf>]
-<./images/PeriPath.pdf, id=1458, page=7, 598.235pt x 845.1575pt>
-File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 7>
-Package pdftex.def Info: ./images/PeriPath.pdf , page7 used on input line 29.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 7>
-Package pdftex.def Info: ./images/PeriPath.pdf , page7 used on input line 29.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-
-
-File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 7>
-Package pdftex.def Info: ./images/PeriPath.pdf , page7 used on input line 29.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-[100
-
- <./images/PeriPath.pdf>]
-<./images/PeriPath.pdf, id=1465, page=8, 598.235pt x 845.1575pt>
-File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 8>
-Package pdftex.def Info: ./images/PeriPath.pdf , page8 used on input line 29.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 8>
-Package pdftex.def Info: ./images/PeriPath.pdf , page8 used on input line 29.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-
-
-File: ./images/PeriPath.pdf Graphic file (type pdf)
-<use ./images/PeriPath.pdf, page 8>
-Package pdftex.def Info: ./images/PeriPath.pdf , page8 used on input line 29.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-[101
-
- <./images/PeriPath.pdf>]
-<./images/Perry.pdf, id=1472, 598.235pt x 845.1575pt>
+<./images/Perry.pdf, id=1459, 598.235pt x 845.1575pt>
 File: ./images/Perry.pdf Graphic file (type pdf)
 <use ./images/Perry.pdf>
 Package pdftex.def Info: ./images/Perry.pdf  used on input line 30.
 (pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
-<./images/Perry.pdf, id=1474, page=1, 598.235pt x 845.1575pt>
+<./images/Perry.pdf, id=1461, page=1, 598.235pt x 845.1575pt>
 File: ./images/Perry.pdf Graphic file (type pdf)
 <use ./images/Perry.pdf, page 1>
 Package pdftex.def Info: ./images/Perry.pdf , page1 used on input line 30.
@@ -2032,141 +2018,141 @@ File: ./images/Perry.pdf Graphic file (type pdf)
 <use ./images/Perry.pdf, page 1>
 Package pdftex.def Info: ./images/Perry.pdf , page1 used on input line 30.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+[100
+
+ <./images/Perry.pdf>]
+<./images/Perry.pdf, id=1495, page=2, 598.235pt x 845.1575pt>
+File: ./images/Perry.pdf Graphic file (type pdf)
+<use ./images/Perry.pdf, page 2>
+Package pdftex.def Info: ./images/Perry.pdf , page2 used on input line 30.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+File: ./images/Perry.pdf Graphic file (type pdf)
+<use ./images/Perry.pdf, page 2>
+Package pdftex.def Info: ./images/Perry.pdf , page2 used on input line 30.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+
+
+File: ./images/Perry.pdf Graphic file (type pdf)
+<use ./images/Perry.pdf, page 2>
+Package pdftex.def Info: ./images/Perry.pdf , page2 used on input line 30.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+[101
+
+ <./images/Perry.pdf>]
+<./images/Perry.pdf, id=1503, page=3, 598.235pt x 845.1575pt>
+File: ./images/Perry.pdf Graphic file (type pdf)
+<use ./images/Perry.pdf, page 3>
+Package pdftex.def Info: ./images/Perry.pdf , page3 used on input line 30.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+File: ./images/Perry.pdf Graphic file (type pdf)
+<use ./images/Perry.pdf, page 3>
+Package pdftex.def Info: ./images/Perry.pdf , page3 used on input line 30.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
+
+
+File: ./images/Perry.pdf Graphic file (type pdf)
+<use ./images/Perry.pdf, page 3>
+Package pdftex.def Info: ./images/Perry.pdf , page3 used on input line 30.
+(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [102
 
  <./images/Perry.pdf>]
-<./images/Perry.pdf, id=1507, page=2, 598.235pt x 845.1575pt>
+<./images/Perry.pdf, id=1510, page=4, 598.235pt x 845.1575pt>
 File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 2>
-Package pdftex.def Info: ./images/Perry.pdf , page2 used on input line 30.
+<use ./images/Perry.pdf, page 4>
+Package pdftex.def Info: ./images/Perry.pdf , page4 used on input line 30.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 2>
-Package pdftex.def Info: ./images/Perry.pdf , page2 used on input line 30.
+<use ./images/Perry.pdf, page 4>
+Package pdftex.def Info: ./images/Perry.pdf , page4 used on input line 30.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 2>
-Package pdftex.def Info: ./images/Perry.pdf , page2 used on input line 30.
+<use ./images/Perry.pdf, page 4>
+Package pdftex.def Info: ./images/Perry.pdf , page4 used on input line 30.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [103
 
  <./images/Perry.pdf>]
-<./images/Perry.pdf, id=1515, page=3, 598.235pt x 845.1575pt>
+<./images/Perry.pdf, id=1517, page=5, 598.235pt x 845.1575pt>
 File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 3>
-Package pdftex.def Info: ./images/Perry.pdf , page3 used on input line 30.
+<use ./images/Perry.pdf, page 5>
+Package pdftex.def Info: ./images/Perry.pdf , page5 used on input line 30.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 3>
-Package pdftex.def Info: ./images/Perry.pdf , page3 used on input line 30.
+<use ./images/Perry.pdf, page 5>
+Package pdftex.def Info: ./images/Perry.pdf , page5 used on input line 30.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 3>
-Package pdftex.def Info: ./images/Perry.pdf , page3 used on input line 30.
+<use ./images/Perry.pdf, page 5>
+Package pdftex.def Info: ./images/Perry.pdf , page5 used on input line 30.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [104
 
  <./images/Perry.pdf>]
-<./images/Perry.pdf, id=1522, page=4, 598.235pt x 845.1575pt>
+<./images/Perry.pdf, id=1525, page=6, 598.235pt x 845.1575pt>
 File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 4>
-Package pdftex.def Info: ./images/Perry.pdf , page4 used on input line 30.
+<use ./images/Perry.pdf, page 6>
+Package pdftex.def Info: ./images/Perry.pdf , page6 used on input line 30.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 4>
-Package pdftex.def Info: ./images/Perry.pdf , page4 used on input line 30.
+<use ./images/Perry.pdf, page 6>
+Package pdftex.def Info: ./images/Perry.pdf , page6 used on input line 30.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 4>
-Package pdftex.def Info: ./images/Perry.pdf , page4 used on input line 30.
+<use ./images/Perry.pdf, page 6>
+Package pdftex.def Info: ./images/Perry.pdf , page6 used on input line 30.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [105
 
  <./images/Perry.pdf>]
-<./images/Perry.pdf, id=1530, page=5, 598.235pt x 845.1575pt>
+<./images/Perry.pdf, id=1532, page=7, 598.235pt x 845.1575pt>
 File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 5>
-Package pdftex.def Info: ./images/Perry.pdf , page5 used on input line 30.
+<use ./images/Perry.pdf, page 7>
+Package pdftex.def Info: ./images/Perry.pdf , page7 used on input line 30.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 5>
-Package pdftex.def Info: ./images/Perry.pdf , page5 used on input line 30.
+<use ./images/Perry.pdf, page 7>
+Package pdftex.def Info: ./images/Perry.pdf , page7 used on input line 30.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 5>
-Package pdftex.def Info: ./images/Perry.pdf , page5 used on input line 30.
+<use ./images/Perry.pdf, page 7>
+Package pdftex.def Info: ./images/Perry.pdf , page7 used on input line 30.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [106
 
  <./images/Perry.pdf>]
-<./images/Perry.pdf, id=1538, page=6, 598.235pt x 845.1575pt>
+<./images/Perry.pdf, id=1540, page=8, 598.235pt x 845.1575pt>
 File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 6>
-Package pdftex.def Info: ./images/Perry.pdf , page6 used on input line 30.
+<use ./images/Perry.pdf, page 8>
+Package pdftex.def Info: ./images/Perry.pdf , page8 used on input line 30.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 6>
-Package pdftex.def Info: ./images/Perry.pdf , page6 used on input line 30.
+<use ./images/Perry.pdf, page 8>
+Package pdftex.def Info: ./images/Perry.pdf , page8 used on input line 30.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 
 
 File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 6>
-Package pdftex.def Info: ./images/Perry.pdf , page6 used on input line 30.
+<use ./images/Perry.pdf, page 8>
+Package pdftex.def Info: ./images/Perry.pdf , page8 used on input line 30.
 (pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
 [107
 
  <./images/Perry.pdf>]
-<./images/Perry.pdf, id=1545, page=7, 598.235pt x 845.1575pt>
-File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 7>
-Package pdftex.def Info: ./images/Perry.pdf , page7 used on input line 30.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 7>
-Package pdftex.def Info: ./images/Perry.pdf , page7 used on input line 30.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-
-
-File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 7>
-Package pdftex.def Info: ./images/Perry.pdf , page7 used on input line 30.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-[108
-
- <./images/Perry.pdf>]
-<./images/Perry.pdf, id=1552, page=8, 598.235pt x 845.1575pt>
-File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 8>
-Package pdftex.def Info: ./images/Perry.pdf , page8 used on input line 30.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 8>
-Package pdftex.def Info: ./images/Perry.pdf , page8 used on input line 30.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-
-
-File: ./images/Perry.pdf Graphic file (type pdf)
-<use ./images/Perry.pdf, page 8>
-Package pdftex.def Info: ./images/Perry.pdf , page8 used on input line 30.
-(pdftex.def)             Requested size: 538.40652pt x 760.63474pt.
-[109
-
- <./images/Perry.pdf>]
-<./images/OtherMARSEvals.pdf, id=1559, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1547, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
 <use ./images/OtherMARSEvals.pdf>
 Package pdftex.def Info: ./images/OtherMARSEvals.pdf  used on input line 31.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<./images/OtherMARSEvals.pdf, id=1561, page=1, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1549, page=1, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
 <use ./images/OtherMARSEvals.pdf, page 1>
 Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page1 used on input line 31.
@@ -2189,511 +2175,511 @@ File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
 <use ./images/OtherMARSEvals.pdf, page 1>
 Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page1 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[108
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1558, page=2, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 2>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page2 used on input line 31.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 2>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page2 used on input line 31.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 2>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page2 used on input line 31.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+[109
+
+ <./images/OtherMARSEvals.pdf>]
+<./images/OtherMARSEvals.pdf, id=1564, page=3, 614.295pt x 794.97pt>
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 3>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page3 used on input line 31.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 3>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page3 used on input line 31.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
+
+
+File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
+<use ./images/OtherMARSEvals.pdf, page 3>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page3 used on input line 31.
+(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [110
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1570, page=2, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1570, page=4, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 2>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page2 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 4>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page4 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 2>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page2 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 4>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page4 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 2>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page2 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 4>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page4 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [111
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1578, page=3, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1576, page=5, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 3>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page3 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 5>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page5 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 3>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page3 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 5>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page5 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 3>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page3 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 5>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page5 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [112
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1584, page=4, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1584, page=6, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 4>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page4 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 6>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page6 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 4>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page4 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 6>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page6 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 4>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page4 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 6>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page6 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [113
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1590, page=5, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1590, page=7, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 5>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page5 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 7>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page7 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 5>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page5 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 7>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page7 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 5>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page5 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 7>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page7 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [114
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1596, page=6, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1596, page=8, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 6>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page6 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 8>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page8 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 6>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page6 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 8>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page8 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 6>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page6 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 8>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page8 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [115
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1602, page=7, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1602, page=9, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 7>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page7 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 9>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page9 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 7>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page7 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 9>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page9 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 7>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page7 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 9>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page9 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [116
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1608, page=8, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1608, page=10, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 8>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page8 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 10>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page10 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 8>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page8 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 10>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page10 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 8>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page8 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 10>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page10 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [117
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1615, page=9, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1614, page=11, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 9>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page9 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 11>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page11 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 9>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page9 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 11>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page11 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 9>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page9 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 11>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page11 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [118
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1621, page=10, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1621, page=12, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 10>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page10 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 12>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page12 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 10>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page10 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 12>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page12 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 10>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page10 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 12>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page12 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [119
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1627, page=11, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1627, page=13, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 11>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page11 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 13>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page13 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 11>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page11 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 13>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page13 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 11>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page11 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 13>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page13 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [120
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1633, page=12, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1633, page=14, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 12>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page12 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 14>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page14 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 12>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page12 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 14>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page14 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 12>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page12 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 14>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page14 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [121
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1639, page=13, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1639, page=15, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 13>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page13 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 15>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page15 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 13>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page13 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 15>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page15 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 13>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page13 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 15>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page15 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [122
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1645, page=14, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1645, page=16, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 14>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page14 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 16>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page16 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 14>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page14 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 16>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page16 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 14>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page14 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 16>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page16 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [123
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1652, page=15, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1651, page=17, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 15>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page15 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 17>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page17 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 15>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page15 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 17>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page17 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 15>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page15 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 17>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page17 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [124
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1658, page=16, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1658, page=18, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 16>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page16 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 18>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page18 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 16>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page16 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 18>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page18 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 16>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page16 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 18>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page18 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [125
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1664, page=17, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1664, page=19, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 17>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page17 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 19>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page19 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 17>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page17 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 19>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page19 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 17>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page17 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 19>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page19 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [126
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1670, page=18, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1670, page=20, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 18>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page18 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 20>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page20 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 18>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page18 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 20>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page20 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 18>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page18 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 20>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page20 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [127
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1676, page=19, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1676, page=21, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 19>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page19 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 21>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page21 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 19>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page19 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 21>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page21 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 19>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page19 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 21>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page21 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [128
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1682, page=20, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1682, page=22, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 20>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page20 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 22>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page22 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 20>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page20 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 22>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page22 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 20>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page20 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 22>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page22 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [129
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1689, page=21, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1688, page=23, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 21>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page21 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 23>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page23 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 21>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page21 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 23>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page23 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 21>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page21 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 23>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page23 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [130
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1695, page=22, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1695, page=24, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 22>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page22 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 24>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page24 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 22>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page22 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 24>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page24 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 22>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page22 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 24>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page24 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [131
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1701, page=23, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1701, page=25, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 23>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page23 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 25>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page25 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 23>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page23 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 25>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page25 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 23>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page23 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 25>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page25 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [132
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1707, page=24, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1707, page=26, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 24>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page24 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 26>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page26 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 24>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page24 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 26>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page26 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 24>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page24 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 26>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page26 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [133
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1713, page=25, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1713, page=27, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 25>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page25 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 27>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page27 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 25>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page25 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 27>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page27 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 25>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page25 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 27>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page27 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [134
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1719, page=26, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1719, page=28, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 26>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page26 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 28>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page28 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 26>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page26 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 28>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page28 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 26>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page26 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 28>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page28 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [135
 
  <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1726, page=27, 614.295pt x 794.97pt>
+<./images/OtherMARSEvals.pdf, id=1725, page=29, 614.295pt x 794.97pt>
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 27>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page27 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 29>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page29 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 27>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page27 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 29>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page29 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 
 File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 27>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page27 used on input line 31.
+<use ./images/OtherMARSEvals.pdf, page 29>
+Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page29 used on input line 31.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 [136
-
- <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1732, page=28, 614.295pt x 794.97pt>
-File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 28>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page28 used on input line 31.
-(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
-File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 28>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page28 used on input line 31.
-(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
-
-
-File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 28>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page28 used on input line 31.
-(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
-[137
-
- <./images/OtherMARSEvals.pdf>]
-<./images/OtherMARSEvals.pdf, id=1738, page=29, 614.295pt x 794.97pt>
-File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 29>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page29 used on input line 31.
-(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
-File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 29>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page29 used on input line 31.
-(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
-
-
-File: ./images/OtherMARSEvals.pdf Graphic file (type pdf)
-<use ./images/OtherMARSEvals.pdf, page 29>
-Package pdftex.def Info: ./images/OtherMARSEvals.pdf , page29 used on input line 31.
-(pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
-[138
 
  <./images/OtherMARSEvals.pdf>]) (./main.aux)
  ***********
@@ -2704,18 +2690,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B70FE5AB2D9CE41F89D6C0FD20358517;4230.
  ) 
 Here is how much of TeX's memory you used:
- 24778 strings out of 473190
- 474698 string characters out of 5704335
+ 24767 strings out of 473190
+ 474412 string characters out of 5704335
  939405 words of memory out of 5000000
- 47342 multiletter control sequences out of 15000+600000
+ 47337 multiletter control sequences out of 15000+600000
  565428 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,126p,2284b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on main.pdf (142 pages, 22664469 bytes).
+Output written on main.pdf (139 pages, 22663542 bytes).
 PDF statistics:
- 1846 PDF objects out of 2073 (max. 8388607)
- 1229 compressed objects within 13 object streams
- 278 named destinations out of 1000 (max. 500000)
+ 1833 PDF objects out of 2073 (max. 8388607)
+ 1219 compressed objects within 13 object streams
+ 275 named destinations out of 1000 (max. 500000)
  887 words of extra memory for PDF output out of 10000 (max. 10000000)
 
